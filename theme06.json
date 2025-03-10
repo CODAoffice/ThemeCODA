@@ -130,77 +130,11 @@
           }
         }
       },
-      "TextInput": {
-        "defaultProps": {
-          "styles": {
-            "input": {
-              "background": "transparent",
-              "border": "1px solid",
-              "boxShadow": "none",
-              "outline": "none"
-            }
-          }
-        }
-      },
-      "Textarea": {
-        "defaultProps": {
-          "styles": {
-            "input": {
-              "background": "transparent",
-              "border": "1px solid",
-              "boxShadow": "none",
-              "outline": "none"
-            }
-          }
-        }
-      },
-      "Switch": {
-        "defaultProps": {
-          "styles": {
-            "root": {
-              "background": "transparent",
-              "border": "none",
-              "boxShadow": "none"
-            }
-          }
-        }
-      },
-      "Radio": {
-        "defaultProps": {
-          "styles": {
-            "root": {
-              "background": "transparent",
-              "border": "none",
-              "boxShadow": "none"
-            }
-          }
-        }
-      },
-      "Checkbox": {
-        "defaultProps": {
-          "styles": {
-            "root": {
-              "background": "transparent",
-              "border": "none",
-              "boxShadow": "none"
-            }
-          }
-        }
-      },
       "Viewport": {
         "defaultProps": {
           "styles": {
             "root": {
               "background": "transparent"
-            }
-          }
-        }
-      },
-      "Grid": {
-        "defaultProps": {
-          "styles": {
-            "root": {
-              "width": "400px"
             }
           }
         }
