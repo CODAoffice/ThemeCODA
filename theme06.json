@@ -117,6 +117,28 @@
             "logo": "https://assets.shapediver.com/icon/transparent/sd_icon_512x512.webp"
           }
         }
+      },
+      "Input": {
+        "defaultProps": {
+          "styles": {
+            "input": {
+              "border": "none",
+              "boxShadow": "none",
+              "outline": "none"
+            }
+          }
+        }
+      },
+      "TextInput": {
+        "defaultProps": {
+          "styles": {
+            "input": {
+              "border": "none",
+              "boxShadow": "none",
+              "outline": "none"
+            }
+          }
+        }
       }
     }
   }
