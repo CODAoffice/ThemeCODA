@@ -188,16 +188,6 @@
           }
         }
       }
-    },
-    "globalStyles": {
-      "*": {
-        "border": "none",     // Elimina los bordes globales
-        "boxShadow": "none",  // Elimina las sombras globales
-        "outline": "none"     // Elimina el outline global
-      },
-      ".mantine-Input-root, .mantine-TextInput-root, .mantine-Textarea-root, .mantine-Button-root": {
-        "border": "1px solid"  // Mantén el borde en los componentes internos
-      }
     }
   }
 }
