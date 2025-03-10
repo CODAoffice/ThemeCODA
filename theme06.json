@@ -123,9 +123,9 @@
           "styles": {
             "input": {
               "background": "transparent",
-              "border": "1px solid",
+              "border": "none",
               "boxShadow": "none",
-              "outline": "0px"
+              "outline": "none"
             }
           }
         }
@@ -134,7 +134,20 @@
         "defaultProps": {
           "styles": {
             "root": {
-              "background": "transparent"
+              "background": "transparent",
+              "border": "none"
+            }
+          }
+        }
+      },
+      "Parameter": {
+        "defaultProps": {
+          "styles": {
+            "root": {
+              "background": "transparent",
+              "border": "none",
+              "boxShadow": "none",
+              "outline": "none"
             }
           }
         }
