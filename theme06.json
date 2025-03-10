@@ -83,14 +83,7 @@
       },
       "Button": {
         "defaultProps": {
-          "fw": "300",
-          "styles": {
-            "root": {
-              "border": "1px solid",  // Mantener borde interno del botón
-              "boxShadow": "none",   // Sin sombras externas
-              "outline": "none"      // Sin outline externo
-            }
-          }
+          "fw": "300"
         }
       },
       "ExportLabelComponent": {
@@ -122,69 +115,6 @@
           },
           "dark": {
             "logo": "https://assets.shapediver.com/icon/transparent/sd_icon_512x512.webp"
-          }
-        }
-      },
-      "Input": {
-        "defaultProps": {
-          "styles": {
-            "input": {
-              "border": "1px solid", // Mantener borde interno en Input
-              "boxShadow": "none",   // Sin sombra externa
-              "outline": "none"      // Sin outline externo
-            }
-          }
-        }
-      },
-      "TextInput": {
-        "defaultProps": {
-          "styles": {
-            "input": {
-              "border": "1px solid", // Mantener borde interno en TextInput
-              "boxShadow": "none",   // Sin sombra externa
-              "outline": "none"      // Sin outline externo
-            }
-          }
-        }
-      },
-      "Textarea": {
-        "defaultProps": {
-          "styles": {
-            "input": {
-              "border": "1px solid", // Mantener borde interno en Textarea
-              "boxShadow": "none",   // Sin sombra externa
-              "outline": "none"      // Sin outline externo
-            }
-          }
-        }
-      },
-      "Switch": {
-        "defaultProps": {
-          "styles": {
-            "root": {
-              "border": "none",     // Eliminar borde externo
-              "boxShadow": "none"   // Eliminar sombra externa
-            }
-          }
-        }
-      },
-      "Radio": {
-        "defaultProps": {
-          "styles": {
-            "root": {
-              "border": "none",     // Eliminar borde externo
-              "boxShadow": "none"   // Eliminar sombra externa
-            }
-          }
-        }
-      },
-      "Checkbox": {
-        "defaultProps": {
-          "styles": {
-            "root": {
-              "border": "none",     // Eliminar borde externo
-              "boxShadow": "none"   // Eliminar sombra externa
-            }
           }
         }
       }
