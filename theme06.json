@@ -53,9 +53,9 @@
       ]
     },
     "defaultRadius": "0",
-    "fontFamily": "'Montserrat Light', sans-serif",  
+    "fontFamily": "'Montserrat Light', sans-serif",
     "headings": {
-      "fontFamily": "'Montserrat Light', sans-serif",  
+      "fontFamily": "'Montserrat Light', sans-serif",
       "fontWeight": 300
     },
     "white": "transparent",
@@ -125,7 +125,7 @@
               "background": "transparent",
               "border": "1px solid",
               "boxShadow": "none",
-              "outline": "none"  
+              "outline": "none"
             }
           }
         }
