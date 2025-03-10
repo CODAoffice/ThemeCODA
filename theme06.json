@@ -1,31 +1,31 @@
 {
   "version": "1.0",
   "themeOverrides": {
-    "primaryColor": "customDarkNavy",
+    "primaryColor": "customDarkOrange",
     "colors": {
-      "customDeepOrange": [
-        "#fff4e1",
-        "#ffe8cc",
-        "#fed09b",
-        "#fdb766",
-        "#fca13a",
-        "#fc931d",
-        "#fc8c0c",
-        "#e17800",
-        "#c86a00",
-        "#af5a00"
+      "customDarkOrange": [
+        "#f8f0e1",
+        "#f1e1c8",
+        "#e2d1a6",
+        "#d4c086",
+        "#c69e6d",
+        "#b78d55",
+        "#a77b44",
+        "#976c33",
+        "#875c22",
+        "#784b11"
       ],
-      "customLightBlue": [
-        "#e9f5ff",
-        "#d8e5f9",
-        "#b2c8ea",
-        "#89aadb",
-        "#6690ce",
-        "#507fc7",
-        "#4377c4",
-        "#3366ae",
-        "#295a9e",
-        "#184e8c"
+      "customLightOrange": [
+        "#ffe8d0",
+        "#f7d8a1",
+        "#f0c272",
+        "#e9b343",
+        "#e3a014",
+        "#d38900",
+        "#c87700",
+        "#b76600",
+        "#a75500",
+        "#9c4400"
       ],
       "customLightBeige": [
         "#fbf7ee",
@@ -40,16 +40,16 @@
         "#8f661f"
       ],
       "gray": [
-        "#e9f5ff",
-        "#d8e5f9",
-        "#b2c8ea",
-        "#89aadb",
-        "#6690ce",
-        "#507fc7",
-        "#4377c4",
-        "#3366ae",
-        "#295a9e",
-        "#184e8c"
+        "#ffe8d0",
+        "#f7d8a1",
+        "#f0c272",
+        "#e9b343",
+        "#e3a014",
+        "#d38900",
+        "#c87700",
+        "#b76600",
+        "#a75500",
+        "#9c4400"
       ]
     },
     "defaultRadius": "0",
@@ -61,13 +61,13 @@
     "white": "#FFFFFF",
     "black": "#131A2A",
     "other": {
-      "customDarkNavy": "#131A2A",
+      "customDarkOrange": "#131A2A",
       "customLightBeige": "#FCF8F1",
-      "customLightBlue": "#6F96D1",
-      "customTone01": "#EFF4FA",
-      "customTone02": "#D0DDF0",
-      "customTone03": "#B1C7E7",
-      "customTone04": "#92B0DD",
+      "customLightOrange": "#FF914D",
+      "customTone01": "#FFE4B2",
+      "customTone02": "#FFCC7A",
+      "customTone03": "#FFB842",
+      "customTone04": "#FF9F1B",
       "defaultFontWeight": "100",
       "forceColorScheme": "light"
     },
