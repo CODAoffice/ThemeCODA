@@ -86,9 +86,9 @@
           "fw": "300",
           "styles": {
             "root": {
-              "border": "1px solid",  // Mantén el borde para el botón
-              "boxShadow": "none",
-              "outline": "none"
+              "border": "1px solid",  // Mantener borde interno del botón
+              "boxShadow": "none",   // Sin sombras externas
+              "outline": "none"      // Sin outline externo
             }
           }
         }
@@ -129,9 +129,9 @@
         "defaultProps": {
           "styles": {
             "input": {
-              "border": "1px solid", // Mantén el borde en el input
-              "boxShadow": "none",
-              "outline": "none"
+              "border": "1px solid", // Mantener borde interno en Input
+              "boxShadow": "none",   // Sin sombra externa
+              "outline": "none"      // Sin outline externo
             }
           }
         }
@@ -140,9 +140,9 @@
         "defaultProps": {
           "styles": {
             "input": {
-              "border": "1px solid", // Mantén el borde en el input
-              "boxShadow": "none",
-              "outline": "none"
+              "border": "1px solid", // Mantener borde interno en TextInput
+              "boxShadow": "none",   // Sin sombra externa
+              "outline": "none"      // Sin outline externo
             }
           }
         }
@@ -151,9 +151,9 @@
         "defaultProps": {
           "styles": {
             "input": {
-              "border": "1px solid", // Mantén el borde en el textarea
-              "boxShadow": "none",
-              "outline": "none"
+              "border": "1px solid", // Mantener borde interno en Textarea
+              "boxShadow": "none",   // Sin sombra externa
+              "outline": "none"      // Sin outline externo
             }
           }
         }
@@ -162,8 +162,8 @@
         "defaultProps": {
           "styles": {
             "root": {
-              "border": "none",
-              "boxShadow": "none"
+              "border": "none",     // Eliminar borde externo
+              "boxShadow": "none"   // Eliminar sombra externa
             }
           }
         }
@@ -172,8 +172,8 @@
         "defaultProps": {
           "styles": {
             "root": {
-              "border": "none",
-              "boxShadow": "none"
+              "border": "none",     // Eliminar borde externo
+              "boxShadow": "none"   // Eliminar sombra externa
             }
           }
         }
@@ -182,8 +182,8 @@
         "defaultProps": {
           "styles": {
             "root": {
-              "border": "none",
-              "boxShadow": "none"
+              "border": "none",     // Eliminar borde externo
+              "boxShadow": "none"   // Eliminar sombra externa
             }
           }
         }
