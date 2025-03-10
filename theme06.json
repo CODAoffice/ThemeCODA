@@ -83,7 +83,14 @@
       },
       "Button": {
         "defaultProps": {
-          "fw": "300"
+          "fw": "300",
+          "styles": {
+            "root": {
+              "border": "none",
+              "boxShadow": "none",
+              "outline": "none"
+            }
+          }
         }
       },
       "ExportLabelComponent": {
@@ -139,6 +146,54 @@
             }
           }
         }
+      },
+      "Textarea": {
+        "defaultProps": {
+          "styles": {
+            "input": {
+              "border": "none",
+              "boxShadow": "none",
+              "outline": "none"
+            }
+          }
+        }
+      },
+      "Switch": {
+        "defaultProps": {
+          "styles": {
+            "root": {
+              "border": "none",
+              "boxShadow": "none"
+            }
+          }
+        }
+      },
+      "Radio": {
+        "defaultProps": {
+          "styles": {
+            "root": {
+              "border": "none",
+              "boxShadow": "none"
+            }
+          }
+        }
+      },
+      "Checkbox": {
+        "defaultProps": {
+          "styles": {
+            "root": {
+              "border": "none",
+              "boxShadow": "none"
+            }
+          }
+        }
+      }
+    },
+    "globalStyles": {
+      "*": {
+        "border": "none",
+        "boxShadow": "none",
+        "outline": "none"
       }
     }
   }
