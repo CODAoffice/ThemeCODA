@@ -200,8 +200,8 @@
         "defaultProps": {
           "styles": {
             "root": {
-              "maxWidth": "100%",
-              "width": "100%"
+              "maxWidth": "150%",
+              "width": "150%"
             }
           }
         }
