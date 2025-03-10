@@ -58,7 +58,7 @@
       "fontFamily": "'Work Sans', sans-serif",
       "fontWeight": 300
     },
-    "white": "transparent",  // Fondo completamente transparente
+    "white": "transparent",
     "black": "#131A2A",
     "other": {
       "customDarkOrange": "#131A2A",
@@ -122,10 +122,10 @@
         "defaultProps": {
           "styles": {
             "input": {
-              "background": "transparent",  // Fondo transparente en Input
-              "border": "1px solid",        // Mantener borde interno
-              "boxShadow": "none",          // Sin sombra externa
-              "outline": "none"             // Sin outline externo
+              "background": "transparent",  
+              "border": "1px solid",        
+              "boxShadow": "none",      
+              "outline": "none" 
             }
           }
         }
@@ -134,10 +134,10 @@
         "defaultProps": {
           "styles": {
             "input": {
-              "background": "transparent",  // Fondo transparente en TextInput
-              "border": "1px solid",        // Mantener borde interno
-              "boxShadow": "none",          // Sin sombra externa
-              "outline": "none"             // Sin outline externo
+              "background": "transparent",  
+              "border": "1px solid",        
+              "boxShadow": "none",         
+              "outline": "none"            
             }
           }
         }
@@ -146,10 +146,10 @@
         "defaultProps": {
           "styles": {
             "input": {
-              "background": "transparent",  // Fondo transparente en Textarea
-              "border": "1px solid",        // Mantener borde interno
-              "boxShadow": "none",          // Sin sombra externa
-              "outline": "none"             // Sin outline externo
+              "background": "transparent", 
+              "border": "1px solid",        
+              "boxShadow": "none",          
+              "outline": "none"             
             }
           }
         }
@@ -158,9 +158,9 @@
         "defaultProps": {
           "styles": {
             "root": {
-              "background": "transparent",  // Fondo transparente en Switch
-              "border": "none",             // Eliminar borde externo
-              "boxShadow": "none"           // Eliminar sombra externa
+              "background": "transparent",  
+              "border": "none",             
+              "boxShadow": "none"           
             }
           }
         }
@@ -169,9 +169,9 @@
         "defaultProps": {
           "styles": {
             "root": {
-              "background": "transparent",  // Fondo transparente en Radio
-              "border": "none",             // Eliminar borde externo
-              "boxShadow": "none"           // Eliminar sombra externa
+              "background": "transparent",  
+              "border": "none",             
+              "boxShadow": "none"          
             }
           }
         }
@@ -180,9 +180,9 @@
         "defaultProps": {
           "styles": {
             "root": {
-              "background": "transparent",  // Fondo transparente en Checkbox
-              "border": "none",             // Eliminar borde externo
-              "boxShadow": "none"           // Eliminar sombra externa
+              "background": "transparent",  
+              "border": "none",             
+              "boxShadow": "none"           
             }
           }
         }
