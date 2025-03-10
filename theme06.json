@@ -53,9 +53,9 @@
       ]
     },
     "defaultRadius": "0",
-    "fontFamily": "'Montserrat Light', sans-serif",  
+    "fontFamily": "'Montserrat Light', sans-serif",  // Cambiado a Montserrat Light
     "headings": {
-      "fontFamily": "'Montserrat Light', sans-serif",  
+      "fontFamily": "'Montserrat Light', sans-serif",  // Cambiado a Montserrat Light
       "fontWeight": 300
     },
     "white": "transparent",
@@ -123,9 +123,9 @@
           "styles": {
             "input": {
               "background": "transparent",
-              "border": "1px solid",
+              "border": "0px solid",
               "boxShadow": "none",
-              "outline": "none"
+              "outline": "none"  
             }
           }
         }
