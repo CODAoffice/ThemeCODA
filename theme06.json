@@ -130,17 +130,19 @@
           }
         }
       },
-      "Viewport": {
+      "Parameter": {
         "defaultProps": {
           "styles": {
             "root": {
               "background": "transparent",
-              "border": "none"
+              "border": "none",
+              "boxShadow": "none",
+              "outline": "none"
             }
           }
         }
       },
-      "Parameter": {
+      "Viewport": {
         "defaultProps": {
           "styles": {
             "root": {
