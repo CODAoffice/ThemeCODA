@@ -195,6 +195,15 @@
             }
           }
         }
+      },
+      "Grid": {
+        "defaultProps": {
+          "styles": {
+            "root": {
+              "width": "200%"  // Aumento del 100% en el ancho de la columna
+            }
+          }
+        }
       }
     }
   }
