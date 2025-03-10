@@ -111,10 +111,10 @@
       "ViewportBranding": {
         "defaultProps": {
           "light": {
-            "logo": "https://i.ibb.co/0pcvkc3P/LOGO-WHITE.png"
+            "logo": "https://assets.shapediver.com/icon/transparent/sd_icon_512x512.webp"
           },
           "dark": {
-            "logo": "https://i.ibb.co/0pcvkc3P/LOGO-WHITE.png"
+            "logo": "https://assets.shapediver.com/icon/transparent/sd_icon_512x512.webp"
           }
         }
       },
@@ -201,7 +201,8 @@
           "styles": {
             "root": {
               "maxWidth": "200%",
-              "width": "200%"
+              "width": "200%",
+              "flex": "1 1 100%" 
             }
           }
         }
