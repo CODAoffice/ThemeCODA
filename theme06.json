@@ -111,10 +111,10 @@
       "ViewportBranding": {
         "defaultProps": {
           "light": {
-            "logo": "https://i.ibb.co/0pcvkc3P/LOGO-WHITE.png"
+            "logo": "https://assets.shapediver.com/icon/transparent/sd_icon_512x512.webp"
           },
           "dark": {
-            "logo": "https://i.ibb.co/0pcvkc3P/LOGO-WHITE.png"
+            "logo": "https://assets.shapediver.com/icon/transparent/sd_icon_512x512.webp"
           }
         }
       },
@@ -122,10 +122,10 @@
         "defaultProps": {
           "styles": {
             "input": {
-              "background": "transparent", // Fondo transparente en Input
-              "border": "1px solid",       // Mantener borde interno en Input
-              "boxShadow": "none",         // Sin sombra externa
-              "outline": "none"            // Sin outline externo
+              "background": "transparent",  // Fondo transparente en Input
+              "border": "1px solid",        // Mantener borde interno
+              "boxShadow": "none",          // Sin sombra externa
+              "outline": "none"             // Sin outline externo
             }
           }
         }
@@ -134,10 +134,10 @@
         "defaultProps": {
           "styles": {
             "input": {
-              "background": "transparent", // Fondo transparente en TextInput
-              "border": "1px solid",       // Mantener borde interno en TextInput
-              "boxShadow": "none",         // Sin sombra externa
-              "outline": "none"            // Sin outline externo
+              "background": "transparent",  // Fondo transparente en TextInput
+              "border": "1px solid",        // Mantener borde interno
+              "boxShadow": "none",          // Sin sombra externa
+              "outline": "none"             // Sin outline externo
             }
           }
         }
@@ -146,10 +146,10 @@
         "defaultProps": {
           "styles": {
             "input": {
-              "background": "transparent", // Fondo transparente en Textarea
-              "border": "1px solid",       // Mantener borde interno en Textarea
-              "boxShadow": "none",         // Sin sombra externa
-              "outline": "none"            // Sin outline externo
+              "background": "transparent",  // Fondo transparente en Textarea
+              "border": "1px solid",        // Mantener borde interno
+              "boxShadow": "none",          // Sin sombra externa
+              "outline": "none"             // Sin outline externo
             }
           }
         }
@@ -158,9 +158,9 @@
         "defaultProps": {
           "styles": {
             "root": {
-              "background": "transparent", // Fondo transparente en Switch
-              "border": "none",            // Eliminar borde externo
-              "boxShadow": "none"          // Eliminar sombra externa
+              "background": "transparent",  // Fondo transparente en Switch
+              "border": "none",             // Eliminar borde externo
+              "boxShadow": "none"           // Eliminar sombra externa
             }
           }
         }
@@ -169,9 +169,9 @@
         "defaultProps": {
           "styles": {
             "root": {
-              "background": "transparent", // Fondo transparente en Radio
-              "border": "none",            // Eliminar borde externo
-              "boxShadow": "none"          // Eliminar sombra externa
+              "background": "transparent",  // Fondo transparente en Radio
+              "border": "none",             // Eliminar borde externo
+              "boxShadow": "none"           // Eliminar sombra externa
             }
           }
         }
@@ -180,9 +180,9 @@
         "defaultProps": {
           "styles": {
             "root": {
-              "background": "transparent", // Fondo transparente en Checkbox
-              "border": "none",            // Eliminar borde externo
-              "boxShadow": "none"          // Eliminar sombra externa
+              "background": "transparent",  // Fondo transparente en Checkbox
+              "border": "none",             // Eliminar borde externo
+              "boxShadow": "none"           // Eliminar sombra externa
             }
           }
         }
