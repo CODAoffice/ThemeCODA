@@ -58,7 +58,7 @@
       "fontFamily": "'Work Sans', sans-serif",
       "fontWeight": 300
     },
-    "white": "rgba(255, 255, 255, 0.75)",  // Fondo blanco con transparencia
+    "white": "transparent",  // Fondo completamente transparente
     "black": "#131A2A",
     "other": {
       "customDarkOrange": "#131A2A",
@@ -111,10 +111,10 @@
       "ViewportBranding": {
         "defaultProps": {
           "light": {
-            "logo": "https://assets.shapediver.com/icon/transparent/sd_icon_512x512.webp"
+            "logo": "https://i.ibb.co/0pcvkc3P/LOGO-WHITE.png"
           },
           "dark": {
-            "logo": "https://assets.shapediver.com/icon/transparent/sd_icon_512x512.webp"
+            "logo": "https://i.ibb.co/0pcvkc3P/LOGO-WHITE.png"
           }
         }
       },
@@ -122,9 +122,10 @@
         "defaultProps": {
           "styles": {
             "input": {
-              "border": "1px solid", // Mantener borde interno en Input
-              "boxShadow": "none",   // Sin sombra externa
-              "outline": "none"      // Sin outline externo
+              "background": "transparent", // Fondo transparente en Input
+              "border": "1px solid",       // Mantener borde interno en Input
+              "boxShadow": "none",         // Sin sombra externa
+              "outline": "none"            // Sin outline externo
             }
           }
         }
@@ -133,9 +134,10 @@
         "defaultProps": {
           "styles": {
             "input": {
-              "border": "1px solid", // Mantener borde interno en TextInput
-              "boxShadow": "none",   // Sin sombra externa
-              "outline": "none"      // Sin outline externo
+              "background": "transparent", // Fondo transparente en TextInput
+              "border": "1px solid",       // Mantener borde interno en TextInput
+              "boxShadow": "none",         // Sin sombra externa
+              "outline": "none"            // Sin outline externo
             }
           }
         }
@@ -144,9 +146,10 @@
         "defaultProps": {
           "styles": {
             "input": {
-              "border": "1px solid", // Mantener borde interno en Textarea
-              "boxShadow": "none",   // Sin sombra externa
-              "outline": "none"      // Sin outline externo
+              "background": "transparent", // Fondo transparente en Textarea
+              "border": "1px solid",       // Mantener borde interno en Textarea
+              "boxShadow": "none",         // Sin sombra externa
+              "outline": "none"            // Sin outline externo
             }
           }
         }
@@ -155,8 +158,9 @@
         "defaultProps": {
           "styles": {
             "root": {
-              "border": "none",     // Eliminar borde externo
-              "boxShadow": "none"   // Eliminar sombra externa
+              "background": "transparent", // Fondo transparente en Switch
+              "border": "none",            // Eliminar borde externo
+              "boxShadow": "none"          // Eliminar sombra externa
             }
           }
         }
@@ -165,8 +169,9 @@
         "defaultProps": {
           "styles": {
             "root": {
-              "border": "none",     // Eliminar borde externo
-              "boxShadow": "none"   // Eliminar sombra externa
+              "background": "transparent", // Fondo transparente en Radio
+              "border": "none",            // Eliminar borde externo
+              "boxShadow": "none"          // Eliminar sombra externa
             }
           }
         }
@@ -175,8 +180,9 @@
         "defaultProps": {
           "styles": {
             "root": {
-              "border": "none",     // Eliminar borde externo
-              "boxShadow": "none"   // Eliminar sombra externa
+              "background": "transparent", // Fondo transparente en Checkbox
+              "border": "none",            // Eliminar borde externo
+              "boxShadow": "none"          // Eliminar sombra externa
             }
           }
         }
