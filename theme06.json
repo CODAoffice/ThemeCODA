@@ -86,7 +86,7 @@
           "fw": "300",
           "styles": {
             "root": {
-              "border": "none",
+              "border": "1px solid",  // Mantén el borde para el botón
               "boxShadow": "none",
               "outline": "none"
             }
@@ -129,7 +129,7 @@
         "defaultProps": {
           "styles": {
             "input": {
-              "border": "none",
+              "border": "1px solid", // Mantén el borde en el input
               "boxShadow": "none",
               "outline": "none"
             }
@@ -140,7 +140,7 @@
         "defaultProps": {
           "styles": {
             "input": {
-              "border": "none",
+              "border": "1px solid", // Mantén el borde en el input
               "boxShadow": "none",
               "outline": "none"
             }
@@ -151,7 +151,7 @@
         "defaultProps": {
           "styles": {
             "input": {
-              "border": "none",
+              "border": "1px solid", // Mantén el borde en el textarea
               "boxShadow": "none",
               "outline": "none"
             }
@@ -191,9 +191,12 @@
     },
     "globalStyles": {
       "*": {
-        "border": "none",
-        "boxShadow": "none",
-        "outline": "none"
+        "border": "none",     // Elimina los bordes globales
+        "boxShadow": "none",  // Elimina las sombras globales
+        "outline": "none"     // Elimina el outline global
+      },
+      ".mantine-Input-root, .mantine-TextInput-root, .mantine-Textarea-root, .mantine-Button-root": {
+        "border": "1px solid"  // Mantén el borde en los componentes internos
       }
     }
   }
