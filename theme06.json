@@ -125,7 +125,8 @@
               "background": "transparent",
               "border": "none",
               "boxShadow": "none",
-              "outline": "none"
+              "outline": "none",
+              "padding": "0"
             }
           }
         }
@@ -137,7 +138,8 @@
               "background": "transparent",
               "border": "none",
               "boxShadow": "none",
-              "outline": "none"
+              "outline": "none",
+              "padding": "0"
             }
           }
         }
@@ -149,7 +151,20 @@
               "background": "transparent",
               "border": "none",
               "boxShadow": "none",
-              "outline": "none"
+              "outline": "none",
+              "padding": "0"
+            }
+          }
+        }
+      },
+      "AccordionItem": {
+        "defaultProps": {
+          "styles": {
+            "root": {
+              "border": "none",
+              "boxShadow": "none",
+              "outline": "none",
+              "padding": "0"
             }
           }
         }
