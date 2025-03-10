@@ -200,7 +200,7 @@
         "defaultProps": {
           "styles": {
             "root": {
-              "width": "200%" 
+              "width": "400px"
             }
           }
         }
