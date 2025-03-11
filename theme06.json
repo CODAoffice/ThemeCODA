@@ -170,10 +170,6 @@
         }
       },
 
-      /* --------------------------------------
-         NUEVOS OVERRIDES PARA OCULTAR RECUADROS
-         -------------------------------------- */
-
       "InputWrapper": {
         "defaultProps": {
           "styles": {
