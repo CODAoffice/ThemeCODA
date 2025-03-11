@@ -168,6 +168,77 @@
             }
           }
         }
+      },
+
+      /* --------------------------------------
+         NUEVOS OVERRIDES PARA OCULTAR RECUADROS
+         -------------------------------------- */
+
+      "InputWrapper": {
+        "defaultProps": {
+          "styles": {
+            "root": {
+              "background": "transparent",
+              "border": "none",
+              "boxShadow": "none",
+              "outline": "none",
+              "padding": "0"
+            }
+          }
+        }
+      },
+      "Select": {
+        "defaultProps": {
+          "styles": {
+            "root": {
+              "background": "transparent",
+              "border": "none",
+              "boxShadow": "none",
+              "outline": "none",
+              "padding": "0"
+            },
+            "input": {
+              "background": "transparent",
+              "border": "none",
+              "boxShadow": "none",
+              "outline": "none",
+              "padding": "0"
+            }
+          }
+        }
+      },
+      "NumberInput": {
+        "defaultProps": {
+          "styles": {
+            "root": {
+              "background": "transparent",
+              "border": "none",
+              "boxShadow": "none",
+              "outline": "none",
+              "padding": "0"
+            },
+            "input": {
+              "background": "transparent",
+              "border": "none",
+              "boxShadow": "none",
+              "outline": "none",
+              "padding": "0"
+            }
+          }
+        }
+      },
+      "ParameterGroup": {
+        "defaultProps": {
+          "styles": {
+            "root": {
+              "background": "transparent",
+              "border": "none",
+              "boxShadow": "none",
+              "outline": "none",
+              "padding": "0"
+            }
+          }
+        }
       }
     }
   }
