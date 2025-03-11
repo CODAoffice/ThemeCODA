@@ -122,7 +122,7 @@
         "defaultProps": {
           "styles": {
             "input": {
-              "background": "#C9C9C9",
+              "background": "transparent",
               "border": "none",
               "boxShadow": "none",
               "outline": "none"
@@ -144,7 +144,7 @@
         "defaultProps": {
           "styles": {
             "root": {
-              "background": "transparent",
+              "background": "0, 0, 0, 0.5",
               "border": "none",
               "boxShadow": "none",
               "outline": "none"
