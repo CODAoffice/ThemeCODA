@@ -25,7 +25,7 @@
     },
     "white": "#FFFFFF",
     "black": "#000000",
-    "background": "rgba(0, 0, 0, 0.75)",
+    "background": "transparent",
     "other": {
       "customDarkOrange": "#131A2A",
       "customLightBeige": "#FCF8F1",
@@ -86,7 +86,7 @@
         "defaultProps": {
           "styles": {
             "root": {
-              "background": "rgba(0, 0, 0, 0.75)"
+              "background": "transparent"
             }
           }
         }
