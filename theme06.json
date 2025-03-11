@@ -169,7 +169,6 @@
           }
         }
       },
-
       "InputWrapper": {
         "defaultProps": {
           "styles": {
