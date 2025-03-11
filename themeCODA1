@@ -111,10 +111,10 @@
       "ViewportBranding": {
         "defaultProps": {
           "light": {
-            "logo": "https://assets.shapediver.com/icon/transparent/sd_icon_512x512.webp"
+            "logo": "https://i.ibb.co/0pcvkc3P/LOGO-WHITE.png"
           },
           "dark": {
-            "logo": "https://assets.shapediver.com/icon/transparent/sd_icon_512x512.webp"
+            "logo": "https://i.ibb.co/0pcvkc3P/LOGO-WHITE.png"
           }
         }
       },
@@ -122,7 +122,7 @@
         "defaultProps": {
           "styles": {
             "input": {
-              "background": "transparent",
+              "background": "#424242",
               "border": "none",
               "boxShadow": "none",
               "outline": "none"
