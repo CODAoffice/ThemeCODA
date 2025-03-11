@@ -86,7 +86,7 @@
         "defaultProps": {
           "styles": {
             "root": {
-              "background": "#000000"
+              "background": "rgba(0, 0, 0, 0.5)"
             }
           }
         }
@@ -95,7 +95,7 @@
         "defaultProps": {
           "styles": {
             "root": {
-              "background": "rgba(0, 0, 0, 0.5)"
+              "background": "transparent"
             }
           }
         }
