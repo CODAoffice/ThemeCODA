@@ -134,7 +134,7 @@
         "defaultProps": {
           "styles": {
             "root": {
-              "background": "0, 0, 0, 0.5",
+              "background": "0, 0, 0, 1",
               "border": "none"
             }
           }
@@ -144,7 +144,7 @@
         "defaultProps": {
           "styles": {
             "root": {
-              "background": "0, 0, 0, 0.4",
+              "background": "0, 0, 0, 1",
               "border": "none",
               "boxShadow": "none",
               "outline": "none"
