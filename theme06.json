@@ -86,7 +86,7 @@
         "defaultProps": {
           "styles": {
             "root": {
-              "background": "#a61e4d"
+              "background": "transparent"
             }
           }
         }
@@ -95,7 +95,7 @@
         "defaultProps": {
           "styles": {
             "root": {
-              "background": "#a61e4d"
+              "background": "transparent"
             }
           }
         }
