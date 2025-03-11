@@ -134,7 +134,7 @@
         "defaultProps": {
           "styles": {
             "root": {
-              "background": "transparent",
+              "background": "0, 0, 0, 0.5",
               "border": "none"
             }
           }
