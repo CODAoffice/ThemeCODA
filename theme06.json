@@ -4,62 +4,28 @@
     "primaryColor": "customDarkOrange",
     "colors": {
       "customDarkOrange": [
-        "#f8f0e1",
-        "#f1e1c8",
-        "#e2d1a6",
-        "#d4c086",
-        "#c69e6d",
-        "#b78d55",
-        "#a77b44",
-        "#976c33",
-        "#875c22",
-        "#784b11"
+        "#f8f0e1", "#f1e1c8", "#e2d1a6", "#d4c086", "#c69e6d", "#b78d55", "#a77b44", "#976c33", "#875c22", "#784b11"
       ],
       "customLightOrange": [
-        "#ffe8d0",
-        "#f7d8a1",
-        "#f0c272",
-        "#e9b343",
-        "#e3a014",
-        "#d38900",
-        "#c87700",
-        "#b76600",
-        "#a75500",
-        "#9c4400"
+        "#ffe8d0", "#f7d8a1", "#f0c272", "#e9b343", "#e3a014", "#d38900", "#c87700", "#b76600", "#a75500", "#9c4400"
       ],
       "customLightBeige": [
-        "#fbf7ee",
-        "#f4ebdd",
-        "#ead6b5",
-        "#e1c08a",
-        "#d8ad64",
-        "#d3a14d",
-        "#d19b40",
-        "#b98632",
-        "#a5762b",
-        "#8f661f"
+        "#fbf7ee", "#f4ebdd", "#ead6b5", "#e1c08a", "#d8ad64", "#d3a14d", "#d19b40", "#b98632", "#a5762b", "#8f661f"
       ],
       "gray": [
-        "#dcdcdc",
-        "#d3d3d3",
-        "#c9c9c9",
-        "#bfbfbf",
-        "#b0b0b0",
-        "#a0a0a0",
-        "#8f8f8f",
-        "#7f7f7f",
-        "#6f6f6f",
-        "#5f5f5f"
+        "#dcdcdc", "#d3d3d3", "#c9c9c9", "#bfbfbf", "#b0b0b0", "#a0a0a0", "#8f8f8f", "#7f7f7f", "#6f6f6f", "#5f5f5f"
       ]
     },
     "defaultRadius": "0",
     "fontFamily": "'Montserrat Light', sans-serif",
     "headings": {
       "fontFamily": "'Montserrat Light', sans-serif",
-      "fontWeight": 300
+      "fontWeight": 300,
+      "color": "#FFFFFF"
     },
-    "white": "transparent",
-    "black": "#131A2A",
+    "white": "#FFFFFF",
+    "black": "#000000",
+    "background": "rgba(0, 0, 0, 0.5)",
     "other": {
       "customDarkOrange": "#131A2A",
       "customLightBeige": "#FCF8F1",
@@ -69,77 +35,58 @@
       "customTone03": "#FFB842",
       "customTone04": "#FF9F1B",
       "defaultFontWeight": "100",
-      "forceColorScheme": "light"
+      "forceColorScheme": "dark"
     },
     "components": {
       "Accordion": {
         "defaultProps": {
           "styles": {
             "label": {
-              "fontWeight": "300"
+              "fontWeight": "300",
+              "color": "#FFFFFF"
             }
           }
         }
       },
       "Button": {
         "defaultProps": {
-          "fw": "300"
+          "fw": "300",
+          "styles": {
+            "background": "#FFFFFF",
+            "color": "#000000"
+          }
         }
       },
-      "ExportLabelComponent": {
+      "Slider": {
         "defaultProps": {
-          "fontWeight": "100"
-        }
-      },
-      "MarkdownWidgetComponent": {
-        "defaultProps": {
-          "boldFontWeight": "200",
-          "strongFontWeight": "200"
+          "styles": {
+            "track": {
+              "background": "#FFFFFF"
+            },
+            "thumb": {
+              "background": "#000000"
+            }
+          }
         }
       },
       "ParameterLabelComponent": {
         "defaultProps": {
-          "fontWeight": "100"
+          "fontWeight": "100",
+          "color": "#FFFFFF"
         }
       },
       "Text": {
         "defaultProps": {
           "fw": "100",
-          "size": "sm"
-        }
-      },
-      "ViewportBranding": {
-        "defaultProps": {
-          "light": {
-            "logo": "https://assets.shapediver.com/icon/transparent/sd_icon_512x512.webp"
-          },
-          "dark": {
-            "logo": "https://assets.shapediver.com/icon/transparent/sd_icon_512x512.webp"
-          }
-        }
-      },
-      "Input": {
-        "defaultProps": {
-          "styles": {
-            "input": {
-              "background": "transparent",
-              "border": "none",
-              "boxShadow": "none",
-              "outline": "none",
-              "padding": "0"
-            }
-          }
+          "size": "sm",
+          "color": "#FFFFFF"
         }
       },
       "Parameter": {
         "defaultProps": {
           "styles": {
             "root": {
-              "background": "transparent",
-              "border": "none",
-              "boxShadow": "none",
-              "outline": "none",
-              "padding": "0"
+              "background": "#000000"
             }
           }
         }
@@ -148,23 +95,7 @@
         "defaultProps": {
           "styles": {
             "root": {
-              "background": "transparent",
-              "border": "none",
-              "boxShadow": "none",
-              "outline": "none",
-              "padding": "0"
-            }
-          }
-        }
-      },
-      "AccordionItem": {
-        "defaultProps": {
-          "styles": {
-            "root": {
-              "border": "none",
-              "boxShadow": "none",
-              "outline": "none",
-              "padding": "0"
+              "background": "rgba(0, 0, 0, 0.5)"
             }
           }
         }
