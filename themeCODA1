@@ -157,9 +157,6 @@
           }
         }
       },
-      "Viewport": {
-        "defaultProps": {}
-      },
       "Parameter": {
         "defaultProps": {
           "styles": {
