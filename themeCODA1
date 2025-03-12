@@ -78,10 +78,6 @@
             "label": {
               "fontWeight": "300",
               "color": "#FFFFFF"
-            },
-            "root": {
-              "outline": "none",
-              "border": "none"
             }
           }
         }
@@ -112,8 +108,7 @@
           "strongFontWeight": "200",
           "styles": {
             "root": {
-              "color": "#FFFFFF",
-              "outline": "none"
+              "color": "#FFFFFF"
             }
           }
         }
@@ -134,8 +129,7 @@
           "size": "sm",
           "styles": {
             "root": {
-              "color": "#FFFFFF",
-              "outline": "none"
+              "color": "#FFFFFF"
             }
           }
         }
@@ -157,7 +151,7 @@
               "background": "transparent",
               "border": "none",
               "boxShadow": "none",
-              "outline": "none",
+              "outline": "2px solid #ffffff",
               "color": "#FFFFFF"
             }
           }
@@ -175,15 +169,6 @@
           }
         }
       },
-      "Switch": {
-        "defaultProps": {
-          "styles": {
-            "root": {
-              "outline": "none"
-            }
-          }
-        }
-      },
       "Tabs": {
         "defaultProps": {
           "styles": {
@@ -196,9 +181,6 @@
               "color": "#FFFFFF",
               "fontFamily": "'Montserrat', sans-serif",
               "fontWeight": "normal"
-            },
-            "root": {
-              "backgroundColor": "rgba(0, 0, 0, 0.75)"
             }
           }
         }
