@@ -24,7 +24,8 @@
     "fontFamily": "'Montserrat Light', sans-serif",
     "headings": {
       "fontFamily": "'Montserrat Light', sans-serif",
-      "fontWeight": 300
+      "fontWeight": 300,
+      "color": "white"
     },
     "white": "transparent",
     "black": "#131A2A",
@@ -44,7 +45,8 @@
         "defaultProps": {
           "styles": {
             "label": {
-              "fontWeight": "300"
+              "fontWeight": "300",
+              "color": "white"
             }
           }
         }
@@ -55,7 +57,7 @@
           "styles": {
             "root": {
               "backgroundColor": "#8f8f8f",
-              "color": "#131A2A",
+              "color": "white",
               "border": "1px solid #131A2A"
             }
           }
@@ -63,24 +65,28 @@
       },
       "ExportLabelComponent": {
         "defaultProps": {
-          "fontWeight": "100"
+          "fontWeight": "100",
+          "color": "white"
         }
       },
       "MarkdownWidgetComponent": {
         "defaultProps": {
           "boldFontWeight": "200",
-          "strongFontWeight": "200"
+          "strongFontWeight": "200",
+          "color": "white"
         }
       },
       "ParameterLabelComponent": {
         "defaultProps": {
-          "fontWeight": "100"
+          "fontWeight": "100",
+          "color": "white"
         }
       },
       "Text": {
         "defaultProps": {
           "fw": "100",
-          "size": "sm"
+          "size": "sm",
+          "color": "white"
         }
       },
       "ViewportBranding": {
@@ -121,7 +127,8 @@
               "background": "transparent",
               "border": "none",
               "boxShadow": "none",
-              "outline": "none"
+              "outline": "none",
+              "color": "white"
             }
           }
         }
