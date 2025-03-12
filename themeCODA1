@@ -58,7 +58,7 @@
       "fontFamily": "'Montserrat Light', sans-serif",
       "fontWeight": 300
     },
-    "white": "#f8f9fa",
+    "white": "transparent",
     "black": "#131A2A",
     "other": {
       "customDarkOrange": "#131A2A",
