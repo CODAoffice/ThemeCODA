@@ -78,6 +78,9 @@
             "label": {
               "fontWeight": "300",
               "color": "#FFFFFF"
+            },
+            "content": {
+              "color": "#FFFFFF"
             }
           }
         }
