@@ -187,6 +187,36 @@
             }
           }
         }
+      },
+      "Switch": {
+        "defaultProps": {
+          "styles": {
+            "root": {
+              "color": "#FFFFFF"
+            },
+            "track": {
+              "background": "transparent"
+            },
+            "thumb": {
+              "background": "#FFFFFF"
+            }
+          }
+        }
+      },
+      "Slider": {
+        "defaultProps": {
+          "styles": {
+            "root": {
+              "color": "#FFFFFF"
+            },
+            "track": {
+              "background": "#FFFFFF"
+            },
+            "thumb": {
+              "background": "#FFFFFF"
+            }
+          }
+        }
       }
     }
   }
