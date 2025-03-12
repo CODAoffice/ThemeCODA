@@ -4,30 +4,61 @@
     "primaryColor": "customDarkOrange",
     "colors": {
       "customDarkOrange": [
-        "#f8f0e1", "#f1e1c8", "#e2d1a6", "#d4c086", "#c69e6d",
-        "#b78d55", "#a77b44", "#976c33", "#875c22", "#784b11"
+        "#f8f0e1",
+        "#f1e1c8",
+        "#e2d1a6",
+        "#d4c086",
+        "#c69e6d",
+        "#b78d55",
+        "#a77b44",
+        "#976c33",
+        "#875c22",
+        "#784b11"
       ],
       "customLightOrange": [
-        "#ffe8d0", "#f7d8a1", "#f0c272", "#e9b343", "#e3a014",
-        "#d38900", "#c87700", "#b76600", "#a75500", "#9c4400"
+        "#ffe8d0",
+        "#f7d8a1",
+        "#f0c272",
+        "#e9b343",
+        "#e3a014",
+        "#d38900",
+        "#c87700",
+        "#b76600",
+        "#a75500",
+        "#9c4400"
       ],
       "customLightBeige": [
-        "#fbf7ee", "#f4ebdd", "#ead6b5", "#e1c08a", "#d8ad64",
-        "#d3a14d", "#d19b40", "#b98632", "#a5762b", "#8f661f"
+        "#fbf7ee",
+        "#f4ebdd",
+        "#ead6b5",
+        "#e1c08a",
+        "#d8ad64",
+        "#d3a14d",
+        "#d19b40",
+        "#b98632",
+        "#a5762b",
+        "#8f661f"
       ],
       "gray": [
-        "#ffffff", "#ffffff", "#ffffff", "#ffffff", "#ffffff",
-        "#ffffff", "#ffffff", "#ffffff", "#ffffff", "#ffffff"
+        "#dcdcdc",
+        "#d3d3d3",
+        "#c9c9c9",
+        "#bfbfbf",
+        "#b0b0b0",
+        "#a0a0a0",
+        "#8f8f8f",
+        "#7f7f7f",
+        "#6f6f6f",
+        "#5f5f5f"
       ]
     },
     "defaultRadius": "0",
     "fontFamily": "'Montserrat Light', sans-serif",
     "headings": {
       "fontFamily": "'Montserrat Light', sans-serif",
-      "fontWeight": 300,
-      "color": "#ffffff"
+      "fontWeight": 300
     },
-    "white": "#ffffff",
+    "white": "transparent",
     "black": "#131A2A",
     "other": {
       "customDarkOrange": "#131A2A",
@@ -45,48 +76,36 @@
         "defaultProps": {
           "styles": {
             "label": {
-              "fontWeight": "300",
-              "color": "#ffffff"
+              "fontWeight": "300"
             }
           }
         }
       },
       "Button": {
         "defaultProps": {
-          "fw": "300",
-          "styles": {
-            "root": {
-              "backgroundColor": "transparent",
-              "color": "#ffffff",
-              "border": "1px solid #131A2A"
-            }
-          }
+          "fw": "300"
         }
       },
       "ExportLabelComponent": {
         "defaultProps": {
-          "fontWeight": "100",
-          "color": "#ffffff"
+          "fontWeight": "100"
         }
       },
       "MarkdownWidgetComponent": {
         "defaultProps": {
           "boldFontWeight": "200",
-          "strongFontWeight": "200",
-          "color": "#ffffff"
+          "strongFontWeight": "200"
         }
       },
       "ParameterLabelComponent": {
         "defaultProps": {
-          "fontWeight": "100",
-          "color": "#ffffff"
+          "fontWeight": "100"
         }
       },
       "Text": {
         "defaultProps": {
           "fw": "100",
-          "size": "sm",
-          "color": "#ffffff"
+          "size": "sm"
         }
       },
       "ViewportBranding": {
@@ -103,9 +122,10 @@
         "defaultProps": {
           "styles": {
             "input": {
-              "backgroundColor": "transparent",
-              "border": "1px solid #ffffff",
-              "color": "transparent"
+              "background": "transparent",
+              "border": "none",
+              "boxShadow": "none",
+              "outline": "1xp"
             }
           }
         }
@@ -127,7 +147,7 @@
               "background": "transparent",
               "border": "none",
               "boxShadow": "none",
-              "outline": "none",
+              "outline": "none"
             }
           }
         }
