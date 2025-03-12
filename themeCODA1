@@ -125,7 +125,7 @@
               "background": "transparent",
               "border": "none",
               "boxShadow": "none",
-              "outline": "1xp"
+              "outline": "2px solid #ffffff"
             }
           }
         }
