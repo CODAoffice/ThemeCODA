@@ -158,14 +158,7 @@
         }
       },
       "Viewport": {
-        "defaultProps": {
-          "styles": {
-            "root": {
-              "background": "transparent",
-              "border": "none"
-            }
-          }
-        }
+        "defaultProps": {}
       },
       "Parameter": {
         "defaultProps": {
