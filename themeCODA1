@@ -168,6 +168,22 @@
             }
           }
         }
+      },
+      "Tabs": {
+        "defaultProps": {
+          "styles": {
+            "tab": {
+              "color": "#FFFFFF",
+              "fontFamily": "'Montserrat', sans-serif",
+              "fontWeight": "normal"
+            },
+            "tabLabel": {
+              "color": "#FFFFFF",
+              "fontFamily": "'Montserrat', sans-serif",
+              "fontWeight": "normal"
+            }
+          }
+        }
       }
     }
   }
