@@ -140,4 +140,45 @@
             "logo": "https://i.ibb.co/0pcvkc3P/LOGO-WHITE.png"
           },
           "dark": {
-            "logo": "https://i.ibb.co/0
+            "logo": "https://i.ibb.co/0pcvkc3P/LOGO-WHITE.png"
+          }
+        }
+      },
+      "Input": {
+        "defaultProps": {
+          "styles": {
+            "input": {
+              "background": "transparent",
+              "border": "none",
+              "boxShadow": "none",
+              "outline": "2px solid #ffffff",
+              "color": "#FFFFFF"
+            }
+          }
+        }
+      },
+      "Viewport": {
+        "defaultProps": {
+          "styles": {
+            "root": {
+              "background": "transparent",
+              "border": "none"
+            }
+          }
+        }
+      },
+      "Parameter": {
+        "defaultProps": {
+          "styles": {
+            "root": {
+              "background": "transparent",
+              "border": "none",
+              "boxShadow": "none",
+              "outline": "none"
+            }
+          }
+        }
+      }
+    }
+  }
+}
