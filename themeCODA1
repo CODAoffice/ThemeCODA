@@ -181,6 +181,9 @@
               "color": "#FFFFFF",
               "fontFamily": "'Montserrat', sans-serif",
               "fontWeight": "normal"
+            },
+            "root": {
+              "backgroundColor": "rgba(0, 0, 0, 0.75)"
             }
           }
         }
