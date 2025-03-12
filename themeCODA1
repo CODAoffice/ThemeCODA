@@ -76,36 +76,62 @@
         "defaultProps": {
           "styles": {
             "label": {
-              "fontWeight": "300"
+              "fontWeight": "300",
+              "color": "#FFFFFF"  // Color blanco para el texto
             }
           }
         }
       },
       "Button": {
         "defaultProps": {
-          "fw": "300"
+          "fw": "300",
+          "styles": {
+            "label": {
+              "color": "#FFFFFF"  // Texto de botones en blanco
+            }
+          }
         }
       },
       "ExportLabelComponent": {
         "defaultProps": {
-          "fontWeight": "100"
+          "fontWeight": "100",
+          "styles": {
+            "label": {
+              "color": "#FFFFFF"  // Texto de la etiqueta de exportación en blanco
+            }
+          }
         }
       },
       "MarkdownWidgetComponent": {
         "defaultProps": {
           "boldFontWeight": "200",
-          "strongFontWeight": "200"
+          "strongFontWeight": "200",
+          "styles": {
+            "root": {
+              "color": "#FFFFFF"  // Texto en el widget de Markdown en blanco
+            }
+          }
         }
       },
       "ParameterLabelComponent": {
         "defaultProps": {
-          "fontWeight": "100"
+          "fontWeight": "100",
+          "styles": {
+            "label": {
+              "color": "#FFFFFF"  // Texto de los parámetros en blanco
+            }
+          }
         }
       },
       "Text": {
         "defaultProps": {
           "fw": "100",
-          "size": "sm"
+          "size": "sm",
+          "styles": {
+            "root": {
+              "color": "#FFFFFF"  // Color blanco para todos los textos
+            }
+          }
         }
       },
       "ViewportBranding": {
@@ -125,7 +151,8 @@
               "background": "transparent",
               "border": "none",
               "boxShadow": "none",
-              "outline": "2px solid #ffffff"
+              "outline": "2px solid #ffffff",
+              "color": "#FFFFFF"  // Texto dentro de inputs en blanco
             }
           }
         }
