@@ -75,12 +75,15 @@
       "Accordion": {
         "defaultProps": {
           "styles": {
+            "root": {
+              "backgroundColor": "transparent",  // Aseguramos que el fondo sea transparente si es necesario
+            },
             "label": {
               "fontWeight": "300",
-              "color": "#FFFFFF"
+              "color": "#FFFFFF",  // Establecemos color blanco para el label
             },
             "content": {
-              "color": "#FFFFFF"
+              "color": "#FFFFFF"  // Aseguramos que el contenido del acordeón también sea blanco
             }
           }
         }
