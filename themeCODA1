@@ -217,6 +217,16 @@
             }
           }
         }
+      },
+      "AppBuilderImage": {
+        "defaultProps": {
+          "withBorder": false
+        }
+      },
+      "Paper": {
+        "defaultProps": {
+          "withBorder": false
+        }
       }
     }
   }
