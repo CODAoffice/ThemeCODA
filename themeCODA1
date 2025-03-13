@@ -95,55 +95,36 @@
           }
         }
       },
-      "ExportLabelComponent": {
+      "Select": {
         "defaultProps": {
-          "fontWeight": "100",
-          "styles": {
-            "label": {
-              "color": "#FFFFFF"
-            }
-          }
-        }
-      },
-      "MarkdownWidgetComponent": {
-        "defaultProps": {
-          "boldFontWeight": "200",
-          "strongFontWeight": "200",
           "styles": {
             "root": {
-              "color": "#FFFFFF"
+              "background": "rgba(169, 169, 169, 0.5)",  // Gris transparente
+              "border": "none",
+              "boxShadow": "none",
+              "outline": "none"
+            },
+            "input": {
+              "color": "#FFFFFF",  // Texto blanco
+              "background": "transparent",  // Fondo transparente
+              "border": "none",
+              "boxShadow": "none",
+              "outline": "none"
+            },
+            "dropdown": {
+              "background": "rgba(169, 169, 169, 0.5)",  // Fondo gris transparente para el dropdown
+              "color": "#FFFFFF",  // Texto blanco en el dropdown
+              "border": "none",
+              "boxShadow": "none"
+            },
+            "item": {
+              "background": "rgba(169, 169, 169, 0.5)",  // Fondo gris para las opciones
+              "color": "#FFFFFF",  // Texto blanco en las opciones
+              ":hover": {
+                "background": "rgba(169, 169, 169, 0.7)",  // Fondo un poco más oscuro al hacer hover
+                "color": "#FFFFFF"  // Texto sigue siendo blanco
+              }
             }
-          }
-        }
-      },
-      "ParameterLabelComponent": {
-        "defaultProps": {
-          "fontWeight": "100",
-          "styles": {
-            "label": {
-              "color": "#FFFFFF"
-            }
-          }
-        }
-      },
-      "Text": {
-        "defaultProps": {
-          "fw": "100",
-          "size": "sm",
-          "styles": {
-            "root": {
-              "color": "#FFFFFF"
-            }
-          }
-        }
-      },
-      "ViewportBranding": {
-        "defaultProps": {
-          "light": {
-            "logo": "https://i.ibb.co/0pcvkc3P/LOGO-WHITE.png"
-          },
-          "dark": {
-            "logo": "https://i.ibb.co/0pcvkc3P/LOGO-WHITE.png"
           }
         }
       },
@@ -244,4 +225,3 @@
     }
   }
 }
-
