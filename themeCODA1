@@ -99,7 +99,7 @@
         "defaultProps": {
           "styles": {
             "root": {
-              "background": "rgba(169, 169, 169, 0.2)",
+              "background": "rgba(99, 99, 99)",
               "border": "none",
               "boxShadow": "none",
               "outline": "none"
@@ -112,16 +112,16 @@
               "outline": "none"
             },
             "dropdown": {
-              "background": "rgba(169, 169, 169, 0.2)",
+              "background": "rgba(99, 99, 99)",
               "color": "#FFFFFF",
               "border": "none",
               "boxShadow": "none"
             },
             "item": {
-              "background": "rgba(169, 169, 169, 0.2)",
+              "background": "rgba(99, 99, 99)",
               "color": "#FFFFFF",
               ":hover": {
-                "background": "rgba(169, 169, 169, 0.2)",
+                "background": "rgba(99, 99, 99)",
                 "color": "#FFFFFF"
               }
             },
