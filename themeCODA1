@@ -76,14 +76,14 @@
         "defaultProps": {
           "styles": {
             "root": {
-              "backgroundColor": "transparent",  // Aseguramos que el fondo sea transparente si es necesario
+              "backgroundColor": "transparent",  
             },
             "label": {
               "fontWeight": "300",
-              "color": "#FFFFFF",  // Establecemos color blanco para el label
+              "color": "#FFFFFF",  
             },
             "content": {
-              "color": "#FFFFFF"  // Aseguramos que el contenido del acordeón también sea blanco
+              "color": "#FFFFFF"  
             }
           }
         }
