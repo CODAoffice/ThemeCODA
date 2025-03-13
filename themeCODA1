@@ -209,7 +209,8 @@
               "color": "#FFFFFF",
               "fontFamily": "'Montserrat', sans-serif",
               "fontWeight": "normal",
-              "width": "100%" 
+              "flex": "1",  
+              "minWidth": "0"  
             },
             "tabLabel": {
               "color": "#FFFFFF",
@@ -217,7 +218,8 @@
               "fontWeight": "normal"
             },
             "root": {
-              "width": "100%" 
+              "width": "100%", 
+              "display": "flex" 
             }
           }
         }
