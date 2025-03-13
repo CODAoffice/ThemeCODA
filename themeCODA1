@@ -227,6 +227,19 @@
         "defaultProps": {
           "withBorder": false
         }
+      },
+      "AppBuilderAppShellTemplatePage": {
+        "defaultProps": {
+          "columns": {
+            "base": 1,  
+            "lg": 2     
+          },
+          "rightColumns": 0,  
+          "navbarWidth": {
+            "md": 250,
+            "lg": 300
+          }
+        }
       }
     }
   }
