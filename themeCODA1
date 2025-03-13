@@ -205,6 +205,11 @@
       "Tabs": {
         "defaultProps": {
           "styles": {
+            "root": {
+              "display": "flex",  
+              "width": "100%",    
+              "justifyContent": "space-evenly"  
+            },
             "tab": {
               "color": "#FFFFFF",
               "fontFamily": "'Montserrat', sans-serif",
@@ -216,10 +221,6 @@
               "color": "#FFFFFF",
               "fontFamily": "'Montserrat', sans-serif",
               "fontWeight": "normal"
-            },
-            "root": {
-              "width": "100%", 
-              "display": "flex" 
             }
           }
         }
