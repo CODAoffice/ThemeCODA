@@ -102,7 +102,7 @@
               "background": "transparent",
               "border": "none",
               "boxShadow": "none",
-              "outline": "2px solid #ffffff"
+              "outline": "1px solid #ffffff"
             },
             "input": {
               "color": "#FFFFFF",
@@ -112,7 +112,7 @@
               "outline": "none"
             },
             "dropdown": {
-              "background": "rgba(99, 99, 99, 0.8)",
+              "background": "rgba(99, 99, 99)",
               "color": "#FFFFFF",
               "border": "none",
               "boxShadow": "none"
