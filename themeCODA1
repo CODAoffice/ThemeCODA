@@ -75,15 +75,12 @@
       "Accordion": {
         "defaultProps": {
           "styles": {
-            "root": {
-              "backgroundColor": "transparent",  
-            },
             "label": {
               "fontWeight": "300",
-              "color": "#FFFFFF",  
+              "color": "#FFFFFF"
             },
             "content": {
-              "color": "#FFFFFF"  
+              "color": "#FFFFFF"
             }
           }
         }
