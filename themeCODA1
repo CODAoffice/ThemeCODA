@@ -154,6 +154,27 @@
           }
         }
       },
+      "TextInput": {
+        "defaultProps": {
+          "styles": {
+            "label": {
+              "color": "#FFFFFF"
+            },
+            "input": {
+              "color": "#FFFFFF"
+            }
+          }
+        }
+      },
+      "Text": {
+        "defaultProps": {
+          "styles": {
+            "root": {
+              "color": "#FFFFFF"
+            }
+          }
+        }
+      },
       "Tabs": {
         "defaultProps": {
           "styles": {
