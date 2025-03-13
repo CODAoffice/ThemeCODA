@@ -99,29 +99,29 @@
         "defaultProps": {
           "styles": {
             "root": {
-              "background": "rgba(169, 169, 169, 0.5)",  // Gris transparente
+              "background": "rgba(169, 169, 169, 0.5)",  
               "border": "none",
               "boxShadow": "none",
               "outline": "none"
             },
             "input": {
               "color": "#FFFFFF",  // Texto blanco
-              "background": "transparent",  // Fondo transparente
+              "background": "transparent", 
               "border": "none",
               "boxShadow": "none",
               "outline": "none"
             },
             "dropdown": {
-              "background": "rgba(169, 169, 169, 0.5)",  // Fondo gris transparente para el dropdown
-              "color": "#FFFFFF",  // Texto blanco en el dropdown
+              "background": "rgba(169, 169, 169, 0.5)",  
+              "color": "#FFFFFF",  
               "border": "none",
               "boxShadow": "none"
             },
             "item": {
-              "background": "rgba(169, 169, 169, 0.5)",  // Fondo gris para las opciones
-              "color": "#FFFFFF",  // Texto blanco en las opciones
+              "background": "rgba(169, 169, 169, 0.5)",  
+              "color": "#FFFFFF",  
               ":hover": {
-                "background": "rgba(169, 169, 169, 0.7)",  // Fondo un poco más oscuro al hacer hover
+                "background": "rgba(169, 169, 169, 0.7)", 
                 "color": "#FFFFFF"  // Texto sigue siendo blanco
               }
             }
