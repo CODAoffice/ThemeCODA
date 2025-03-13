@@ -209,7 +209,8 @@
               "color": "#FFFFFF",
               "fontFamily": "'Montserrat', sans-serif",
               "fontWeight": "normal",
-              "width": "50%"
+              "width": "50%",
+              "backgroundColor": "rgba(0, 0, 0, 0.2)"
             },
             "tabLabel": {
               "color": "#FFFFFF",
@@ -218,8 +219,11 @@
             },
             "root": {
               "width": "100%",
-              "backgroundColor": "rgba(0, 0, 0, 0.5)",
-              "height": "100%"
+              "backgroundColor": "rgba(0, 0, 0, 0.6)",
+              "height": "auto"
+            },
+            "tabActive": {
+              "backgroundColor": "rgba(0, 0, 0, 0.6)"
             }
           }
         }
