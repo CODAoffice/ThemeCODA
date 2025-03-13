@@ -209,7 +209,7 @@
               "color": "#FFFFFF",
               "fontFamily": "'Montserrat', sans-serif",
               "fontWeight": "normal",
-              "width": "50%"  // Aseguramos que cada tab tenga el 50% del ancho
+              "width": "50%" 
             },
             "tabLabel": {
               "color": "#FFFFFF",
@@ -217,7 +217,7 @@
               "fontWeight": "normal"
             },
             "root": {
-              "width": "100%" // Aseguramos que el contenedor de las pestañas ocupe todo el ancho disponible
+              "width": "100%"
             }
           }
         }
