@@ -99,10 +99,10 @@
         "defaultProps": {
           "styles": {
             "root": {
-              "background": "rgba(99, 99, 99)",
+              "background": "transparent",
               "border": "none",
               "boxShadow": "none",
-              "outline": "none"
+              "outline": "2px solid #ffffff"
             },
             "input": {
               "color": "#FFFFFF",
@@ -112,7 +112,7 @@
               "outline": "none"
             },
             "dropdown": {
-              "background": "rgba(99, 99, 99)",
+              "background": "rgba(99, 99, 99, 0.2)",
               "color": "#FFFFFF",
               "border": "none",
               "boxShadow": "none"
