@@ -208,16 +208,16 @@
             "root": {
               "display": "flex",  
               "flexDirection": "row",  
-              "width": "100%",    
+              "width": "100%",  
               "justifyContent": "space-evenly"  
             },
             "tab": {
               "color": "#FFFFFF",
               "fontFamily": "'Montserrat', sans-serif",
               "fontWeight": "normal",
-              "flex": "1",  
-              "minWidth": "0",  
-              "textAlign": "center"  
+              "flex": "1", 
+              "minWidth": "0", 
+              "textAlign": "center" 
             },
             "tabLabel": {
               "color": "#FFFFFF",
