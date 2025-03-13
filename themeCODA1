@@ -148,7 +148,8 @@
               "background": "transparent",
               "border": "none",
               "boxShadow": "none",
-              "outline": "none"
+              "outline": "none",
+              "color": "#FFFFFF"
             }
           }
         }
