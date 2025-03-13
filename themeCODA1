@@ -208,12 +208,16 @@
             "tab": {
               "color": "#FFFFFF",
               "fontFamily": "'Montserrat', sans-serif",
-              "fontWeight": "normal"
+              "fontWeight": "normal",
+              "width": "100%" 
             },
             "tabLabel": {
               "color": "#FFFFFF",
               "fontFamily": "'Montserrat', sans-serif",
               "fontWeight": "normal"
+            },
+            "root": {
+              "width": "100%" 
             }
           }
         }
