@@ -192,6 +192,12 @@
             },
             "label": {
               "color": "#FFFFFF"
+            },
+            "mark": {
+              "color": "#FFFFFF"
+            },
+            "markLabel": {
+              "color": "#FFFFFF"
             }
           }
         }
@@ -223,24 +229,6 @@
             },
             "thumb": {
               "background": "#FFFFFF"
-            }
-          }
-        }
-      },
-      "Slider": {
-        "defaultProps": {
-          "styles": {
-            "root": {
-              "color": "#FFFFFF"
-            },
-            "track": {
-              "background": "#FFFFFF"
-            },
-            "thumb": {
-              "background": "#FFFFFF"
-            },
-            "label": {
-              "color": "#FFFFFF"
             }
           }
         }
