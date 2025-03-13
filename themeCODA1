@@ -236,8 +236,8 @@
           },
           "rightColumns": 0,  
           "navbarWidth": {
-            "md": 250,
-            "lg": 300
+            "md": 500,
+            "lg": 600
           }
         }
       }
