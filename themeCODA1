@@ -219,7 +219,7 @@
             "root": {
               "width": "100%",
               "backgroundColor": "rgba(0, 0, 0, 0.5)",
-              "height": "auto"
+              "height": "100%"
             }
           }
         }
