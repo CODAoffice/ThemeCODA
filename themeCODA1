@@ -206,18 +206,18 @@
         "defaultProps": {
           "styles": {
             "root": {
-              "display": "flex",  // Usamos flexbox para alinear las tabs horizontalmente
-              "flexDirection": "row",  // Las tabs estarán en una fila
-              "width": "100%",    // El contenedor de las tabs toma todo el ancho
-              "justifyContent": "space-evenly"  // Distribuye las tabs de manera uniforme
+              "display": "flex",  
+              "flexDirection": "row",  
+              "width": "100%",    
+              "justifyContent": "space-evenly"  
             },
             "tab": {
               "color": "#FFFFFF",
               "fontFamily": "'Montserrat', sans-serif",
               "fontWeight": "normal",
-              "flex": "1",  // Hace que cada tab ocupe un 33% o 50% si hay 3 o 2 respectivamente
-              "minWidth": "0",  // No hay un ancho mínimo para las tabs
-              "textAlign": "center"  // Centra el texto dentro de cada tab
+              "flex": "1",  
+              "minWidth": "0",  
+              "textAlign": "center"  
             },
             "tabLabel": {
               "color": "#FFFFFF",
