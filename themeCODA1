@@ -272,7 +272,7 @@
           "enableArBtn": false,
           "enableCamerasBtn": false,
           "enableFullscreenBtn": false,
-          "enableZoomBtn": true
+          "enableZoomBtn": false
         }
       }
     }
