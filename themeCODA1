@@ -210,7 +210,7 @@
               "fontFamily": "'Montserrat', sans-serif",
               "fontWeight": "normal",
               "width": "50%",
-              "backgroundColor": "rgba(0, 0, 0, 0.2)"
+              "backgroundColor": "transparent"
             },
             "tabLabel": {
               "color": "#FFFFFF",
@@ -219,7 +219,7 @@
             },
             "root": {
               "width": "100%",
-              "backgroundColor": "rgba(0, 0, 0, 0.6)",
+              "backgroundColor": "transparent",
               "height": "auto"
             },
             "tabActive": {
