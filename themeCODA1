@@ -223,10 +223,8 @@
               "height": "100%"
             },
             "tabActive": {
-              "width": "100%",
               "backgroundColor": "rgba(0, 0, 0, 0.6)"
-              "height": "100%"
-            },
+            }
           }
         }
       },
