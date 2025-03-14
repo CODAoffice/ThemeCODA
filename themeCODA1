@@ -258,16 +258,21 @@
           "columns": {
             "base": 1,
             "lg": 2
+          },
+          "rightColumns": 0,
+          "navbarWidth": {
+            "md": 500,
+            "lg": 600
           }
         }
       },
       "ViewportIcons": {
         "defaultProps": {
           "color": "#670000",
-          "enableArBtn": false,
+          "enableArBtn": true,
           "enableCamerasBtn": false,
           "enableFullscreenBtn": false,
-          "enableZoomBtn": false
+          "enableZoomBtn": true
         }
       }
     }
