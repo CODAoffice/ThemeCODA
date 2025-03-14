@@ -269,7 +269,7 @@
       "ViewportIcons": {
         "defaultProps": {
           "color": "#670000",
-          "enableArBtn": true,
+          "enableArBtn": false,
           "enableCamerasBtn": false,
           "enableFullscreenBtn": false,
           "enableZoomBtn": true
