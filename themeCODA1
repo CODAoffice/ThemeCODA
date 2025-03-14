@@ -263,12 +263,6 @@
           "navbarWidth": {
             "md": 500,
             "lg": 600
-          },
-          "styles": {
-            "root": {
-              "border": "none", 
-              "boxShadow": "none"
-            }
           }
         }
       },
@@ -279,6 +273,15 @@
           "enableCamerasBtn": false,
           "enableFullscreenBtn": false,
           "enableZoomBtn": false
+        }
+      },
+      "AppShell": {
+        "defaultProps": {
+          "styles": {
+            "navbar": {
+              "backgroundColor": "rgba(0, 0, 0, 0.6)"
+            }
+          }
         }
       }
     }
