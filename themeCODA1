@@ -263,6 +263,12 @@
           "navbarWidth": {
             "md": 500,
             "lg": 600
+          },
+          "styles": {
+            "root": {
+              "border": "none", 
+              "boxShadow": "none"
+            }
           }
         }
       },
@@ -278,4 +284,3 @@
     }
   }
 }
-
