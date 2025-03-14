@@ -180,6 +180,7 @@
       },
       "Slider": {
         "defaultProps": {
+          "value": null, 
           "styles": {
             "root": {
               "color": "#FFFFFF"
