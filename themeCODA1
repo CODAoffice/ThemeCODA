@@ -258,7 +258,8 @@
           "columns": {
             "base": 1,
             "lg": 2
-          }
+          },
+          "rightColumns": 0
         }
       },
       "ViewportIcons": {
