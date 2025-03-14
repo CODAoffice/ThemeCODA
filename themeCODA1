@@ -157,18 +157,6 @@
           }
         }
       },
-      "TextInput": {
-        "defaultProps": {
-          "styles": {
-            "label": {
-              "color": "#FFFFFF"
-            },
-            "input": {
-              "color": "#FFFFFF"
-            }
-          }
-        }
-      },
       "Text": {
         "defaultProps": {
           "styles": {
@@ -210,7 +198,7 @@
               "fontFamily": "'Montserrat', sans-serif",
               "fontWeight": "normal",
               "width": "50%",
-              "backgroundColor": "transparent"
+              "backgroundColor": "rgba(0, 0, 0, 0.2)"
             },
             "tabLabel": {
               "color": "#FFFFFF",
@@ -219,7 +207,7 @@
             },
             "root": {
               "width": "100%",
-              "backgroundColor": "transparent",
+              "backgroundColor": "rgba(0, 0, 0, 0.6)",
               "height": "auto"
             },
             "tabActive": {
