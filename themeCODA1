@@ -220,7 +220,7 @@
             "root": {
               "width": "100%",
               "backgroundColor": "rgba(0, 0, 0, 0.6)",
-              "height": "auto"
+              "height": "100%"
             },
             "tabActive": {
               "backgroundColor": "rgba(0, 0, 0, 0.6)"
