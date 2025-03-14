@@ -72,6 +72,22 @@
       "forceColorScheme": "light"
     },
     "components": {
+      "Table": {
+        "defaultProps": {
+          "withRowBorders": false,
+          "styles": {
+            "root": {
+              "color": "#FFFFFF"
+            },
+            "thead": {
+              "color": "#FFFFFF"
+            },
+            "tbody": {
+              "color": "#FFFFFF"
+            }
+          }
+        }
+      },
       "Accordion": {
         "defaultProps": {
           "styles": {
@@ -139,19 +155,6 @@
               "border": "none",
               "boxShadow": "none",
               "outline": "2px solid #ffffff",
-              "color": "#FFFFFF"
-            }
-          }
-        }
-      },
-      "Parameter": {
-        "defaultProps": {
-          "styles": {
-            "root": {
-              "background": "transparent",
-              "border": "none",
-              "boxShadow": "none",
-              "outline": "none",
               "color": "#FFFFFF"
             }
           }
