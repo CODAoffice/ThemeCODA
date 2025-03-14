@@ -220,7 +220,7 @@
             "root": {
               "width": "100%",
               "backgroundColor": "rgba(0, 0, 0, 0.6)",
-              "height": "100%"
+              "height": "auto"
             },
             "tabActive": {
               "backgroundColor": "rgba(0, 0, 0, 0.6)"
@@ -258,8 +258,7 @@
           "columns": {
             "base": 1,
             "lg": 2
-          },
-          "rightColumns": 0
+          }
         }
       },
       "ViewportIcons": {
