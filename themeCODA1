@@ -80,25 +80,27 @@
               "color": "#FFFFFF"
             },
             "thead": {
-              "color": "#FFFFFF"
+              "color": "#FFFFFF",
+              "textAlign": "center" 
             },
             "tbody": {
-              "color": "#FFFFFF"
+              "color": "#FFFFFF",
+              "textAlign": "center" 
             }
-          },
-          "columns": [
-            {
-              "accessorKey": "Summary",
-              "header": "Summary",
-              "mantineTableHeadCellProps": {
-                "align": "center"
-              },
-              "mantineTableBodyCellProps": {
-                "align": "center"
-              }
+          }
+        },
+        "columns": [
+          {
+            "accessorKey": "Summary",
+            "header": "Summary",
+            "mantineTableHeadCellProps": {
+              "align": "center"
+            },
+            "mantineTableBodyCellProps": {
+              "align": "center"
             }
-          ]
-        }
+          }
+        ]
       },
       "Accordion": {
         "defaultProps": {
