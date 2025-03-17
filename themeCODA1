@@ -74,18 +74,18 @@
     "components": {
       "Table": {
         "defaultProps": {
-          "withRowBorders": false,
+          "withRowBorders": true,
           "styles": {
             "root": {
               "color": "#FFFFFF"
             },
             "thead": {
               "color": "#FFFFFF",
-              "textAlign": "right" 
+              "textAlign": "center"  
             },
             "tbody": {
               "color": "#FFFFFF",
-              "textAlign": "right" 
+              "textAlign": "center"  
             }
           }
         },
@@ -94,10 +94,10 @@
             "accessorKey": "Summary",
             "header": "Summary",
             "mantineTableHeadCellProps": {
-              "align": "right"
+              "align": "left"
             },
             "mantineTableBodyCellProps": {
-              "align": "right"
+              "align": "left"
             }
           }
         ]
