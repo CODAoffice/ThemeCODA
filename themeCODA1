@@ -81,11 +81,11 @@
             },
             "thead": {
               "color": "#FFFFFF",
-              "textAlign": "center" 
+              "textAlign": "right" 
             },
             "tbody": {
               "color": "#FFFFFF",
-              "textAlign": "center" 
+              "textAlign": "right" 
             }
           }
         },
