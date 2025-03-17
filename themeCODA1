@@ -89,7 +89,7 @@
           "columns": [
             {
               "accessorKey": "n",
-              "header": "N",
+              "header": "n",
               "mantineTableHeadCellProps": {
                 "align": "right"
               },
