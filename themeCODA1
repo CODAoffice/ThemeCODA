@@ -74,7 +74,7 @@
     "components": {
       "Table": {
         "defaultProps": {
-          "withRowBorders": false,
+          "withRowBorders": true,
           "styles": {
             "root": {
               "color": "#FFFFFF"
@@ -86,7 +86,7 @@
               "color": "#FFFFFF"
             }
           },
-          "spacing": "10px"
+          "spacing": "1px"
         },
         "columns": [
           {
