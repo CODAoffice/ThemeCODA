@@ -116,6 +116,16 @@
               "mantineTableBodyCellProps": {
                 "align": "right"
               }
+            },
+            {
+              "accessorKey": "n",
+              "header": "N",
+              "mantineTableHeadCellProps": {
+                "align": "right"
+              },
+              "mantineTableBodyCellProps": {
+                "align": "right"
+              }
             }
           ]
         }
@@ -215,7 +225,7 @@
       },
       "Slider": {
         "defaultProps": {
-          "value": null, 
+          "value": null,
           "styles": {
             "root": {
               "color": "#FFFFFF"
