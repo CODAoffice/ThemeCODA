@@ -85,7 +85,8 @@
             "tbody": {
               "color": "#FFFFFF"
             }
-          }
+          },
+          "spacing": "10px"
         },
         "columns": [
           {
