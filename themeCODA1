@@ -74,7 +74,7 @@
     "components": {
       "Table": {
         "defaultProps": {
-          "withRowBorders": false,
+          "withRowBorders": true,
           "styles": {
             "root": {
               "color": "#FFFFFF"
@@ -92,20 +92,28 @@
             "accessorKey": "Summary",
             "header": "Summary",
             "mantineTableHeadCellProps": {
-              "sx": { "textAlign": "right" }
+              "sx": {
+                "textAlign": "right"
+              }
             },
             "mantineTableBodyCellProps": {
-              "sx": { "textAlign": "right" }
+              "sx": {
+                "textAlign": "right"
+              }
             }
           },
           {
             "accessorKey": "n",
             "header": "n",
             "mantineTableHeadCellProps": {
-              "sx": { "textAlign": "left" }
+              "sx": {
+                "textAlign": "left"
+              }
             },
             "mantineTableBodyCellProps": {
-              "sx": { "textAlign": "left" }
+              "sx": {
+                "textAlign": "left"
+              }
             }
           }
         ]
