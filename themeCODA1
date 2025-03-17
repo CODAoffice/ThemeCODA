@@ -75,7 +75,7 @@
   "components": {
     "Table": {
       "defaultProps": {
-        "withRowBorders": true,
+        "withRowBorders": false,
         "styles": {
           "root": {
             "color": "#FFFFFF"
