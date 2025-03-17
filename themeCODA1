@@ -74,18 +74,18 @@
     "components": {
       "Table": {
         "defaultProps": {
-          "withRowBorders": false,
+          "withRowBorders": true,
           "styles": {
             "root": {
               "color": "#FFFFFF"
             },
             "thead": {
               "color": "#FFFFFF",
-              "textAlign": "center"  // Alineación de los encabezados
+              "textAlign": "right" 
             },
             "tbody": {
               "color": "#FFFFFF",
-              "textAlign": "center"  // Alineación de las celdas
+              "textAlign": "right" 
             }
           }
         },
@@ -94,10 +94,10 @@
             "accessorKey": "Summary",
             "header": "Summary",
             "mantineTableHeadCellProps": {
-              "align": "center"
+              "align": "left"
             },
             "mantineTableBodyCellProps": {
-              "align": "center"
+              "align": "left"
             }
           }
         ]
