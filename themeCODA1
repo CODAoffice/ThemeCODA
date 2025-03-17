@@ -88,8 +88,8 @@
           },
           "columns": [
             {
-              "accessorKey": "n",
-              "header": "n",
+              "accessorKey": "Summary",
+              "header": "Summary",
               "mantineTableHeadCellProps": {
                 "align": "center"
               }
