@@ -80,12 +80,10 @@
               "color": "#FFFFFF"
             },
             "thead": {
-              "color": "#FFFFFF",
-              "textAlign": "center"  
+              "color": "#FFFFFF"
             },
             "tbody": {
-              "color": "#FFFFFF",
-              "textAlign": "center"  
+              "color": "#FFFFFF"
             }
           }
         },
@@ -98,6 +96,16 @@
             },
             "mantineTableBodyCellProps": {
               "align": "right"
+            }
+          },
+          {
+            "accessorKey": "n",
+            "header": "n",
+            "mantineTableHeadCellProps": {
+              "align": "left"
+            },
+            "mantineTableBodyCellProps": {
+              "align": "left"
             }
           }
         ]
