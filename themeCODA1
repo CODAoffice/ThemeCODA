@@ -71,22 +71,22 @@
       "defaultFontWeight": "100",
       "forceColorScheme": "light"
     },
-    "components": {
-      "Table": {
-        "defaultProps": {
-          "withRowBorders": true,
-          "styles": {
-            "root": {
-              "color": "#FFFFFF"
-            },
-            "thead": {
-              "color": "#FFFFFF",
-              "textAlign": "right" 
-            },
-            "tbody": {
-              "color": "#FFFFFF",
-              "textAlign": "right" 
-            }
+{
+  "components": {
+    "Table": {
+      "defaultProps": {
+        "withRowBorders": true,
+        "styles": {
+          "root": {
+            "color": "#FFFFFF"
+          },
+          "thead": {
+            "color": "#FFFFFF",
+            "textAlign": "right"
+          },
+          "tbody": {
+            "color": "#FFFFFF",
+            "textAlign": "right"
           }
         },
         "columns": [
