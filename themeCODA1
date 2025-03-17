@@ -85,7 +85,39 @@
             "tbody": {
               "color": "#FFFFFF"
             }
-          }
+          },
+          "columns": [
+            {
+              "accessorKey": "id",
+              "header": "ID",
+              "mantineTableHeadCellProps": {
+                "align": "left"
+              },
+              "mantineTableBodyCellProps": {
+                "align": "left"
+              }
+            },
+            {
+              "accessorKey": "username",
+              "header": "Username",
+              "mantineTableHeadCellProps": {
+                "align": "center"
+              },
+              "mantineTableBodyCellProps": {
+                "align": "center"
+              }
+            },
+            {
+              "accessorKey": "lastColumn",
+              "header": "Last Column",
+              "mantineTableHeadCellProps": {
+                "align": "right"
+              },
+              "mantineTableBodyCellProps": {
+                "align": "right"
+              }
+            }
+          ]
         }
       },
       "Accordion": {
