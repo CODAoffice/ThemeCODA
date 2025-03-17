@@ -71,22 +71,22 @@
       "defaultFontWeight": "100",
       "forceColorScheme": "light"
     },
-{
-  "components": {
-    "Table": {
-      "defaultProps": {
-        "withRowBorders": false,
-        "styles": {
-          "root": {
-            "color": "#FFFFFF"
-          },
-          "thead": {
-            "color": "#FFFFFF",
-            "textAlign": "right"
-          },
-          "tbody": {
-            "color": "#FFFFFF",
-            "textAlign": "right"
+    "components": {
+      "Table": {
+        "defaultProps": {
+          "withRowBorders": false,
+          "styles": {
+            "root": {
+              "color": "#FFFFFF"
+            },
+            "thead": {
+              "color": "#FFFFFF",
+              "textAlign": "center"  // Alineación de los encabezados
+            },
+            "tbody": {
+              "color": "#FFFFFF",
+              "textAlign": "center"  // Alineación de las celdas
+            }
           }
         },
         "columns": [
@@ -94,10 +94,10 @@
             "accessorKey": "Summary",
             "header": "Summary",
             "mantineTableHeadCellProps": {
-              "align": "left"
+              "align": "center"
             },
             "mantineTableBodyCellProps": {
-              "align": "left"
+              "align": "center"
             }
           }
         ]
