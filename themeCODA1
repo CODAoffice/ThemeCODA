@@ -91,10 +91,7 @@
               "accessorKey": "n",
               "header": "n",
               "mantineTableHeadCellProps": {
-                "align": "right"
-              },
-              "mantineTableBodyCellProps": {
-                "align": "right"
+                "align": "center"
               }
             }
           ]
