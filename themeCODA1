@@ -189,6 +189,21 @@
               "outline": "2px solid #ffffff",
               "color": "#FFFFFF"
             }
+          },
+          "ClearButton": {
+            "styles": {
+              "color": "#FFFFFF",
+              "backgroundColor": "#FF914D",
+              "borderRadius": "50%",
+              "width": "24px",
+              "height": "24px",
+              "display": "flex",
+              "alignItems": "center",
+              "justifyContent": "center",
+              ":hover": {
+                "backgroundColor": "#FF914D"
+              }
+            }
           }
         }
       },
@@ -323,4 +338,3 @@
     }
   }
 }
-
