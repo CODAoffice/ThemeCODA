@@ -74,7 +74,7 @@
     "components": {
       "Table": {
         "defaultProps": {
-          "withRowBorders": false,
+          "withRowBorders": true,
           "styles": {
             "root": {
               "color": "#FFFFFF"
@@ -86,7 +86,7 @@
               "color": "#FFFFFF"
             }
           },
-          "spacing": "1px"
+          "spacing": "2px"
         },
         "columns": [
           {
@@ -174,147 +174,6 @@
             },
             "rightSection": {
               "color": "#FFFFFF"
-            }
-          }
-        }
-      },
-      "Input": {
-        "defaultProps": {
-          "styles": {
-            "input": {
-              "background": "transparent",
-              "border": "none",
-              "boxShadow": "none",
-              "outline": "2px solid #ffffff",
-              "color": "#FFFFFF"
-            }
-          }
-        }
-      },
-      "TextInput": {
-        "defaultProps": {
-          "styles": {
-            "label": {
-              "color": "#FFFFFF"
-            },
-            "input": {
-              "color": "#FFFFFF"
-            }
-          }
-        }
-      },
-      "Text": {
-        "defaultProps": {
-          "styles": {
-            "root": {
-              "color": "#FFFFFF"
-            }
-          }
-        }
-      },
-      "Slider": {
-        "defaultProps": {
-          "value": null,
-          "styles": {
-            "root": {
-              "color": "#FFFFFF"
-            },
-            "track": {
-              "background": "#FFFFFF"
-            },
-            "thumb": {
-              "background": "#FFFFFF"
-            },
-            "label": {
-              "color": "#FFFFFF"
-            },
-            "mark": {
-              "color": "#FFFFFF"
-            },
-            "markLabel": {
-              "color": "#FFFFFF"
-            }
-          }
-        }
-      },
-      "Tabs": {
-        "defaultProps": {
-          "styles": {
-            "tab": {
-              "color": "#FFFFFF",
-              "fontFamily": "'Montserrat', sans-serif",
-              "fontWeight": "normal",
-              "width": "50%",
-              "backgroundColor": "transparent"
-            },
-            "tabLabel": {
-              "color": "#FFFFFF",
-              "fontFamily": "'Montserrat', sans-serif",
-              "fontWeight": "normal"
-            },
-            "root": {
-              "width": "100%",
-              "backgroundColor": "transparent",
-              "height": "auto"
-            },
-            "tabActive": {
-              "backgroundColor": "transparent"
-            }
-          }
-        }
-      },
-      "Switch": {
-        "defaultProps": {
-          "styles": {
-            "root": {
-              "color": "#FFFFFF"
-            },
-            "track": {
-              "background": "transparent"
-            },
-            "thumb": {
-              "background": "#FFFFFF"
-            }
-          }
-        }
-      },
-      "AppBuilderImage": {
-        "defaultProps": {
-          "withBorder": false
-        }
-      },
-      "Paper": {
-        "defaultProps": {
-          "withBorder": false
-        }
-      },
-      "AppBuilderAppShellTemplatePage": {
-        "defaultProps": {
-          "columns": {
-            "base": 1,
-            "lg": 2
-          },
-          "rightColumns": 0,
-          "navbarWidth": {
-            "md": 500,
-            "lg": 600
-          }
-        }
-      },
-      "ViewportIcons": {
-        "defaultProps": {
-          "color": "#670000",
-          "enableArBtn": true,
-          "enableCamerasBtn": true,
-          "enableFullscreenBtn": true,
-          "enableZoomBtn": true
-        }
-      },
-      "AppShell": {
-        "defaultProps": {
-          "styles": {
-            "navbar": {
-              "backgroundColor": "rgba(0, 0, 0, 0.6)"
             }
           }
         }
