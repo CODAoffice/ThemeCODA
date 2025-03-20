@@ -324,10 +324,10 @@
       "ViewportIcons": {
         "defaultProps": {
           "color": "#670000",
-          "enableArBtn": true,
+          "enableArBtn": false,
           "enableCamerasBtn": true,
-          "enableFullscreenBtn": true,
-          "enableZoomBtn": true
+          "enableFullscreenBtn": false,
+          "enableZoomBtn": false
         }
       },
       "AppShell": {
