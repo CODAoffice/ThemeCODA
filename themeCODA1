@@ -89,57 +89,10 @@
               "marginBottom": "var(--mantine-spacing-xs)",
               "paddingInline": "var(--mantine-spacing-xs)",
               "paddingBlock": "var(--mantine-spacing-xs)",
-              "borderSpacing": "0 20px", 
               "width": "100%" 
             },
-            "tr": {
-              "marginBottom": "20px"
-            },
             "td": {
-              "padding": "10px 20px"
-            },
-            "th": {
-              "padding": "10px 20px"
-            }
-          }
-        },
-        "columns": [
-          {
-            "accessorKey": "Summary",
-            "header": "Summary",
-            "mantineTableHeadCellProps": {
-              "sx": {
-                "textAlign": "right"
-              }
-            },
-            "mantineTableBodyCellProps": {
-              "sx": {
-                "textAlign": "right"
-              }
-            }
-          },
-          {
-            "accessorKey": "n",
-            "header": "n",
-            "mantineTableHeadCellProps": {
-              "sx": {
-                "textAlign": "left"
-              }
-            },
-            "mantineTableBodyCellProps": {
-              "sx": {
-                "textAlign": "left"
-              }
-            }
-          }
-        ]
-      },
-      "Tooltip": {
-        "defaultProps": {
-          "styles": {
-            "tooltip": {
-              "color": "#FFFFFF",
-              "backgroundColor": "rgba(0, 0, 0, 0.8)" 
+              "padding": "2px"
             }
           }
         }
@@ -351,7 +304,7 @@
           "color": "#670000",
           "enableArBtn": false,
           "enableCamerasBtn": true,
-          "enableFullscreenBtn": false,
+          "enableFullscreenBtn": true,
           "enableZoomBtn": false
         }
       },
