@@ -95,7 +95,7 @@
               "padding": "2px"
             }
           }
-        ]
+        }
       },
       "Accordion": {
         "defaultProps": {
