@@ -86,7 +86,7 @@
               "color": "#FFFFFF"
             },
             "tr": {
-              "marginBottom": "20px"  // Aquí se agrega el margen entre las filas
+              "marginBottom": "20px"
             }
           }
         },
