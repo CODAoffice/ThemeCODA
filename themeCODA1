@@ -93,9 +93,6 @@
             },
             "td": {
               "padding": "2px"
-            },
-            "th": {
-              "padding": "2px"
             }
           }
         },
