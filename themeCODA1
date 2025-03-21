@@ -99,7 +99,7 @@
               "padding": "20px"
             },
             "th": {
-              "padding": "20px"
+              "padding": "2px"
             }
           }
         },
