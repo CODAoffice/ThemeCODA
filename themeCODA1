@@ -89,17 +89,17 @@
               "marginBottom": "var(--mantine-spacing-xs)",
               "paddingInline": "var(--mantine-spacing-xs)",
               "paddingBlock": "var(--mantine-spacing-xs)",
-              "borderSpacing": "0 20px", 
+              "borderSpacing": "200px", 
               "width": "100%" 
             },
             "tr": {
-              "marginBottom": "20px"
+              "marginBottom": "200px"
             },
             "td": {
-              "padding": "10px 20px"
+              "padding": "200px"
             },
             "th": {
-              "padding": "10px 20px"
+              "padding": "200px"
             }
           }
         },
