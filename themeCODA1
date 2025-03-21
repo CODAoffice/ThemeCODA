@@ -93,7 +93,7 @@
               "width": "100%" 
             },
             "tr": {
-              "marginBottom": "200px"
+              "marginBottom": "20px"
             },
             "td": {
               "padding": "20px"
