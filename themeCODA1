@@ -152,7 +152,7 @@
           "fw": "300",
           "styles": {
             "label": {
-              "color": "#FFFFFF" //aaaaaa
+              "color": "#FFFFFF"
             }
           }
         }
