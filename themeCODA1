@@ -89,10 +89,10 @@
               "marginBottom": "var(--mantine-spacing-xs)",
               "paddingInline": "var(--mantine-spacing-xs)",
               "paddingBlock": "var(--mantine-spacing-xs)",
-              "width": "100%" 
+              "width": "100%"
             },
             "td": {
-              "padding": "2px"
+              "padding": "4px"  
             }
           }
         }
@@ -106,6 +106,9 @@
             },
             "content": {
               "color": "#FFFFFF"
+            },
+            "item": {
+              "marginBottom": "4px" 
             }
           }
         }
@@ -116,6 +119,9 @@
           "styles": {
             "label": {
               "color": "#FFFFFF"
+            },
+            "root": {
+              "margin": "4px"  
             }
           }
         }
@@ -128,7 +134,8 @@
               "background": "transparent",
               "border": "none",
               "boxShadow": "none",
-              "outline": "1px solid #ffffff"
+              "outline": "1px solid #ffffff",
+              "marginBottom": "4px"  
             },
             "input": {
               "color": "#FFFFFF",
@@ -165,7 +172,8 @@
               "border": "none",
               "boxShadow": "none",
               "outline": "2px solid #ffffff",
-              "color": "#FFFFFF"
+              "color": "#FFFFFF",
+              "marginBottom": "4px"  
             }
           },
           "ClearButton": {
@@ -196,7 +204,8 @@
               "color": "#FFFFFF"
             },
             "input": {
-              "color": "#FFFFFF"
+              "color": "#FFFFFF",
+              "marginBottom": "4px"  
             }
           }
         }
@@ -243,7 +252,8 @@
               "fontFamily": "'Montserrat', sans-serif",
               "fontWeight": "normal",
               "width": "50%",
-              "backgroundColor": "transparent"
+              "backgroundColor": "transparent",
+              "padding": "4px" 
             },
             "tabLabel": {
               "color": "#FFFFFF",
