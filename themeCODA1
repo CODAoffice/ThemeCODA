@@ -86,7 +86,7 @@
               "color": "#FFFFFF"
             },
             "table": {
-              "borderSpacing": "10px"  // Aquí se cambia el espaciado entre las filas
+              "borderSpacing": "10px"
             }
           }
         },
