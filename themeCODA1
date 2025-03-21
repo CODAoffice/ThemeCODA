@@ -89,7 +89,7 @@
               "marginBottom": "var(--mantine-spacing-xs)",
               "paddingInline": "var(--mantine-spacing-xs)",
               "paddingBlock": "var(--mantine-spacing-xs)",
-              "borderSpacing": "200px", 
+              "borderSpacing": "20px", 
               "width": "100%" 
             },
             "tr": {
