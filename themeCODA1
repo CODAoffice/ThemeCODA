@@ -96,7 +96,7 @@
               "marginBottom": "20px"
             },
             "td": {
-              "padding": "20px"
+              "padding": "2px"
             },
             "th": {
               "padding": "2px"
