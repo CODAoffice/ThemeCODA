@@ -85,8 +85,11 @@
             "tbody": {
               "color": "#FFFFFF"
             },
-            "tr": {
-              "marginBottom": "20px"
+            "table": {
+              "marginBottom": "var(--mantine-spacing-xs)",
+              "paddingInline": "var(--mantine-spacing-xs)",
+              "paddingBlock": "var(--mantine-spacing-xs)",
+              "--table-vertical-spacing": "20px"
             }
           }
         },
