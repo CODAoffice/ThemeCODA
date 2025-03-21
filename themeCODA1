@@ -95,36 +95,6 @@
               "padding": "2px"
             }
           }
-        },
-        "columns": [
-          {
-            "accessorKey": "Summary",
-            "header": "Summary",
-            "mantineTableHeadCellProps": {
-              "sx": {
-                "textAlign": "right"
-              }
-            },
-            "mantineTableBodyCellProps": {
-              "sx": {
-                "textAlign": "right"
-              }
-            }
-          },
-          {
-            "accessorKey": "n",
-            "header": "n",
-            "mantineTableHeadCellProps": {
-              "sx": {
-                "textAlign": "left"
-              }
-            },
-            "mantineTableBodyCellProps": {
-              "sx": {
-                "textAlign": "left"
-              }
-            }
-          }
         ]
       },
       "Accordion": {
