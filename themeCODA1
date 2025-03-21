@@ -84,9 +84,11 @@
             },
             "tbody": {
               "color": "#FFFFFF"
+            },
+            "table": {
+              "borderSpacing": "10px"  // Aquí se cambia el espaciado entre las filas
             }
-          },
-          "spacing": "10px"
+          }
         },
         "columns": [
           {
