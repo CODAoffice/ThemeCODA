@@ -384,7 +384,7 @@
                 }
               }
             },
-            "Custom support position": {
+            "Custom supports position": {
               "type": "chipgroup",
               "itemData": {
                 "Left": {
