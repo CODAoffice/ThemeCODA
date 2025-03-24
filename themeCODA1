@@ -316,62 +316,37 @@
             }
           }
         }
-      }
-    }
-  },
-  "tabs": [
-    {
-      "name": "Customize",
-      "widgets": [
-        {
-          "type": "accordion",
-          "props": {
-            "parameters": [
-              {
-                "name": "Number of supports",
-                "acceptRejectMode": false,
-                "overrides": {
-                  "displayname": "Number of supports",
-                  "order": 6001
+      },
+      "ParameterSelectComponent": {
+        "defaultProps": {
+          "componentSettings": {
+            "Number of supports": {
+              "type": "fullwidthcards",
+              "itemData": {
+                "Option 1": {
+                  "imageUrl": "https://i.ibb.co/mV9GSsTM/A1.png",
+                  "displayname": "Option 1"
                 },
-                "sevenCards": {
-                  "type": "fullwidthcards",
-                  "itemData": {
-                    "Option 1": {
-                      "imageUrl": "https://i.ibb.co/mV9GSsTM/A1.png",
-                      "description": "Description for A1",
-                      "displayname": "Option 1",
-                      "color": "green"
-                    },
-                    "Option 2": {
-                      "imageUrl": "https://i.ibb.co/qhBMDV7/A2.png",
-                      "description": "Description for A2",
-                      "displayname": "Option 2",
-                      "color": "yellow"
-                    },
-                    "Option 3": {
-                      "imageUrl": "https://i.ibb.co/d43qkSB0/A3.png",
-                      "description": "Description for A3",
-                      "displayname": "Option 3",
-                      "color": "red"
-                    },
-                    "Option 4": {
-                      "imageUrl": "https://i.ibb.co/JRgBTR5w/A4.png",
-                      "description": "Description for A4",
-                      "displayname": "Option 4",
-                      "color": "blue"
-                    }
-                  },
-                  "settings": {
-                    "width": 120
-                  }
+                "Option 2": {
+                  "imageUrl": "https://i.ibb.co/qhBMDV7/A2.png",
+                  "displayname": "Option 2"
+                },
+                "Option 3": {
+                  "imageUrl": "https://i.ibb.co/d43qkSB0/A3.png",
+                  "displayname": "Option 3"
+                },
+                "Option 4": {
+                  "imageUrl": "https://i.ibb.co/JRgBTR5w/A4.png",
+                  "displayname": "Option 4"
                 }
+              },
+              "settings": {
+                "width": 120
               }
-            ],
-            "exports": []
+            }
           }
         }
-      ]
+      }
     }
-  ]
+  }
 }
