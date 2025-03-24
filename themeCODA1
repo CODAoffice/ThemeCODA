@@ -89,7 +89,7 @@
               "marginBottom": "var(--mantine-spacing-xs)",
               "paddingInline": "var(--mantine-spacing-xs)",
               "paddingBlock": "var(--mantine-spacing-xs)",
-              "width": "100%"
+              "width": "100%" 
             },
             "td": {
               "padding": "2px"
@@ -316,37 +316,90 @@
             }
           }
         }
-      },
-      "Number of supports": {
-        "type": "fullwidthcards",
-        "itemData": {
-          "Option 1": {
-            "imageUrl": "https://i.ibb.co/mV9GSsTM/A1.png",
-            "description": "Description for support 1",
-            "displayname": "Support 1",
-            "color": "green"
-          },
-          "Option 2": {
-            "imageUrl": "https://i.ibb.co/qhBMDV7/A2.png",
-            "description": "Description for support 2",
-            "displayname": "Support 2",
-            "color": "yellow"
-          },
-          "Option 3": {
-            "imageUrl": "https://i.ibb.co/d43qkSB0/A3.png",
-            "description": "Description for support 3",
-            "displayname": "Support 3"
-          },
-          "Option 4": {
-            "imageUrl": "https://i.ibb.co/JRgBTR5w/A4.png",
-            "description": "Description for support 4",
-            "displayname": "Support 4"
-          }
-        },
-        "settings": {
-          "width": 120
-        }
       }
     }
-  }
+  },
+  "name": "Customize",
+  "widgets": [
+    {
+      "type": "accordion",
+      "props": {
+        "parameters": [
+          {
+            "name": "Number of supports",
+            "acceptRejectMode": false,
+            "overrides": {
+              "displayname": "Number of supports",
+              "order": 6001
+            },
+            "value": {
+              "Option 1": {
+                "imageUrl": "https://i.ibb.co/mV9GSsTM/A1.png",
+                "description": "Description for support 1",
+                "displayname": "Support 1",
+                "color": "green"
+              },
+              "Option 2": {
+                "imageUrl": "https://i.ibb.co/qhBMDV7/A2.png",
+                "description": "Description for support 2",
+                "displayname": "Support 2",
+                "color": "yellow"
+              },
+              "Option 3": {
+                "imageUrl": "https://i.ibb.co/d43qkSB0/A3.png",
+                "description": "Description for support 3",
+                "displayname": "Support 3"
+              },
+              "Option 4": {
+                "imageUrl": "https://i.ibb.co/JRgBTR5w/A4.png",
+                "description": "Description for support 4",
+                "displayname": "Support 4"
+              }
+            }
+          },
+          {
+            "name": "Size of pavilion",
+            "acceptRejectMode": false,
+            "overrides": {
+              "displayname": "Size of pavilion",
+              "order": 6002
+            }
+          },
+          {
+            "name": "Inside bench",
+            "acceptRejectMode": false,
+            "overrides": {
+              "displayname": "Inside bench",
+              "order": 6003
+            }
+          },
+          {
+            "name": "Material",
+            "acceptRejectMode": false,
+            "overrides": {
+              "displayname": "Material",
+              "order": 6004
+            }
+          },
+          {
+            "name": "Number of people",
+            "acceptRejectMode": false,
+            "overrides": {
+              "displayname": "Number of people",
+              "order": 6005
+            }
+          },
+          {
+            "name": "Advanced settings",
+            "acceptRejectMode": false,
+            "overrides": {
+              "displayname": "Advanced settings",
+              "order": 6006
+            }
+          }
+        ],
+        "exports": []
+      }
+    }
+  ]
 }
