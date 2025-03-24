@@ -338,6 +338,10 @@
                   "displayname": "Material 3",
                   "description": "Descripción del material 3"
                 }
+            },
+            "settings": {
+            "width": 120
+                }
               }
             }
           }
