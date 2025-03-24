@@ -321,8 +321,7 @@
         "defaultProps": {
           "componentSettings": {
             "Material": {
-              "type": "chipgroup",
-              }
+              "type": "chipgroup"
             }
           }
         }
