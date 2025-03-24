@@ -89,7 +89,7 @@
               "marginBottom": "var(--mantine-spacing-xs)",
               "paddingInline": "var(--mantine-spacing-xs)",
               "paddingBlock": "var(--mantine-spacing-xs)",
-              "width": "100%" 
+              "width": "100%"
             },
             "td": {
               "padding": "2px"
@@ -316,45 +316,62 @@
             }
           }
         }
-      },
-      "ParameterSelectComponent": {
-        "defaultProps": {
-          "componentSettings": {
-            "Number of supports": {
-              "type": "fullwidthcards",
-              "itemData": {
-                "Support 1": {
-                  "imageUrl": "https://i.ibb.co/mV9GSsTM/A1.png",
-                  "description": "Support for structure 1",
-                  "displayname": "Support 1",
-                  "color": "green"
-                },
-                "Support 2": {
-                  "imageUrl": "https://i.ibb.co/qhBMDV7/A2.png",
-                  "description": "Support for structure 2",
-                  "displayname": "Support 2",
-                  "color": "blue"
-                },
-                "Support 3": {
-                  "imageUrl": "https://i.ibb.co/d43qkSB0/A3.png",
-                  "description": "Support for structure 3",
-                  "displayname": "Support 3",
-                  "color": "yellow"
-                },
-                "Support 4": {
-                  "imageUrl": "https://i.ibb.co/JRgBTR5w/A4.png",
-                  "description": "Support for structure 4",
-                  "displayname": "Support 4",
-                  "color": "red"
-                }
-              },
-              "settings": {
-                "width": 120
-              }
-            }
-          }
-        }
       }
     }
-  }
+  },
+  "tabs": [
+    {
+      "name": "Customize",
+      "widgets": [
+        {
+          "type": "accordion",
+          "props": {
+            "parameters": [
+              {
+                "name": "Number of supports",
+                "acceptRejectMode": false,
+                "overrides": {
+                  "displayname": "Number of supports",
+                  "order": 6001
+                },
+                "sevenCards": {
+                  "type": "fullwidthcards",
+                  "itemData": {
+                    "Option 1": {
+                      "imageUrl": "https://i.ibb.co/mV9GSsTM/A1.png",
+                      "description": "Description for A1",
+                      "displayname": "Option 1",
+                      "color": "green"
+                    },
+                    "Option 2": {
+                      "imageUrl": "https://i.ibb.co/qhBMDV7/A2.png",
+                      "description": "Description for A2",
+                      "displayname": "Option 2",
+                      "color": "yellow"
+                    },
+                    "Option 3": {
+                      "imageUrl": "https://i.ibb.co/d43qkSB0/A3.png",
+                      "description": "Description for A3",
+                      "displayname": "Option 3",
+                      "color": "red"
+                    },
+                    "Option 4": {
+                      "imageUrl": "https://i.ibb.co/JRgBTR5w/A4.png",
+                      "description": "Description for A4",
+                      "displayname": "Option 4",
+                      "color": "blue"
+                    }
+                  },
+                  "settings": {
+                    "width": 120
+                  }
+                }
+              }
+            ],
+            "exports": []
+          }
+        }
+      ]
+    }
+  ]
 }
