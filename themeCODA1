@@ -338,6 +338,54 @@
                   "color": "yellow"
                 }
               }
+            },
+            "Entrance height": {
+              "type": "chipgroup",
+              "itemData": {
+                "2.5m": {
+                  "label": "2.5m"
+                },
+                "3.0m": {
+                  "label": "3.0m"
+                },
+                "3.5m": {
+                  "label": "3.5m"
+                },
+                "4.0m": {
+                  "label": "4.0m"
+                }
+              }
+            },
+            "Interior height": {
+              "type": "chipgroup",
+              "itemData": {
+                "2.5m": {
+                  "label": "2.5m"
+                },
+                "3.0m": {
+                  "label": "3.0m"
+                },
+                "3.5m": {
+                  "label": "3.5m"
+                },
+                "4.0m": {
+                  "label": "4.0m"
+                }
+              }
+            },
+            "Size of pavilion": {
+              "type": "chipgroup",
+              "itemData": {
+                "Small": {
+                  "label": "Small"
+                },
+                "Medium": {
+                  "label": "Medium"
+                },
+                "Large": {
+                  "label": "Large"
+                }
+              }
             }
           }
         }
