@@ -325,23 +325,26 @@
               "itemData": {
                 "Option 1": {
                   "imageUrl": "https://i.ibb.co/mV9GSsTM/A1.png",
-                  "displayname": "Option 1"
+                  "displayname": "1"
                 },
                 "Option 2": {
                   "imageUrl": "https://i.ibb.co/qhBMDV7/A2.png",
-                  "displayname": "Option 2"
+                  "displayname": "2"
                 },
                 "Option 3": {
                   "imageUrl": "https://i.ibb.co/d43qkSB0/A3.png",
-                  "displayname": "Option 3"
+                  "displayname": "3"
                 },
                 "Option 4": {
                   "imageUrl": "https://i.ibb.co/JRgBTR5w/A4.png",
-                  "displayname": "Option 4"
+                  "displayname": "4"
                 }
               },
               "settings": {
-                "width": 120
+                "width": 120,
+                "min": 1,
+                "max": 4,
+                "step": 1
               }
             }
           }
