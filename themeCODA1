@@ -322,21 +322,6 @@
           "componentSettings": {
             "Material": {
               "type": "chipgroup",
-              "itemData": {
-                "Wood": {
-                  "displayname": "Wood",
-                  "tooltip": "Natural wood material",
-                  "color": "brown"
-                },
-                "Metal": {
-                  "displayname": "Metal",
-                  "tooltip": "Durable metal material",
-                  "color": "gray"
-                },
-                "Plastic": {
-                  "displayname": "Plastic",
-                  "tooltip": "Lightweight plastic material",
-                  "color": "blue"
                 }
               }
             }
