@@ -321,12 +321,21 @@
         "defaultProps": {
           "componentSettings": {
             "Material": {
-              "type": "chipgroup",
-              "defaultChecked": true,
-              "color": "gray",
-              "variant": "outline",
-              "radius": "xs"
-            }
+              "type": "color",
+              "itemData": {
+              "Birch plywood": {
+                 "color": "red",
+                 "tooltip": "Birch plywood"
+               },
+               "HPL grey": {
+                 "color": "blue"
+                 "tooltip": "HPL grey"
+               },
+               "HPL black": {
+                   "color": "green"
+               },
+               "HPL white": {
+                  "color": "yellow"
           }
         }
       }
