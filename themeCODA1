@@ -321,7 +321,11 @@
         "defaultProps": {
           "componentSettings": {
             "Material": {
-              "type": "chipgroup"
+              "type": "chipgroup",
+              "defaultChecked": true,
+              "color": "gray",
+              "variant": "outline",
+              "radius": "xs"
             }
           }
         }
