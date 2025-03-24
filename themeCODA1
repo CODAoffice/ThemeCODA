@@ -339,59 +339,17 @@
                 }
               }
             },
-            "Number of supports": {
+            "Size of pavilion": {
               "type": "chipgroup",
               "itemData": {
-                "One": {
-                  "label": "One"
+                "Small": {
+                  "label": "Small"
                 },
-                "Two": {
-                  "label": "Two"
+                "Medium": {
+                  "label": "Medium"
                 },
-                "Three": {
-                  "label": "Three"
-                },
-                "Four": {
-                  "label": "Four"
-                }
-              }
-            },
-            "Advanced settings": {
-              "type": "chipgroup",
-              "itemData": {
-                "Option 1": {
-                  "label": "Option 1"
-                },
-                "Option 2": {
-                  "label": "Option 2"
-                },
-                "Option 3": {
-                  "label": "Option 3"
-                }
-              }
-            },
-            "Custom support position": {
-              "type": "chipgroup",
-              "itemData": {
-                "Left": {
-                  "label": "Left"
-                },
-                "Right": {
-                  "label": "Right"
-                },
-                "Center": {
-                  "label": "Center"
-                }
-              }
-            },
-            "Inside Bench": {
-              "type": "chipgroup",
-              "itemData": {
-                "Yes": {
-                  "label": "Yes"
-                },
-                "No": {
-                  "label": "No"
+                "Large": {
+                  "label": "Large"
                 }
               }
             }
