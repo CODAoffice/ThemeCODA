@@ -323,7 +323,7 @@
             "Material": {
               "type": "color",
               "itemData": {
-                "Birch plywood": {
+                "Plywood": {
                   "color": "customDarkOrange",
                   "tooltip": "Birch plywood"
                 },
@@ -342,36 +342,26 @@
             "Entrance height": {
               "type": "chipgroup",
               "itemData": {
-                "2.5m": {
-                  "label": "2.5m"
+                "Small": {
+                  "label": "Small"
                 },
-                "3.0m": {
-                  "label": "3.0m"
+                "Medium": {
+                  "label": "Medium"
                 },
-                "3.5m": {
-                  "label": "3.5m"
-                },
-                "4.0m": {
-                  "label": "4.0m"
-                }
-              }
+                "Large": {
+                  "label": "Large"
             },
             "Interior height": {
               "type": "chipgroup",
               "itemData": {
-                "2.5m": {
-                  "label": "2.5m"
+                "Small": {
+                  "label": "Small"
                 },
-                "3.0m": {
-                  "label": "3.0m"
+                "Medium": {
+                  "label": "Medium"
                 },
-                "3.5m": {
-                  "label": "3.5m"
-                },
-                "4.0m": {
-                  "label": "4.0m"
-                }
-              }
+                "Large": {
+                  "label": "Large"
             },
             "Size of pavilion": {
               "type": "chipgroup",
