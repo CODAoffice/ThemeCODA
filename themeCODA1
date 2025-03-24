@@ -350,6 +350,9 @@
                 },
                 "Large": {
                   "label": "Large"
+                }
+              }
+            },
             "Number of supports": {
               "type": "chipgroup",
               "itemData": {
