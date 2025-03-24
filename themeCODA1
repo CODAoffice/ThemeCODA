@@ -317,7 +317,7 @@
           }
         }
       },
-      "Number Of Supports": {
+      "Number of supports": {
         "type": "fullwidthcards",
         "itemData": {
           "Option 1": {
