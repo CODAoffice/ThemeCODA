@@ -318,29 +318,23 @@
         }
       },
       "Material": {
-        "type": "fullwidthcards",
-        "itemData": {
-          "Option 1": {
-            "imageUrl": "https://i.ibb.co/mV9GSsTM/A1.png",
-            "description": "Material option 1",
-            "displayname": "Material A1",
-            "color": "blue"
-          },
-          "Option 2": {
-            "imageUrl": "https://i.ibb.co/qhBMDV7/A2.png",
-            "description": "Material option 2",
-            "displayname": "Material A2",
-            "color": "red"
-          },
-          "Option 3": {
-            "imageUrl": "https://i.ibb.co/d43qkSB0/A3.png",
-            "description": "Material option 3",
-            "displayname": "Material A3",
-            "color": "green"
+        "defaultProps": {
+          "componentSettings": {
+            "Material": {
+              "type": "fullwidthcards",
+              "itemData": {
+                "Option 1": {
+                  "imageUrl": "https://i.ibb.co/mV9GSsTM/A1.png"
+                },
+                "Option 2": {
+                  "imageUrl": "https://i.ibb.co/qhBMDV7/A2.png"
+                },
+                "Option 3": {
+                  "imageUrl": "https://i.ibb.co/d43qkSB0/A3.png"
+                }
+              }
+            }
           }
-        },
-        "settings": {
-          "width": 120
         }
       }
     }
