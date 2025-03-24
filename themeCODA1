@@ -328,7 +328,7 @@
                  "tooltip": "Birch plywood"
                },
                "HPL grey": {
-                 "color": "blue"
+                 "color": "blue",
                  "tooltip": "HPL grey"
                },
                "HPL black": {
