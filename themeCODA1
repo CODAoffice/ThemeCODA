@@ -339,41 +339,59 @@
                 }
               }
             },
-            "Entrance height": {
+            "Number of supports": {
               "type": "chipgroup",
               "itemData": {
-                "Small": {
-                  "label": "Small"
+                "One": {
+                  "label": "One"
                 },
-                "Medium": {
-                  "label": "Medium"
+                "Two": {
+                  "label": "Two"
                 },
-                "Large": {
-                  "label": "Large"
+                "Three": {
+                  "label": "Three"
+                },
+                "Four": {
+                  "label": "Four"
+                }
+              }
             },
-            "Interior height": {
+            "Advanced settings": {
               "type": "chipgroup",
               "itemData": {
-                "Small": {
-                  "label": "Small"
+                "Option 1": {
+                  "label": "Option 1"
                 },
-                "Medium": {
-                  "label": "Medium"
+                "Option 2": {
+                  "label": "Option 2"
                 },
-                "Large": {
-                  "label": "Large"
+                "Option 3": {
+                  "label": "Option 3"
+                }
+              }
             },
-            "Size of pavilion": {
+            "Custom support position": {
               "type": "chipgroup",
               "itemData": {
-                "Small": {
-                  "label": "Small"
+                "Left": {
+                  "label": "Left"
                 },
-                "Medium": {
-                  "label": "Medium"
+                "Right": {
+                  "label": "Right"
                 },
-                "Large": {
-                  "label": "Large"
+                "Center": {
+                  "label": "Center"
+                }
+              }
+            },
+            "Inside Bench": {
+              "type": "chipgroup",
+              "itemData": {
+                "Yes": {
+                  "label": "Yes"
+                },
+                "No": {
+                  "label": "No"
                 }
               }
             }
