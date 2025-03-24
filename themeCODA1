@@ -324,18 +324,18 @@
               "type": "color",
               "itemData": {
                 "Birch plywood": {
-                  "color": "red",
+                  "color": "customDarkOrange",
                   "tooltip": "Birch plywood"
                 },
                 "HPL grey": {
-                  "color": "blue",
+                  "color": "gray",
                   "tooltip": "HPL grey"
                 },
                 "HPL black": {
-                  "color": "green"
+                  "color": "black"
                 },
                 "HPL white": {
-                  "color": "yellow"
+                  "color": "white"
                 }
               }
             },
