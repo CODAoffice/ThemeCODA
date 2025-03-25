@@ -150,12 +150,12 @@
           "styles": {
             "root": {
               "width": "100%",
-              "gap": "var(--mantine-spacing-xs)",
+              "gap": "var(--mantine-spacing-xs)"
             },
             "root": {
               "width": "100%",
               "outline": "0px",
-              "gap": "var(--mantine-spacing-xs)",
+              "gap": "var(--mantine-spacing-xs)"
             },
             ":hover": {
               "outline": "0px"
