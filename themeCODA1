@@ -390,7 +390,13 @@
             "Custom supports position": {
               "type": "buttongroup"
             },
-            "Inside Bench": {
+            "Inside bench": {
+              "type": "buttongroup"
+            },
+            "Entrance height": {
+              "type": "buttongroup"
+            },
+            "Interior height": {
               "type": "buttongroup"
             }
           }
