@@ -77,7 +77,8 @@
           "withRowBorders": false,
           "styles": {
             "root": {
-              "color": "#FFFFFF"
+              "color": "#FFFFFF",
+              "gap": "2px"
             },
             "thead": {
               "color": "#FFFFFF"
@@ -119,13 +120,14 @@
             },
             "root": {
               "width": "100%",
-              "outline": "0px" 
+              "outline": "0px",
+              "gap": "2px"  
             },
             ":hover": {
-              "outline": "0px" 
+              "outline": "0px"
             },
             ":focus": {
-              "outline": "0px"  
+              "outline": "0px"
             }
           }
         }
@@ -134,7 +136,8 @@
         "defaultProps": {
           "styles": {
             "root": {
-              "width": "100%"
+              "width": "100%",
+              "gap": "2px" 
             }
           }
         }
@@ -147,7 +150,8 @@
               "background": "transparent",
               "border": "none",
               "boxShadow": "none",
-              "outline": "1px solid #ffffff"
+              "outline": "1px solid #ffffff",
+              "gap": "2px" 
             },
             "input": {
               "color": "#FFFFFF",
@@ -272,7 +276,8 @@
             "root": {
               "width": "100%",
               "backgroundColor": "transparent",
-              "height": "auto"
+              "height": "auto",
+              "gap": "2px"  
             },
             "tabActive": {
               "backgroundColor": "transparent"
@@ -284,7 +289,8 @@
         "defaultProps": {
           "styles": {
             "root": {
-              "color": "#FFFFFF"
+              "color": "#FFFFFF",
+              "gap": "2px" 
             },
             "track": {
               "background": "transparent"
@@ -386,4 +392,3 @@
     }
   }
 }
-
