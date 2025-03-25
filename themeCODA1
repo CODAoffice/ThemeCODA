@@ -116,7 +116,7 @@
           "fw": "300",
           "styles": {
             "label": {
-              "color": "#ffffff"
+              "color": "#ffffff",
             },
             "root": {
               "width": "100%",
@@ -124,10 +124,6 @@
               "gap": "2px",
               "border": "none",
               ":hover": {
-                "outline": "0px",
-                "border": "none"
-              },
-              ":focus": {
                 "outline": "0px",
                 "border": "none"
               }
