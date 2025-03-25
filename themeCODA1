@@ -76,14 +76,25 @@
         "defaultProps": {
           "styles": {
             "root": {
-              "width": "100%",  
-              "display": "block", 
-              "boxSizing": "border-box" 
+              "width": "100%",
+              "display": "flex",
+              "flexDirection": "row",
+              "alignItems": "center"
             },
             "button": {
-              "outline": "0px"
+              "outline": "0px",
+              "borderWidth": "2px",
+              "borderColor": "#FF914D",
+              "borderRadius": "8px",
+              "margin": "0 4px",
+              "width": "100%",
+              ":hover": {
+                "backgroundColor": "#FF914D",
+                "color": "#FFFFFF"
+              }
             }
-          }
+          },
+          "orientation": "horizontal"
         }
       },
       "Table": {
@@ -103,7 +114,7 @@
               "marginBottom": "var(--mantine-spacing-xs)",
               "paddingInline": "var(--mantine-spacing-xs)",
               "paddingBlock": "var(--mantine-spacing-xs)",
-              "width": "100%" 
+              "width": "100%"
             },
             "td": {
               "padding": "2px"
@@ -297,13 +308,7 @@
       },
       "Paper": {
         "defaultProps": {
-          "withBorder": false,
-          "styles": {
-            "root": {
-              "width": "100%",  
-              "display": "block"
-            }
-          }
+          "withBorder": false
         }
       },
       "AppBuilderAppShellTemplatePage": {
@@ -374,7 +379,7 @@
               },
               "styles": {
                 "root": {
-                  "width": "100%" 
+                  "width": "100%"
                 },
                 "button": {
                   "outline": "0px"
@@ -399,7 +404,7 @@
               },
               "styles": {
                 "root": {
-                  "width": "100%" 
+                  "width": "100%"
                 },
                 "button": {
                   "outline": "0px"
@@ -432,7 +437,7 @@
               },
               "styles": {
                 "root": {
-                  "width": "100%" 
+                  "width": "100%"
                 },
                 "button": {
                   "outline": "0px"
@@ -443,7 +448,7 @@
               "type": "buttongroup",
               "styles": {
                 "root": {
-                  "width": "100%" 
+                  "width": "100%"
                 },
                 "button": {
                   "outline": "0px"
@@ -454,7 +459,7 @@
               "type": "buttongroup",
               "styles": {
                 "root": {
-                  "width": "100%" 
+                  "width": "100%"
                 },
                 "button": {
                   "outline": "0px"
@@ -465,7 +470,7 @@
               "type": "buttongroup",
               "styles": {
                 "root": {
-                  "width": "100%" 
+                  "width": "100%"
                 },
                 "button": {
                   "outline": "0px"
@@ -476,7 +481,7 @@
               "type": "buttongroup",
               "styles": {
                 "root": {
-                  "width": "100%" 
+                  "width": "100%"
                 },
                 "button": {
                   "outline": "0px"
