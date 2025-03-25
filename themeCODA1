@@ -119,13 +119,13 @@
             },
             "root": {
               "width": "100%",
-              "outline": "0px"  // Sin outline para los botones no seleccionados
+              "outline": "0px" 
             },
             ":hover": {
-              "outline": "0px"  // Sin outline en el hover
+              "outline": "0px" 
             },
             ":focus": {
-              "outline": "0px"  // Sin outline en el focus
+              "outline": "0px"  
             }
           }
         }
