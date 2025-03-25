@@ -76,7 +76,9 @@
         "defaultProps": {
           "styles": {
             "root": {
-              "width": "100%" 
+              "width": "100%",  
+              "display": "block", 
+              "boxSizing": "border-box" 
             },
             "button": {
               "outline": "0px"
@@ -101,7 +103,7 @@
               "marginBottom": "var(--mantine-spacing-xs)",
               "paddingInline": "var(--mantine-spacing-xs)",
               "paddingBlock": "var(--mantine-spacing-xs)",
-              "width": "100%"
+              "width": "100%" 
             },
             "td": {
               "padding": "2px"
@@ -295,7 +297,13 @@
       },
       "Paper": {
         "defaultProps": {
-          "withBorder": false
+          "withBorder": false,
+          "styles": {
+            "root": {
+              "width": "100%",  
+              "display": "block"
+            }
+          }
         }
       },
       "AppBuilderAppShellTemplatePage": {
@@ -366,7 +374,7 @@
               },
               "styles": {
                 "root": {
-                  "width": "100%"
+                  "width": "100%" 
                 },
                 "button": {
                   "outline": "0px"
@@ -391,7 +399,7 @@
               },
               "styles": {
                 "root": {
-                  "width": "100%"
+                  "width": "100%" 
                 },
                 "button": {
                   "outline": "0px"
@@ -424,7 +432,7 @@
               },
               "styles": {
                 "root": {
-                  "width": "100%"
+                  "width": "100%" 
                 },
                 "button": {
                   "outline": "0px"
@@ -435,7 +443,7 @@
               "type": "buttongroup",
               "styles": {
                 "root": {
-                  "width": "100%"
+                  "width": "100%" 
                 },
                 "button": {
                   "outline": "0px"
@@ -446,7 +454,7 @@
               "type": "buttongroup",
               "styles": {
                 "root": {
-                  "width": "100%"
+                  "width": "100%" 
                 },
                 "button": {
                   "outline": "0px"
@@ -457,7 +465,7 @@
               "type": "buttongroup",
               "styles": {
                 "root": {
-                  "width": "100%"
+                  "width": "100%" 
                 },
                 "button": {
                   "outline": "0px"
@@ -468,7 +476,7 @@
               "type": "buttongroup",
               "styles": {
                 "root": {
-                  "width": "100%"
+                  "width": "100%" 
                 },
                 "button": {
                   "outline": "0px"
