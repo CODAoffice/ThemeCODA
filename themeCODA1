@@ -121,13 +121,16 @@
             "root": {
               "width": "100%",
               "outline": "0px",
-              "gap": "2px"
-            },
-            ":hover": {
-              "outline": "0px"
-            },
-            ":focus": {
-              "outline": "0px"
+              "gap": "2px",
+              "border": "none",
+              ":hover": {
+                "outline": "0px",
+                "border": "none"
+              },
+              ":focus": {
+                "outline": "0px",
+                "border": "none"
+              }
             }
           }
         }
@@ -137,7 +140,8 @@
           "styles": {
             "root": {
               "width": "100%",
-              "gap": "2px"
+              "gap": "2px",
+              "border": "none"
             }
           }
         }
@@ -266,7 +270,8 @@
               "fontFamily": "'Montserrat', sans-serif",
               "fontWeight": "normal",
               "width": "50%",
-              "backgroundColor": "transparent"
+              "backgroundColor": "transparent",
+              "border": "none"
             },
             "tabLabel": {
               "color": "#ffffff",
