@@ -78,7 +78,7 @@
           "styles": {
             "root": {
               "color": "#FFFFFF",
-              "gap": "2px"
+              "gap": "1px"
             },
             "thead": {
               "color": "#FFFFFF"
@@ -93,7 +93,7 @@
               "width": "100%"
             },
             "td": {
-              "padding": "2px"
+              "padding": "1px"
             }
           }
         }
@@ -121,7 +121,7 @@
             "root": {
               "width": "100%",
               "outline": "0px",
-              "gap": "2px"  
+              "gap": "1px"
             },
             ":hover": {
               "outline": "0px"
@@ -137,7 +137,7 @@
           "styles": {
             "root": {
               "width": "100%",
-              "gap": "2px" 
+              "gap": "1px"
             }
           }
         }
@@ -151,7 +151,7 @@
               "border": "none",
               "boxShadow": "none",
               "outline": "1px solid #ffffff",
-              "gap": "2px" 
+              "gap": "1px"
             },
             "input": {
               "color": "#FFFFFF",
@@ -277,7 +277,7 @@
               "width": "100%",
               "backgroundColor": "transparent",
               "height": "auto",
-              "gap": "2px"  
+              "gap": "1px"
             },
             "tabActive": {
               "backgroundColor": "transparent"
@@ -290,7 +290,7 @@
           "styles": {
             "root": {
               "color": "#FFFFFF",
-              "gap": "2px" 
+              "gap": "1px"
             },
             "track": {
               "background": "transparent"
