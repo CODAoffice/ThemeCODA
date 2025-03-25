@@ -76,11 +76,11 @@
         "defaultProps": {
           "theme": {
             "spacing": {
-              "xs": "1px", 
-              "sm": "1px", 
-              "md": "1px",  
-              "lg": "1px",  
-              "xl": "1px"  
+              "xs": "1px",
+              "sm": "1px",
+              "md": "1px",
+              "lg": "1px",
+              "xl": "1px"
             }
           }
         }
@@ -152,11 +152,6 @@
               "width": "100%",
               "gap": "var(--mantine-spacing-xs)"
             },
-            "root": {
-              "width": "100%",
-              "outline": "0px",
-              "gap": "var(--mantine-spacing-xs)"
-            },
             ":hover": {
               "outline": "0px"
             },
@@ -175,7 +170,7 @@
               "border": "none",
               "boxShadow": "none",
               "outline": "1px solid #ffffff",
-              "gap": "var(--mantine-spacing-xs)",
+              "gap": "var(--mantine-spacing-xs)"
             },
             "input": {
               "color": "#FFFFFF",
