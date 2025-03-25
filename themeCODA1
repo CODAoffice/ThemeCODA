@@ -118,7 +118,7 @@
               "color": "#FFFFFF"
             },
             "root": {
-              "width": "100%"  // Añadido para asegurar que los botones ocupen todo el ancho disponible
+              "width": "100%"  
             }
           }
         }
@@ -127,7 +127,7 @@
         "defaultProps": {
           "styles": {
             "root": {
-              "width": "100%"  // Añadido para que los grupos de botones también ocupen todo el ancho disponible
+              "width": "100%"  
             }
           }
         }
