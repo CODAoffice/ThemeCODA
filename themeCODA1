@@ -118,7 +118,14 @@
               "color": "#FFFFFF"
             },
             "root": {
-              "width": "100%"  
+              "width": "100%",
+              "outline": "0px"  // Sin outline para los botones no seleccionados
+            },
+            ":hover": {
+              "outline": "0px"  // Sin outline en el hover
+            },
+            ":focus": {
+              "outline": "0px"  // Sin outline en el focus
             }
           }
         }
@@ -127,7 +134,7 @@
         "defaultProps": {
           "styles": {
             "root": {
-              "width": "100%"  
+              "width": "100%"
             }
           }
         }
