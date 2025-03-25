@@ -77,14 +77,14 @@
           "withRowBorders": false,
           "styles": {
             "root": {
-              "color": "#000000",
+              "color": "#ffffff",
               "gap": "2px"
             },
             "thead": {
-              "color": "#000000"
+              "color": "#ffffff"
             },
             "tbody": {
-              "color": "#000000"
+              "color": "#ffffff"
             },
             "table": {
               "marginBottom": "var(--mantine-spacing-xs)",
@@ -103,10 +103,10 @@
           "styles": {
             "label": {
               "fontWeight": "300",
-              "color": "#000000"
+              "color": "#ffffff"
             },
             "content": {
-              "color": "#000000"
+              "color": "#ffffff"
             }
           }
         }
@@ -116,7 +116,7 @@
           "fw": "300",
           "styles": {
             "label": {
-              "color": "#000000"
+              "color": "#ffffff"
             },
             "root": {
               "width": "100%",
@@ -154,7 +154,7 @@
               "gap": "2px"
             },
             "input": {
-              "color": "#000000",
+              "color": "#ffffff",
               "background": "transparent",
               "border": "none",
               "boxShadow": "none",
@@ -162,20 +162,20 @@
             },
             "dropdown": {
               "background": "rgba(99, 99, 99)",
-              "color": "#000000",
+              "color": "#ffffff",
               "border": "none",
               "boxShadow": "none"
             },
             "item": {
               "background": "rgba(99, 99, 99)",
-              "color": "#000000",
+              "color": "#ffffff",
               ":hover": {
                 "background": "rgba(99, 99, 99)",
-                "color": "#000000"
+                "color": "#ffffff"
               }
             },
             "rightSection": {
-              "color": "#000000"
+              "color": "#ffffff"
             }
           }
         }
@@ -188,7 +188,7 @@
               "border": "none",
               "boxShadow": "none",
               "outline": "2px solid #ffffff",
-              "color": "#000000"
+              "color": "#ffffff"
             }
           },
           "ClearButton": {
@@ -196,7 +196,7 @@
               "size": "sm",
               "visible": true,
               "styles": {
-                "color": "#000000",
+                "color": "#ffffff",
                 "backgroundColor": "#FF914D",
                 "borderRadius": "50%",
                 "width": "24px",
@@ -216,10 +216,10 @@
         "defaultProps": {
           "styles": {
             "label": {
-              "color": "#000000"
+              "color": "#ffffff"
             },
             "input": {
-              "color": "#000000"
+              "color": "#ffffff"
             }
           }
         }
@@ -228,7 +228,7 @@
         "defaultProps": {
           "styles": {
             "root": {
-              "color": "#000000"
+              "color": "#ffffff"
             }
           }
         }
@@ -238,22 +238,22 @@
           "value": null,
           "styles": {
             "root": {
-              "color": "#000000"
+              "color": "#ffffff"
             },
             "track": {
-              "background": "#000000"
+              "background": "#ffffff"
             },
             "thumb": {
-              "background": "#000000"
+              "background": "#ffffff"
             },
             "label": {
-              "color": "#000000"
+              "color": "#ffffff"
             },
             "mark": {
-              "color": "#000000"
+              "color": "#ffffff"
             },
             "markLabel": {
-              "color": "#000000"
+              "color": "#ffffff"
             }
           }
         }
@@ -262,14 +262,14 @@
         "defaultProps": {
           "styles": {
             "tab": {
-              "color": "#000000",
+              "color": "#ffffff",
               "fontFamily": "'Montserrat', sans-serif",
               "fontWeight": "normal",
               "width": "50%",
               "backgroundColor": "transparent"
             },
             "tabLabel": {
-              "color": "#000000",
+              "color": "#ffffff",
               "fontFamily": "'Montserrat', sans-serif",
               "fontWeight": "normal"
             },
@@ -289,14 +289,14 @@
         "defaultProps": {
           "styles": {
             "root": {
-              "color": "#000000",
+              "color": "#ffffff",
               "gap": "2px"
             },
             "track": {
               "background": "transparent"
             },
             "thumb": {
-              "background": "#000000"
+              "background": "#ffffff"
             }
           }
         }
