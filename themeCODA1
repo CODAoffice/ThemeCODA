@@ -72,6 +72,18 @@
       "forceColorScheme": "light"
     },
     "components": {
+      "ButtonGroup": {
+        "defaultProps": {
+          "styles": {
+            "root": {
+              "width": "100%"
+            },
+            "button": {
+              "outline": "0px"
+            }
+          }
+        }
+      },
       "Table": {
         "defaultProps": {
           "withRowBorders": false,
@@ -354,10 +366,10 @@
               },
               "styles": {
                 "root": {
-                  "width": "100%"  
+                  "width": "100%"
                 },
                 "button": {
-                  "outline": "0px" 
+                  "outline": "0px"
                 }
               }
             },
@@ -379,24 +391,89 @@
               },
               "styles": {
                 "root": {
-                  "width": "100%"  
+                  "width": "100%"
                 },
                 "button": {
-                  "outline": "0px" 
+                  "outline": "0px"
                 }
               }
-            }
-          }
-        }
-      },
-      "ButtonGroup": {
-        "defaultProps": {
-          "styles": {
-            "root": {
-              "width": "100%"  
             },
-            "button": {
-              "outline": "0px"  
+            "People": {
+              "type": "buttongroup",
+              "styles": {
+                "root": {
+                  "width": "100%"
+                },
+                "button": {
+                  "outline": "0px"
+                }
+              }
+            },
+            "Advanced settings": {
+              "type": "buttongroup",
+              "itemData": {
+                "Option 1": {
+                  "label": "Option 1"
+                },
+                "Option 2": {
+                  "label": "Option 2"
+                },
+                "Option 3": {
+                  "label": "Option 3"
+                }
+              },
+              "styles": {
+                "root": {
+                  "width": "100%"
+                },
+                "button": {
+                  "outline": "0px"
+                }
+              }
+            },
+            "Custom supports position": {
+              "type": "buttongroup",
+              "styles": {
+                "root": {
+                  "width": "100%"
+                },
+                "button": {
+                  "outline": "0px"
+                }
+              }
+            },
+            "Inside bench": {
+              "type": "buttongroup",
+              "styles": {
+                "root": {
+                  "width": "100%"
+                },
+                "button": {
+                  "outline": "0px"
+                }
+              }
+            },
+            "Entrance height": {
+              "type": "buttongroup",
+              "styles": {
+                "root": {
+                  "width": "100%"
+                },
+                "button": {
+                  "outline": "0px"
+                }
+              }
+            },
+            "Interior height": {
+              "type": "buttongroup",
+              "styles": {
+                "root": {
+                  "width": "100%"
+                },
+                "button": {
+                  "outline": "0px"
+                }
+              }
             }
           }
         }
