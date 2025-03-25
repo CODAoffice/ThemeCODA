@@ -1,7 +1,7 @@
 {
   "version": "1.0",
   "themeOverrides": {
-    "primaryColor": "white",
+    "primaryColor": "customDarkOrange",
     "colors": {
       "customDarkOrange": [
         "#f8f0e1",
