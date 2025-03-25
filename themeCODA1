@@ -333,15 +333,13 @@
         "defaultProps": {
           "componentSettings": {
             "Material": {
-              "type": "color",
+              "type": "buttongroup",
               "itemData": {
                 "Plywood": {
-                  "color": "customDarkOrange",
-                  "tooltip": "Birch plywood"
+                  "color": "orange",
                 },
                 "HPL grey": {
                   "color": "gray",
-                  "tooltip": "HPL grey"
                 },
                 "HPL black": {
                   "color": "black"
