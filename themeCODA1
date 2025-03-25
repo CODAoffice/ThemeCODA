@@ -340,7 +340,7 @@
               }
             },
             "Size": {
-              "type": "chipgroup",
+              "type": "buttongroup",
               "itemData": {
                 "Small": {
                   "label": "Small"
@@ -354,7 +354,7 @@
               }
             },
             "Supports": {
-              "type": "chipgroup",
+              "type": "buttongroup",
               "itemData": {
                 "One": {
                   "label": "One"
@@ -371,11 +371,11 @@
               }
             },
             "People": {
-              "type": "chipgroup"
+              "type": "buttongroup"
               }
             },
             "Advanced settings": {
-              "type": "chipgroup",
+              "type": "buttongroup",
               "itemData": {
                 "Option 1": {
                   "label": "Option 1"
@@ -389,10 +389,10 @@
               }
             },
             "Custom supports position": {
-              "type": "chipgroup"
+              "type": "buttongroup"
             },
             "Inside Bench": {
-              "type": "chipgroup"
+              "type": "buttongroup"
             }
           }
         }
