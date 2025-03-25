@@ -372,7 +372,6 @@
             },
             "People": {
               "type": "buttongroup"
-              }
             },
             "Advanced settings": {
               "type": "buttongroup",
