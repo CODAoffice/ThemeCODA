@@ -70,28 +70,6 @@
       "customTone04": "#FF9F1B",
       "defaultFontWeight": "100",
       "forceColorScheme": "light"
-    },
-    "components": {
-      "ButtonGroup": {
-        "defaultProps": {
-          "styles": {
-            "root": {
-              "width": "100%",
-              "display": "flex",
-              "gap": "0.1625rem"
-            },
-            "button": {
-              "outline": "0px",
-              ":not(.mantine-Button-active)": {
-                "border": "0px"
-              },
-              "&.mantine-Button-active": {
-                "border": "2px solid #FFFFFF",
-                "backgroundColor": "#FF914D"
-              }
-            }
-          }
-        }
       },
       "Table": {
         "defaultProps": {
