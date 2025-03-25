@@ -385,12 +385,10 @@
               }
             },
             "Custom supports position": {
-              "type": "chipgroup",
+              "type": "chipgroup"
             },
             "Inside Bench": {
-              "type": "chipgroup",
-                }
-              }
+              "type": "chipgroup"
             }
           }
         }
