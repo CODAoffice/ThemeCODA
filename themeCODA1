@@ -1,43 +1,31 @@
 {
   "version": "1.0",
   "themeOverrides": {
-    "primaryColor": "customDarkOrange",
+    "primaryColor": "customGray", 
     "colors": {
-      "customDarkOrange": [
-        "#f8f0e1",
-        "#f1e1c8",
-        "#e2d1a6",
-        "#d4c086",
-        "#c69e6d",
-        "#b78d55",
-        "#a77b44",
-        "#976c33",
-        "#875c22",
+      "customDarkGray": [
+        "#f8f0e1", 
+        "#f1e1c8", 
+        "#e2d1a6", 
+        "#d4c086", 
+        "#c69e6d", 
+        "#b78d55", 
+        "#a77b44", 
+        "#976c33", 
+        "#875c22", 
         "#784b11"
       ],
-      "customLightOrange": [
-        "#ffe8d0",
-        "#f7d8a1",
-        "#f0c272",
-        "#e9b343",
-        "#e3a014",
-        "#d38900",
-        "#c87700",
-        "#b76600",
-        "#a75500",
-        "#9c4400"
-      ],
-      "customLightBeige": [
-        "#fbf7ee",
-        "#f4ebdd",
-        "#ead6b5",
-        "#e1c08a",
-        "#d8ad64",
-        "#d3a14d",
-        "#d19b40",
-        "#b98632",
-        "#a5762b",
-        "#8f661f"
+      "customLightGray": [
+        "#dcdcdc", 
+        "#d3d3d3", 
+        "#c9c9c9", 
+        "#bfbfbf", 
+        "#b0b0b0", 
+        "#a0a0a0", 
+        "#8f8f8f", 
+        "#7f7f7f", 
+        "#6f6f6f", 
+        "#5f5f5f"
       ],
       "gray": [
         "#dcdcdc",
@@ -52,7 +40,7 @@
         "#5f5f5f"
       ]
     },
-    "defaultRadius": "0",
+    "defaultRadius": "0", 
     "fontFamily": "'Montserrat Light', sans-serif",
     "headings": {
       "fontFamily": "'Montserrat Light', sans-serif",
@@ -61,9 +49,8 @@
     "white": "transparent",
     "black": "#131A2A",
     "other": {
-      "customDarkOrange": "#131A2A",
-      "customLightBeige": "#FCF8F1",
-      "customLightOrange": "#FF914D",
+      "customDarkGray": "#131A2A",
+      "customLightGray": "#dcdcdc",
       "customTone01": "#FFE4B2",
       "customTone02": "#FFCC7A",
       "customTone03": "#FFB842",
@@ -72,6 +59,39 @@
       "forceColorScheme": "light"
     },
     "components": {
+      "ButtonGroup": {
+        "defaultProps": {
+          "styles": {
+            "root": {
+              "backgroundColor": "transparent",
+              "border": "1px solid #FFFFFF",
+              "color": "#FFFFFF",
+              "borderRadius": "0", 
+              ":hover": {
+                "backgroundColor": "transparent",
+                "border": "1px solid #FFFFFF",
+                "color": "#FFFFFF"
+              }
+            }
+          }
+        }
+      },
+      "Button": {
+        "defaultProps": {
+          "fw": "300",
+          "styles": {
+            "label": {
+              "color": "#FFFFFF"
+            },
+            "root": {
+              "backgroundColor": "transparent",
+              "border": "1px solid #FFFFFF",
+              "color": "#FFFFFF",
+              "borderRadius": "0"
+            }
+          }
+        }
+      },
       "Table": {
         "defaultProps": {
           "withRowBorders": false,
@@ -110,16 +130,6 @@
           }
         }
       },
-      "Button": {
-        "defaultProps": {
-          "fw": "300",
-          "styles": {
-            "label": {
-              "color": "#FFFFFF"
-            }
-          }
-        }
-      },
       "Select": {
         "defaultProps": {
           "searchable": true,
@@ -140,8 +150,7 @@
             "dropdown": {
               "background": "rgba(99, 99, 99)",
               "color": "#FFFFFF",
-              "border": "none",
-              "boxShadow": "none"
+              "border": "none"
             },
             "item": {
               "background": "rgba(99, 99, 99)",
@@ -174,7 +183,7 @@
               "visible": true,
               "styles": {
                 "color": "#FFFFFF",
-                "backgroundColor": "#FF914D",
+                "backgroundColor": "#dcdcdc",
                 "borderRadius": "50%",
                 "width": "24px",
                 "height": "24px",
@@ -182,7 +191,7 @@
                 "alignItems": "center",
                 "justifyContent": "center",
                 ":hover": {
-                  "backgroundColor": "#FF914D"
+                  "backgroundColor": "#dcdcdc"
                 }
               }
             }
@@ -324,8 +333,8 @@
               "type": "color",
               "itemData": {
                 "Plywood": {
-                  "color": "customDarkOrange",
-                  "tooltip": "Birch plywood"
+                  "color": "orange",
+                  "tooltip": "Plywood"
                 },
                 "HPL grey": {
                   "color": "gray",
@@ -340,7 +349,7 @@
               }
             },
             "Size": {
-              "type": "chipgroup",
+              "type": "buttongroup",
               "itemData": {
                 "Small": {
                   "label": "Small"
@@ -354,7 +363,7 @@
               }
             },
             "Supports": {
-              "type": "chipgroup",
+              "type": "buttongroup",
               "itemData": {
                 "One": {
                   "label": "One"
@@ -371,11 +380,11 @@
               }
             },
             "People": {
-              "type": "chipgroup",
+              "type": "buttongroup",
               }
             },
             "Advanced settings": {
-              "type": "chipgroup",
+              "type": "buttongroup",
               "itemData": {
                 "Option 1": {
                   "label": "Option 1"
@@ -389,10 +398,10 @@
               }
             },
             "Custom supports position": {
-              "type": "chipgroup"
+              "type": "buttongroup"
             },
             "Inside Bench": {
-              "type": "chipgroup"
+              "type": "buttongroup"
             }
           }
         }
