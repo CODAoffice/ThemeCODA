@@ -370,6 +370,10 @@
                 }
               }
             },
+            "People": {
+              "type": "chipgroup",
+              }
+            },
             "Advanced settings": {
               "type": "chipgroup",
               "itemData": {
