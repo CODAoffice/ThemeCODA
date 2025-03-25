@@ -334,8 +334,8 @@
                 "HPL black": {
                   "color": "black"
                 },
-                "HPL white": {
-                  "color": "white"
+                "HPL color": {
+                  "color": "blue"
                 }
               }
             },
@@ -386,26 +386,9 @@
             },
             "Custom supports position": {
               "type": "chipgroup",
-              "itemData": {
-                "Left": {
-                  "label": "Left"
-                },
-                "Right": {
-                  "label": "Right"
-                },
-                "Center": {
-                  "label": "Center"
-                }
-              }
             },
             "Inside Bench": {
               "type": "chipgroup",
-              "itemData": {
-                "Yes": {
-                  "label": "Yes"
-                },
-                "No": {
-                  "label": "No"
                 }
               }
             }
