@@ -134,7 +134,7 @@
             "root": {
               "width": "100%",
               "outline": "0px",
-              "gap": "1px"
+              "gap": "var(--mantine-spacing-xs)",
             },
             ":hover": {
               "outline": "0px"
@@ -150,7 +150,7 @@
           "styles": {
             "root": {
               "width": "100%",
-              "gap": "1px"
+              "gap": "var(--mantine-spacing-xs)",
             }
           }
         }
@@ -164,7 +164,7 @@
               "border": "none",
               "boxShadow": "none",
               "outline": "1px solid #ffffff",
-              "gap": "1px"
+              "gap": "var(--mantine-spacing-xs)",
             },
             "input": {
               "color": "#FFFFFF",
