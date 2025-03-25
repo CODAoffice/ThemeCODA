@@ -72,26 +72,14 @@
       "forceColorScheme": "light"
     },
     "components": {
-      "MantineProvider": {
-        "defaultProps": {
-          "theme": {
-            "spacing": {
-              "xs": "1px",
-              "sm": "1px",
-              "md": "1px",
-              "lg": "1px",
-              "xl": "1px"
-            }
-          }
-        }
-      },
       "Table": {
         "defaultProps": {
           "withRowBorders": false,
           "styles": {
             "root": {
               "color": "#FFFFFF",
-              "gap": "1px"
+              "gap": "1px",
+              "padding": "1px"
             },
             "thead": {
               "color": "#FFFFFF"
@@ -100,9 +88,9 @@
               "color": "#FFFFFF"
             },
             "table": {
-              "marginBottom": "var(--mantine-spacing-xs)",
-              "paddingInline": "var(--mantine-spacing-xs)",
-              "paddingBlock": "var(--mantine-spacing-xs)",
+              "marginBottom": "1px",
+              "paddingInline": "1px",
+              "paddingBlock": "1px",
               "width": "100%"
             },
             "td": {
@@ -119,7 +107,8 @@
               "color": "#FFFFFF"
             },
             "content": {
-              "color": "#FFFFFF"
+              "color": "#FFFFFF",
+              "padding": "1px"
             }
           }
         }
@@ -134,7 +123,8 @@
             "root": {
               "width": "100%",
               "outline": "0px",
-              "gap": "var(--mantine-spacing-xs)"
+              "gap": "1px",
+              "padding": "1px"
             },
             ":hover": {
               "outline": "0px"
@@ -150,13 +140,8 @@
           "styles": {
             "root": {
               "width": "100%",
-              "gap": "var(--mantine-spacing-xs)"
-            },
-            ":hover": {
-              "outline": "0px"
-            },
-            ":focus": {
-              "outline": "0px"
+              "gap": "1px",
+              "padding": "1px"
             }
           }
         }
@@ -170,7 +155,8 @@
               "border": "none",
               "boxShadow": "none",
               "outline": "1px solid #ffffff",
-              "gap": "var(--mantine-spacing-xs)"
+              "gap": "1px",
+              "padding": "1px"
             },
             "input": {
               "color": "#FFFFFF",
@@ -207,24 +193,25 @@
               "border": "none",
               "boxShadow": "none",
               "outline": "2px solid #ffffff",
-              "color": "#FFFFFF"
-            }
-          },
-          "ClearButton": {
-            "defaultProps": {
-              "size": "sm",
-              "visible": true,
-              "styles": {
-                "color": "#FFFFFF",
-                "backgroundColor": "#FF914D",
-                "borderRadius": "50%",
-                "width": "24px",
-                "height": "24px",
-                "display": "flex",
-                "alignItems": "center",
-                "justifyContent": "center",
-                ":hover": {
-                  "backgroundColor": "#FF914D"
+              "color": "#FFFFFF",
+              "padding": "1px"
+            },
+            "ClearButton": {
+              "defaultProps": {
+                "size": "sm",
+                "visible": true,
+                "styles": {
+                  "color": "#FFFFFF",
+                  "backgroundColor": "#FF914D",
+                  "borderRadius": "50%",
+                  "width": "24px",
+                  "height": "24px",
+                  "display": "flex",
+                  "alignItems": "center",
+                  "justifyContent": "center",
+                  ":hover": {
+                    "backgroundColor": "#FF914D"
+                  }
                 }
               }
             }
@@ -238,7 +225,8 @@
               "color": "#FFFFFF"
             },
             "input": {
-              "color": "#FFFFFF"
+              "color": "#FFFFFF",
+              "padding": "1px"
             }
           }
         }
@@ -247,7 +235,8 @@
         "defaultProps": {
           "styles": {
             "root": {
-              "color": "#FFFFFF"
+              "color": "#FFFFFF",
+              "padding": "1px"
             }
           }
         }
@@ -257,7 +246,8 @@
           "value": null,
           "styles": {
             "root": {
-              "color": "#FFFFFF"
+              "color": "#FFFFFF",
+              "padding": "1px"
             },
             "track": {
               "background": "#FFFFFF"
@@ -285,7 +275,8 @@
               "fontFamily": "'Montserrat', sans-serif",
               "fontWeight": "normal",
               "width": "50%",
-              "backgroundColor": "transparent"
+              "backgroundColor": "transparent",
+              "padding": "1px"
             },
             "tabLabel": {
               "color": "#FFFFFF",
@@ -296,7 +287,8 @@
               "width": "100%",
               "backgroundColor": "transparent",
               "height": "auto",
-              "gap": "1px"
+              "gap": "1px",
+              "padding": "1px"
             },
             "tabActive": {
               "backgroundColor": "transparent"
@@ -309,101 +301,14 @@
           "styles": {
             "root": {
               "color": "#FFFFFF",
-              "gap": "1px"
+              "gap": "1px",
+              "padding": "1px"
             },
             "track": {
               "background": "transparent"
             },
             "thumb": {
               "background": "#FFFFFF"
-            }
-          }
-        }
-      },
-      "AppBuilderImage": {
-        "defaultProps": {
-          "withBorder": false
-        }
-      },
-      "Paper": {
-        "defaultProps": {
-          "withBorder": false
-        }
-      },
-      "AppBuilderAppShellTemplatePage": {
-        "defaultProps": {
-          "columns": {
-            "base": 1,
-            "lg": 2
-          },
-          "rightColumns": 0,
-          "navbarWidth": {
-            "md": 500,
-            "lg": 600
-          }
-        }
-      },
-      "ViewportIcons": {
-        "defaultProps": {
-          "color": "#670000",
-          "enableArBtn": false,
-          "enableCamerasBtn": true,
-          "enableFullscreenBtn": true,
-          "enableZoomBtn": false
-        }
-      },
-      "AppShell": {
-        "defaultProps": {
-          "styles": {
-            "navbar": {
-              "backgroundColor": "rgba(0, 0, 0, 0.6)"
-            }
-          }
-        }
-      },
-      "ParameterSelectComponent": {
-        "defaultProps": {
-          "componentSettings": {
-            "Material": {
-              "type": "buttongroup",
-              "itemData": {
-                "Plywood": {
-                  "color": "orange"
-                },
-                "HPL grey": {
-                  "color": "gray"
-                },
-                "HPL black": {
-                  "color": "black"
-                },
-                "HPL color": {
-                  "color": "blue"
-                }
-              }
-            },
-            "Size": {
-              "type": "buttongroup"
-            },
-            "Supports": {
-              "type": "buttongroup"
-            },
-            "People": {
-              "type": "buttongroup"
-            },
-            "Advanced settings": {
-              "type": "buttongroup"
-            },
-            "Custom supports position": {
-              "type": "buttongroup"
-            },
-            "Inside bench": {
-              "type": "buttongroup"
-            },
-            "Entrance height": {
-              "type": "buttongroup"
-            },
-            "Interior height": {
-              "type": "buttongroup"
             }
           }
         }
