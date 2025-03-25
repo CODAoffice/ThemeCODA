@@ -78,8 +78,7 @@
           "styles": {
             "root": {
               "color": "#FFFFFF",
-              "gap": "1px",
-              "padding": "1px"
+              "gap": "2px"
             },
             "thead": {
               "color": "#FFFFFF"
@@ -88,13 +87,13 @@
               "color": "#FFFFFF"
             },
             "table": {
-              "marginBottom": "1px",
-              "paddingInline": "1px",
-              "paddingBlock": "1px",
+              "marginBottom": "var(--mantine-spacing-xs)",
+              "paddingInline": "var(--mantine-spacing-xs)",
+              "paddingBlock": "var(--mantine-spacing-xs)",
               "width": "100%"
             },
             "td": {
-              "padding": "1px"
+              "padding": "2px"
             }
           }
         }
@@ -107,8 +106,7 @@
               "color": "#FFFFFF"
             },
             "content": {
-              "color": "#FFFFFF",
-              "padding": "1px"
+              "color": "#FFFFFF"
             }
           }
         }
@@ -123,8 +121,7 @@
             "root": {
               "width": "100%",
               "outline": "0px",
-              "gap": "1px",
-              "padding": "1px"
+              "gap": "2px"  
             },
             ":hover": {
               "outline": "0px"
@@ -140,8 +137,7 @@
           "styles": {
             "root": {
               "width": "100%",
-              "gap": "1px",
-              "padding": "1px"
+              "gap": "2px" 
             }
           }
         }
@@ -155,8 +151,7 @@
               "border": "none",
               "boxShadow": "none",
               "outline": "1px solid #ffffff",
-              "gap": "1px",
-              "padding": "1px"
+              "gap": "2px" 
             },
             "input": {
               "color": "#FFFFFF",
@@ -193,25 +188,24 @@
               "border": "none",
               "boxShadow": "none",
               "outline": "2px solid #ffffff",
-              "color": "#FFFFFF",
-              "padding": "1px"
-            },
-            "ClearButton": {
-              "defaultProps": {
-                "size": "sm",
-                "visible": true,
-                "styles": {
-                  "color": "#FFFFFF",
-                  "backgroundColor": "#FF914D",
-                  "borderRadius": "50%",
-                  "width": "24px",
-                  "height": "24px",
-                  "display": "flex",
-                  "alignItems": "center",
-                  "justifyContent": "center",
-                  ":hover": {
-                    "backgroundColor": "#FF914D"
-                  }
+              "color": "#FFFFFF"
+            }
+          },
+          "ClearButton": {
+            "defaultProps": {
+              "size": "sm",
+              "visible": true,
+              "styles": {
+                "color": "#FFFFFF",
+                "backgroundColor": "#FF914D",
+                "borderRadius": "50%",
+                "width": "24px",
+                "height": "24px",
+                "display": "flex",
+                "alignItems": "center",
+                "justifyContent": "center",
+                ":hover": {
+                  "backgroundColor": "#FF914D"
                 }
               }
             }
@@ -225,8 +219,7 @@
               "color": "#FFFFFF"
             },
             "input": {
-              "color": "#FFFFFF",
-              "padding": "1px"
+              "color": "#FFFFFF"
             }
           }
         }
@@ -235,8 +228,7 @@
         "defaultProps": {
           "styles": {
             "root": {
-              "color": "#FFFFFF",
-              "padding": "1px"
+              "color": "#FFFFFF"
             }
           }
         }
@@ -246,8 +238,7 @@
           "value": null,
           "styles": {
             "root": {
-              "color": "#FFFFFF",
-              "padding": "1px"
+              "color": "#FFFFFF"
             },
             "track": {
               "background": "#FFFFFF"
@@ -275,8 +266,7 @@
               "fontFamily": "'Montserrat', sans-serif",
               "fontWeight": "normal",
               "width": "50%",
-              "backgroundColor": "transparent",
-              "padding": "1px"
+              "backgroundColor": "transparent"
             },
             "tabLabel": {
               "color": "#FFFFFF",
@@ -287,8 +277,7 @@
               "width": "100%",
               "backgroundColor": "transparent",
               "height": "auto",
-              "gap": "1px",
-              "padding": "1px"
+              "gap": "2px"  
             },
             "tabActive": {
               "backgroundColor": "transparent"
@@ -301,14 +290,101 @@
           "styles": {
             "root": {
               "color": "#FFFFFF",
-              "gap": "1px",
-              "padding": "1px"
+              "gap": "2px" 
             },
             "track": {
               "background": "transparent"
             },
             "thumb": {
               "background": "#FFFFFF"
+            }
+          }
+        }
+      },
+      "AppBuilderImage": {
+        "defaultProps": {
+          "withBorder": false
+        }
+      },
+      "Paper": {
+        "defaultProps": {
+          "withBorder": false
+        }
+      },
+      "AppBuilderAppShellTemplatePage": {
+        "defaultProps": {
+          "columns": {
+            "base": 1,
+            "lg": 2
+          },
+          "rightColumns": 0,
+          "navbarWidth": {
+            "md": 500,
+            "lg": 600
+          }
+        }
+      },
+      "ViewportIcons": {
+        "defaultProps": {
+          "color": "#670000",
+          "enableArBtn": false,
+          "enableCamerasBtn": true,
+          "enableFullscreenBtn": true,
+          "enableZoomBtn": false
+        }
+      },
+      "AppShell": {
+        "defaultProps": {
+          "styles": {
+            "navbar": {
+              "backgroundColor": "rgba(0, 0, 0, 0.6)"
+            }
+          }
+        }
+      },
+      "ParameterSelectComponent": {
+        "defaultProps": {
+          "componentSettings": {
+            "Material": {
+              "type": "buttongroup",
+              "itemData": {
+                "Plywood": {
+                  "color": "orange"
+                },
+                "HPL grey": {
+                  "color": "gray"
+                },
+                "HPL black": {
+                  "color": "black"
+                },
+                "HPL color": {
+                  "color": "blue"
+                }
+              }
+            },
+            "Size": {
+              "type": "buttongroup"
+            },
+            "Supports": {
+              "type": "buttongroup"
+            },
+            "People": {
+              "type": "buttongroup"
+            },
+            "Advanced settings": {
+              "type": "buttongroup"
+            },
+            "Custom supports position": {
+              "type": "buttongroup"
+            },
+            "Inside bench": {
+              "type": "buttongroup"
+            },
+            "Entrance height": {
+              "type": "buttongroup"
+            },
+            "Interior height": {
+              "type": "buttongroup"
             }
           }
         }
