@@ -380,8 +380,7 @@
               }
             },
             "People": {
-              "type": "buttongroup",
-              }
+              "type": "buttongroup"
             },
             "Advanced settings": {
               "type": "buttongroup",
