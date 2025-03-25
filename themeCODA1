@@ -336,10 +336,10 @@
               "type": "buttongroup",
               "itemData": {
                 "Plywood": {
-                  "color": "orange",
+                  "color": "orange"
                 },
                 "HPL grey": {
-                  "color": "gray",
+                  "color": "gray"
                 },
                 "HPL black": {
                   "color": "black"
