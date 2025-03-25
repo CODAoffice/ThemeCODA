@@ -339,7 +339,7 @@
                 }
               }
             },
-            "Size of pavilion": {
+            "Size": {
               "type": "chipgroup",
               "itemData": {
                 "Small": {
@@ -353,7 +353,7 @@
                 }
               }
             },
-            "Number of supports": {
+            "Supports": {
               "type": "chipgroup",
               "itemData": {
                 "One": {
