@@ -116,7 +116,8 @@
           "fw": "300",
           "styles": {
             "label": {
-              "color": "#ffffff"
+              "color": "#ffffff",
+              "background": "gray"
             },
             "root": {
               "width": "100%",
@@ -385,6 +386,9 @@
               "type": "buttongroup"
             },
             "Interior height": {
+              "type": "buttongroup"
+            },
+            "Contact name": {
               "type": "buttongroup"
             }
           }
