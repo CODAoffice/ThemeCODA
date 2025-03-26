@@ -120,7 +120,7 @@
             },
             "root": {
               "width": "100%",
-              "backgroundColor": "rgba(0, 0, 0, 0.5)",
+              "backgroundColor": "rgba(0, 0, 0, 0.2)",
               "outline": "0px",
               "gap": "2px",
               "border": "none",
