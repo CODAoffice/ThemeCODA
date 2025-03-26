@@ -170,7 +170,7 @@
             "item": {
               "background": "rgba(99, 99, 99)",
               "color": "#ffffff",
-              "border": "1px solid #ffffff"
+              "border": "1px solid #ffffff",
               ":hover": {
                 "background": "rgba(99, 99, 99)",
                 "color": "#ffffff"
