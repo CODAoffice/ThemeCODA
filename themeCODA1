@@ -123,11 +123,11 @@
               "outline": "0px",
               "gap": "2px",
               "border": "none",
-              "backgroundColor": "rgba(0, 0, 0, 0.5)",
+              "backgroundColor": "rgba(0, 0, 0, 0.7)",
               ":hover": {
                 "outline": "0px",
                 "border": "none",
-                "backgroundColor": "rgba(50, 50, 50, 0.6)"
+                "backgroundColor": "rgba(50, 50, 50)"
               }
             }
           }
