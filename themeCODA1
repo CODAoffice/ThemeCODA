@@ -123,14 +123,14 @@
               "outline": "0px",
               "gap": "2px",
               "border": "none",
-              "backgroundColor": "rgba(0, 0, 0, 0.2)",
+              "backgroundColor": "rgba(0, 0, 0, 0.5)",
               ":hover": {
                 "outline": "0px",
                 "border": "none",
-                "backgroundColor": "rgba(40, 40, 40)"
+                "backgroundColor": "rgba(40, 40, 40, 0.7)" 
               },
               ":active": {
-                "backgroundColor": "rgba(30, 30, 30)"
+                "backgroundColor": "rgba(30, 30, 30, 0.8)" 
               }
             }
           }
@@ -143,6 +143,22 @@
               "width": "100%",
               "gap": "2px",
               "border": "none"
+            },
+            "button": {
+              "backgroundColor": "rgba(0, 0, 0, 0.5)", 
+              ":hover": {
+                "backgroundColor": "rgba(40, 40, 40, 0.7)"
+              },
+              ":active": {
+                "backgroundColor": "rgba(30, 30, 30, 0.8)"
+              }
+            },
+            "buttonSelected": {
+              "backgroundColor": "#FF914D",  
+              "color": "#000000", 
+              ":hover": {
+                "backgroundColor": "#FF914D"  
+              }
             }
           }
         }
