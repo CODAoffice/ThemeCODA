@@ -116,21 +116,18 @@
           "fw": "300",
           "styles": {
             "label": {
-              "color": "#ffffff"
+              "color": "#ffffff",
+              "background": "gray"
             },
             "root": {
               "width": "100%",
+              "backgroundColor": "rgba(0, 0, 0, 0.5)",
               "outline": "0px",
               "gap": "2px",
               "border": "none",
-              "backgroundColor": "rgba(0, 0, 0, 0.5)",
               ":hover": {
                 "outline": "0px",
-                "border": "none",
-                "backgroundColor": "rgba(40, 40, 40, 0.7)" 
-              },
-              ":active": {
-                "backgroundColor": "rgba(30, 30, 30, 0.8)" 
+                "border": "none"
               }
             }
           }
@@ -143,22 +140,6 @@
               "width": "100%",
               "gap": "2px",
               "border": "none"
-            },
-            "button": {
-              "backgroundColor": "rgba(0, 0, 0, 0.5)", 
-              ":hover": {
-                "backgroundColor": "rgba(40, 40, 40, 0.7)"
-              },
-              ":active": {
-                "backgroundColor": "rgba(30, 30, 30, 0.8)"
-              }
-            },
-            "buttonSelected": {
-              "backgroundColor": "#FF914D",  
-              "color": "#000000", 
-              ":hover": {
-                "backgroundColor": "#FF914D"  
-              }
             }
           }
         }
