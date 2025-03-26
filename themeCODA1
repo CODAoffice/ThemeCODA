@@ -468,7 +468,7 @@
           "color": "#670000",
           "enableArBtn": false,
           "enableCamerasBtn": true,
-          "enableFullscreenBtn": true,
+          "enableFullscreenBtn": false,
           "enableZoomBtn": false
         }
       },
