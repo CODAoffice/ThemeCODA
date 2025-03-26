@@ -123,11 +123,11 @@
               "outline": "0px",
               "gap": "2px",
               "border": "none",
-              "backgroundColor": "rgba(0, 0, 0, 0.5)",  // Black background with 0.5 transparency
+              "backgroundColor": "rgba(0, 0, 0, 0.5)",
               ":hover": {
                 "outline": "0px",
                 "border": "none",
-                "backgroundColor": "rgba(50, 50, 50, 0.6)"  // Darker grey on hover
+                "backgroundColor": "rgba(50, 50, 50, 0.6)"
               }
             }
           }
