@@ -116,14 +116,14 @@
           "fw": "300",
           "styles": {
             "label": {
-              "color": "#ffffff",
-              "background": "gray"
+              "color": "#ffffff"
             },
             "root": {
               "width": "100%",
               "outline": "0px",
               "gap": "2px",
               "border": "none",
+              "background": "black"
               ":hover": {
                 "outline": "0px",
                 "border": "none"
