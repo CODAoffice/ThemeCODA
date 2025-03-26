@@ -149,7 +149,7 @@
           "styles": {
             "root": {
               "background": "transparent",
-              "border": "1px solid #ffffff",
+              "border": "none",
               "boxShadow": "none",
               "outline": "1px solid #ffffff",
               "gap": "2px"
@@ -170,6 +170,7 @@
             "item": {
               "background": "rgba(99, 99, 99)",
               "color": "#ffffff",
+              "border": "1px solid #ffffff"
               ":hover": {
                 "background": "rgba(99, 99, 99)",
                 "color": "#ffffff"
@@ -339,7 +340,7 @@
         "defaultProps": {
           "styles": {
             "navbar": {
-              "backgroundColor": "rgba(0, 0, 0, 0.6)"
+              "backgroundColor": "rgba(0, 0, 0, 0.4)"
             }
           }
         }
