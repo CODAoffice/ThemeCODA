@@ -141,7 +141,7 @@
               "border": "none"
             },
             "button": {
-              ":checked": {
+              ":active": {
                 "border": "2px solid #ffffff",  
                 "outline": "none"  
               },
@@ -341,7 +341,7 @@
           "color": "#670000",
           "enableArBtn": false,
           "enableCamerasBtn": true,
-          "enableFullscreenBtn": false,
+          "enableFullscreenBtn": true,
           "enableZoomBtn": false
         }
       },
