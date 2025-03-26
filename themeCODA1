@@ -139,6 +139,15 @@
               "width": "100%",
               "gap": "2px",
               "border": "none"
+            },
+            "button": {
+              ":checked": {
+                "border": "2px solid #ffffff",  
+                "outline": "none"  
+              },
+              ":hover": {
+                "backgroundColor": "rgba(0, 0, 0, 0.3)"  
+              }
             }
           }
         }
@@ -332,7 +341,7 @@
           "color": "#670000",
           "enableArBtn": false,
           "enableCamerasBtn": true,
-          "enableFullscreenBtn": true,
+          "enableFullscreenBtn": false,
           "enableZoomBtn": false
         }
       },
