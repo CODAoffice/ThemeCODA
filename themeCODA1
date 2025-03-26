@@ -122,11 +122,10 @@
               "width": "100%",
               "backgroundColor": "rgba(0, 0, 0, 0.2)",
               "outline": "0px",
-              "gap": "2px",
-              "border": "none",
+              "border": "2px solid #ffffff",
               ":hover": {
-                "outline": "0px",
-                "border": "none"
+                "outline": "1px",
+                "border": "2px solid #ffffff"
               }
             }
           }
@@ -138,143 +137,7 @@
             "root": {
               "width": "100%",
               "gap": "2px",
-              "border": "none"
-            }
-          }
-        }
-      },
-      "Size": {
-        "defaultProps": {
-          "styles": {
-            "root": {
-              "width": "100%",
-              "gap": "2px",
-              "border": "none"
-            },
-            "button": {
-              ":active": {
-                "border": "2px solid #ffffff",  
-                "outline": "none"
-              }
-            }
-          }
-        }
-      },
-      "Supports": {
-        "defaultProps": {
-          "styles": {
-            "root": {
-              "width": "100%",
-              "gap": "2px",
-              "border": "none"
-            },
-            "button": {
-              ":active": {
-                "border": "2px solid #ffffff", 
-                "outline": "none"
-              }
-            }
-          }
-        }
-      },
-      "People": {
-        "defaultProps": {
-          "styles": {
-            "root": {
-              "width": "100%",
-              "gap": "2px",
-              "border": "none"
-            },
-            "button": {
-              ":active": {
-                "border": "2px solid #ffffff",  
-                "outline": "none"
-              }
-            }
-          }
-        }
-      },
-      "Advanced settings": {
-        "defaultProps": {
-          "styles": {
-            "root": {
-              "width": "100%",
-              "gap": "2px",
-              "border": "none"
-            },
-            "button": {
-              ":active": {
-                "border": "2px solid #ffffff", 
-                "outline": "none"
-              }
-            }
-          }
-        }
-      },
-      "Custom supports position": {
-        "defaultProps": {
-          "styles": {
-            "root": {
-              "width": "100%",
-              "gap": "2px",
-              "border": "none"
-            },
-            "button": {
-              ":active": {
-                "border": "2px solid #ffffff", 
-                "outline": "none"
-              }
-            }
-          }
-        }
-      },
-      "Inside bench": {
-        "defaultProps": {
-          "styles": {
-            "root": {
-              "width": "100%",
-              "gap": "2px",
-              "border": "none"
-            },
-            "button": {
-              ":active": {
-                "border": "2px solid #ffffff",  
-                "outline": "none"
-              }
-            }
-          }
-        }
-      },
-      "Entrance height": {
-        "defaultProps": {
-          "styles": {
-            "root": {
-              "width": "100%",
-              "gap": "2px",
-              "border": "none"
-            },
-            "button": {
-              ":active": {
-                "border": "2px solid #ffffff",  
-                "outline": "none"
-              }
-            }
-          }
-        }
-      },
-      "Interior height": {
-        "defaultProps": {
-          "styles": {
-            "root": {
-              "width": "100%",
-              "gap": "2px",
-              "border": "none"
-            },
-            "button": {
-              ":active": {
-                "border": "2px solid #ffffff", 
-                "outline": "none"
-              }
+              "border": "2px solid #ffffff"
             }
           }
         }
@@ -327,25 +190,6 @@
               "boxShadow": "none",
               "outline": "2px solid #ffffff",
               "color": "#ffffff"
-            }
-          },
-          "ClearButton": {
-            "defaultProps": {
-              "size": "sm",
-              "visible": true,
-              "styles": {
-                "color": "#ffffff",
-                "backgroundColor": "#FF914D",
-                "borderRadius": "50%",
-                "width": "24px",
-                "height": "24px",
-                "display": "flex",
-                "alignItems": "center",
-                "justifyContent": "center",
-                ":hover": {
-                  "backgroundColor": "#FF914D"
-                }
-              }
             }
           }
         }
@@ -468,7 +312,7 @@
           "color": "#670000",
           "enableArBtn": false,
           "enableCamerasBtn": true,
-          "enableFullscreenBtn": false,
+          "enableFullscreenBtn": true,
           "enableZoomBtn": false
         }
       },
@@ -530,4 +374,6 @@
       }
     }
   }
+}
+
 }
