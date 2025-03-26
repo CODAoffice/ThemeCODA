@@ -116,17 +116,18 @@
           "fw": "300",
           "styles": {
             "label": {
-              "color": "#ffffff",
-              "background": "gray"
+              "color": "#ffffff"
             },
             "root": {
               "width": "100%",
               "outline": "0px",
               "gap": "2px",
               "border": "none",
+              "backgroundColor": "rgba(0, 0, 0, 0.5)",  // Black background with 0.5 transparency
               ":hover": {
                 "outline": "0px",
-                "border": "none"
+                "border": "none",
+                "backgroundColor": "rgba(50, 50, 50, 0.6)"  // Darker grey on hover
               }
             }
           }
