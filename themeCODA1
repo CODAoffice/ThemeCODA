@@ -149,7 +149,7 @@
           "styles": {
             "root": {
               "background": "transparent",
-              "border": "none",
+              "border": "1px solid #ffffff",
               "boxShadow": "none",
               "outline": "1px solid #ffffff",
               "gap": "2px"
