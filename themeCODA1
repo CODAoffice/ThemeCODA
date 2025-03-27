@@ -189,7 +189,7 @@
         "defaultProps": {
           "styles": {
             "label": {
-              "color": "#ffffff"
+              "display": "none"
             },
             "input": {
               "color": "#ffffff"
@@ -319,6 +319,30 @@
       "ParameterSelectComponent": {
         "defaultProps": {
           "componentSettings": {
+            "Location": {
+              "type": "select",
+              "styles": {
+                "label": {
+                  "display": "none"
+                }
+              }
+            },
+            "Contact name": {
+              "type": "textinput",
+              "styles": {
+                "label": {
+                  "display": "none"
+                }
+              }
+            },
+            "Your email": {
+              "type": "textinput",
+              "styles": {
+                "label": {
+                  "display": "none"
+                }
+              }
+            },
             "Material": {
               "type": "buttongroup",
               "itemData": {
