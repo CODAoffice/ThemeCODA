@@ -364,7 +364,7 @@
               "type": "buttongroup"
             },
             "Supports": {
-              "type": "carousel"
+              "type": "carousel",
               "itemData": {
                   "3": {
                       "imageUrl": "https://i.pinimg.com/1200x/4a/de/37/4ade3729109e48e14e0e3126f49df099.jpg",  
