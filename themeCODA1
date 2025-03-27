@@ -387,7 +387,8 @@
                 "carouselProps": {
                   "_withIndicators": true,
                   "loop": false,
-                  "withControls": false
+                  "withControls": false,
+                  "slideSize": "25%"
                 }
               }
             },
