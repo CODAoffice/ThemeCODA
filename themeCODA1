@@ -382,6 +382,12 @@
                   "imageUrl": "https://i.ibb.co/JRgBTR5w/A4.png",  
                   "displayname": "6"
                 }
+              },
+              "settings": {
+                "carouselProps": {
+                  "_withIndicators": true,
+                  "_loop": false
+                }
               }
             },
             "People": {
