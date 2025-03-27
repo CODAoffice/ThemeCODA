@@ -121,7 +121,7 @@
             "root": {
               "width": "100%",
               "backgroundColor": "rgba(0, 0, 0, 0.2)",
-              "border": "2px solid #ffffff",
+              "border": "2px solid #ffffff"
               }
             }
           }
