@@ -131,6 +131,7 @@
           "styles": {
             "root": {
               "width": "100%"
+              "border": "none"
             }
           }
         }
@@ -143,7 +144,6 @@
               "background": "transparent",
               "border": "none",
               "boxShadow": "none",
-              "gap": "2px"
             },
             "input": {
               "color": "#ffffff",
@@ -161,6 +161,7 @@
             "item": {
               "background": "rgba(99, 99, 99)",
               "color": "#ffffff",
+              "border": "2px solid #ffffff"
               ":hover": {
                 "background": "rgba(99, 99, 99)",
                 "color": "#ffffff"
