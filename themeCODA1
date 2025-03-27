@@ -389,7 +389,7 @@
                   "loop": false,
                   "withControls": false,
                   "slideSize": "25%", 
-                  "initialSlide": "0"
+                  "initialSlide": "1"
                 }
               }
             },
