@@ -121,8 +121,6 @@
             "root": {
               "width": "100%",
               "backgroundColor": "rgba(0, 0, 0, 0.2)",
-              "outline": "0px",
-              "border": "2px solid #ffffff",
               ":hover": {
                 "outline": "1px",
                 "border": "2px solid #ffffff"
