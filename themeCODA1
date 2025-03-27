@@ -53,22 +53,6 @@
       ]
     },
     "components": {
-      "Carousel": {
-        "defaultProps": {
-          "slideSize": "25%",
-          "loop": true,
-          "align": "start",
-          "slidesToScroll": 4,
-          "styles": {
-            "root": {
-              "backgroundColor": "transparent"
-            },
-            "slide": {
-              "borderRadius": "10px"
-            }
-          }
-        }
-      },
       "Table": {
         "defaultProps": {
           "withRowBorders": false,
@@ -203,6 +187,22 @@
           }
         }
       },
+      "Carousel": {
+        "defaultProps": {
+          "slideSize": "25%",
+          "loop": true,
+          "align": "start",
+          "slidesToScroll": 4,
+          "styles": {
+            "root": {
+              "backgroundColor": "transparent"
+            },
+            "slide": {
+              "borderRadius": "10px"
+            }
+          }
+        }
+      },
       "Slider": {
         "defaultProps": {
           "value": null,
@@ -312,6 +312,7 @@
             }
           }
         }
+
       },
       "ParameterSelectComponent": {
         "defaultProps": {
