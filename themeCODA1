@@ -364,7 +364,29 @@
               "type": "buttongroup"
             },
             "Supports": {
-              "type": "buttongroup"
+              "type": "carousel"
+              "itemData": {
+                  "3": {
+                      "imageUrl": "https://i.pinimg.com/1200x/4a/de/37/4ade3729109e48e14e0e3126f49df099.jpg",  
+                      "description": "Crisp and refreshing fruit",
+                      "displayname": "Apples"
+                  },
+                  "4": {
+                      "imageUrl": "https://i.pinimg.com/1200x/4a/de/37/4ade3729109e48e14e0e3126f49df099.jpg",  
+                      "description": "Crisp and refreshing fruitt",
+                      "displayname": "Appless"
+                  },
+                  "5": {
+                      "imageUrl": "https://i.pinimg.com/1200x/4a/de/37/4ade3729109e48e14e0e3126f49df099.jpg",  
+                      "description": "Crisp and refreshing fruittt",
+                      "displayname": "Applesss"
+                  },
+                  "6": {
+                      "imageUrl": "https://i.pinimg.com/1200x/4a/de/37/4ade3729109e48e14e0e3126f49df099.jpg",  
+                      "description": "Crisp and refreshing fruitttt",
+                      "displayname": "Applessss"
+                  }
+                }
             },
             "People": {
               "type": "buttongroup"
