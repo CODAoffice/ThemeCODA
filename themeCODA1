@@ -52,6 +52,25 @@
         "#5f5f5f"
       ]
     },
+    "defaultRadius": "0",
+    "fontFamily": "'Montserrat Light', sans-serif",
+    "headings": {
+      "fontFamily": "'Montserrat Light', sans-serif",
+      "fontWeight": 300
+    },
+    "white": "transparent",
+    "black": "#131A2A",
+    "other": {
+      "customWhite": "#ffffff",
+      "customLightBeige": "#FCF8F1",
+      "customLightOrange": "#FF914D",
+      "customTone01": "#FFE4B2",
+      "customTone02": "#FFCC7A",
+      "customTone03": "#FFB842",
+      "customTone04": "#FF9F1B",
+      "defaultFontWeight": "100",
+      "forceColorScheme": "light"
+    },
     "components": {
       "Table": {
         "defaultProps": {
@@ -187,22 +206,6 @@
           }
         }
       },
-      "Carousel": {
-        "defaultProps": {
-          "slideSize": "25%",
-          "loop": true,
-          "align": "start",
-          "slidesToScroll": 4,
-          "styles": {
-            "root": {
-              "backgroundColor": "transparent"
-            },
-            "slide": {
-              "borderRadius": "10px"
-            }
-          }
-        }
-      },
       "Slider": {
         "defaultProps": {
           "value": null,
@@ -312,7 +315,6 @@
             }
           }
         }
-
       },
       "ParameterSelectComponent": {
         "defaultProps": {
@@ -365,20 +367,24 @@
               "type": "carousel",
               "itemData": {
                 "3": {
-                  "imageUrl": "https://i.ibb.co/mV9GSsTM/A1.png",
-                  "displayname": "3"
+                  "imageUrl": "https://i.pinimg.com/1200x/4a/de/37/4ade3729109e48e14e0e3126f49df099.jpg",  
+                  "description": "Crisp and refreshing fruit",
+                  "displayname": "Apples"
                 },
                 "4": {
-                  "imageUrl": "https://i.ibb.co/qhBMDV7/A2.png",
-                  "displayname": "4"
+                  "imageUrl": "https://i.pinimg.com/1200x/4a/de/37/4ade3729109e48e14e0e3126f49df099.jpg",  
+                  "description": "Crisp and refreshing fruit",
+                  "displayname": "Apples"
                 },
                 "5": {
-                  "imageUrl": "https://i.ibb.co/d43qkSB0/A3.png",
-                  "displayname": "5"
+                  "imageUrl": "https://i.pinimg.com/1200x/4a/de/37/4ade3729109e48e14e0e3126f49df099.jpg",  
+                  "description": "Crisp and refreshing fruit",
+                  "displayname": "Apples"
                 },
                 "6": {
-                  "imageUrl": "https://i.ibb.co/JRgBTR5w/A4.png",
-                  "displayname": "6"
+                  "imageUrl": "https://i.pinimg.com/1200x/4a/de/37/4ade3729109e48e14e0e3126f49df099.jpg",  
+                  "description": "Crisp and refreshing fruit",
+                  "displayname": "Apples"
                 }
               }
             },
