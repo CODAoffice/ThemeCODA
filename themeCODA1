@@ -142,7 +142,6 @@
               "background": "transparent",
               "border": "none",
               "boxShadow": "none",
-              "outline": "1px solid #ffffff",
               "gap": "2px"
             },
             "input": {
