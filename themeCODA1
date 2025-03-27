@@ -162,9 +162,6 @@
               "background": "rgba(99, 99, 99)",
               "color": "#ffffff",
               "border": "2px solid #ffffff"
-              ":hover": {
-                "background": "rgba(99, 99, 99)",
-                "color": "#ffffff"
               }
             },
             "rightSection": {
