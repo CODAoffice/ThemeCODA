@@ -386,7 +386,8 @@
               "settings": {
                 "carouselProps": {
                   "_withIndicators": true,
-                  "_loop": false
+                  "loop": false,
+                  "withControls": false
                 }
               }
             },
