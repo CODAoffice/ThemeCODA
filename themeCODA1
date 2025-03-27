@@ -120,7 +120,8 @@
             },
             "root": {
               "width": "100%",
-              "backgroundColor": "rgba(0, 0, 0, 0.2)"
+              "backgroundColor": "rgba(0, 0, 0, 0.2)",
+              "border": "2px solid #ffffff"
             }
           }
         }
@@ -160,7 +161,6 @@
             "item": {
               "background": "rgba(99, 99, 99)",
               "color": "#ffffff",
-              "border": "1px solid #ffffff",
               ":hover": {
                 "background": "rgba(99, 99, 99)",
                 "color": "#ffffff"
