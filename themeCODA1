@@ -122,9 +122,6 @@
               "width": "100%",
               "backgroundColor": "rgba(0, 0, 0, 0.2)",
               "border": "2px solid #ffffff",
-              ":hover": {
-                "outline": "1px",
-                "border": "2px solid #ffffff"
               }
             }
           }
