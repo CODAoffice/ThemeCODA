@@ -388,7 +388,8 @@
                   "_withIndicators": true,
                   "loop": false,
                   "withControls": false,
-                  "slideSize": "25%"
+                  "slideSize": "25%", 
+                  "initialSlide": "3"
                 }
               }
             },
