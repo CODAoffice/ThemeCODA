@@ -3,7 +3,7 @@
   "themeOverrides": {
     "scale": 1.0,
     "spacing": {
-      "xs": "0.3rem",
+      "xs": "0.25rem",
       "sm": "0.3rem",
       "md": "1rem",
       "lg": "1.25rem",
