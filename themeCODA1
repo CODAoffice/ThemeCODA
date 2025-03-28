@@ -139,6 +139,7 @@
           "variant": "filled",
           "color": "rgba(0, 0, 0, 0.3)",
           "fw": "200",
+          "background": "black".
           "styles": {
             "label": {
               "color": "#ffffff"
@@ -180,12 +181,12 @@
           "searchable": true,
           "styles": {
             "root": {
-              "background": "black",
+              "background": "transparent",
               "boxShadow": "none"
             },
             "input": {
               "color": "#ffffff",
-              "background": "black",
+              "background": "transparent",
               "border": "0.1px solid #ffffff",
               "boxShadow": "none",
               "outline": "none"
