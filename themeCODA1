@@ -382,16 +382,16 @@
               "type": "buttongroup",
               "itemData": {
                 "Plywood": {
-                  "color": "orange"
+                  "color": "#ff922b"
                 },
                 "HPL grey": {
-                  "color": "gray"
+                  "color": "#C9C9C9"
                 },
                 "HPL black": {
-                  "color": "black"
+                  "color": "#3b3b3b"
                 },
                 "HPL color": {
-                  "color": "blue"
+                  "color": "#1971c2"
                 }
               }
             },
