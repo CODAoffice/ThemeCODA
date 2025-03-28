@@ -139,7 +139,7 @@
           "variant": "filled",
           "color": "rgba(0, 0, 0, 0.3)",
           "fw": "200",
-          "background": "black".
+          "background": "black",
           "styles": {
             "label": {
               "color": "#ffffff"
