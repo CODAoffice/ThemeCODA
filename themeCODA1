@@ -1,447 +1,453 @@
 {
-    "version": "1.0",
-    "themeOverrides": {
-      "scale": 1.0,
-      "spacing": {
-        "xs": "0.2rem",
-        "sm": "0.3rem",
-        "md": "1rem",
-        "lg": "1.25rem",
-        "xl": "2rem"
-      },
-      "primaryColor": "customWhite",
-      "colors": {
-        "customWhite": [
-          "#ffffff",
-          "#fdfdfd",
-          "#f9f9f9",
-          "#f4f4f4",
-          "#f0f0f0",
-          "#dcdcdc",
-          "#bfbfbf",
-          "#a6a6a6",
-          "#8c8c8c",
-          "#737373"
-        ],
-        "customLightOrange": [
-          "#ffe8d0",
-          "#f7d8a1",
-          "#f0c272",
-          "#e9b343",
-          "#e3a014",
-          "#d38900",
-          "#c87700",
-          "#b76600",
-          "#a75500",
-          "#9c4400"
-        ],
-        "customLightBeige": [
-          "#fbf7ee",
-          "#f4ebdd",
-          "#ead6b5",
-          "#e1c08a",
-          "#d8ad64",
-          "#d3a14d",
-          "#d19b40",
-          "#b98632",
-          "#a5762b",
-          "#8f661f"
-        ],
-        "gray": [
-          "#dcdcdc",
-          "#d3d3d3",
-          "#c9c9c9",
-          "#bfbfbf",
-          "#b0b0b0",
-          "#a0a0a0",
-          "#8f8f8f",
-          "#7f7f7f",
-          "#6f6f6f",
-          "#5f5f5f"
-        ]
-      },
-      "defaultRadius": "0",
+  "version": "1.0",
+  "themeOverrides": {
+    "scale": 1.0,
+    "spacing": {
+      "xs": "0.2rem",
+      "sm": "0.3rem",
+      "md": "1rem",
+      "lg": "1.25rem",
+      "xl": "2rem"
+    },
+    "primaryColor": "customWhite",
+    "colors": {
+      "customWhite": [
+        "#ffffff",
+        "#fdfdfd",
+        "#f9f9f9",
+        "#f4f4f4",
+        "#f0f0f0",
+        "#dcdcdc",
+        "#bfbfbf",
+        "#a6a6a6",
+        "#8c8c8c",
+        "#737373"
+      ],
+      "customLightOrange": [
+        "#ffe8d0",
+        "#f7d8a1",
+        "#f0c272",
+        "#e9b343",
+        "#e3a014",
+        "#d38900",
+        "#c87700",
+        "#b76600",
+        "#a75500",
+        "#9c4400"
+      ],
+      "customLightBeige": [
+        "#fbf7ee",
+        "#f4ebdd",
+        "#ead6b5",
+        "#e1c08a",
+        "#d8ad64",
+        "#d3a14d",
+        "#d19b40",
+        "#b98632",
+        "#a5762b",
+        "#8f661f"
+      ],
+      "gray": [
+        "#dcdcdc",
+        "#d3d3d3",
+        "#c9c9c9",
+        "#bfbfbf",
+        "#b0b0b0",
+        "#a0a0a0",
+        "#8f8f8f",
+        "#7f7f7f",
+        "#6f6f6f",
+        "#5f5f5f"
+      ]
+    },
+    "defaultRadius": "0",
+    "fontFamily": "'Montserrat Light', sans-serif",
+    "headings": {
       "fontFamily": "'Montserrat Light', sans-serif",
-      "headings": {
-        "fontFamily": "'Montserrat Light', sans-serif",
-        "fontWeight": 300
+      "fontWeight": 300
+    },
+    "white": "transparent",
+    "black": "#131A2A",
+    "other": {
+      "customWhite": "#ffffff",
+      "customLightBeige": "#FCF8F1",
+      "customLightOrange": "#FF914D",
+      "customTone01": "#FFE4B2",
+      "customTone02": "#FFCC7A",
+      "customTone03": "#FFB842",
+      "customTone04": "#FF9F1B",
+      "defaultFontWeight": "100",
+      "forceColorScheme": "light"
+    },
+    "components": {
+      "Paper": {
+        "defaultProps": {
+          "withBorder": false,
+          "styles": {
+            "root": {
+              "gap": "var(--mantine-spacing-sm)",
+              "alignItems": "stretch",
+              "justifyContent": "flex-start",
+              "padding": "var(--mantine-spacing-sm)",
+              "paddingInline": "var(--mantine-spacing-lg)"
+            }
+        }
+      }
       },
-      "white": "transparent",
-      "black": "#131A2A",
-      "other": {
-        "customWhite": "#ffffff",
-        "customLightBeige": "#FCF8F1",
-        "customLightOrange": "#FF914D",
-        "customTone01": "#FFE4B2",
-        "customTone02": "#FFCC7A",
-        "customTone03": "#FFB842",
-        "customTone04": "#FF9F1B",
-        "defaultFontWeight": "100",
-        "forceColorScheme": "light"
-      },
-      "components": {
-        "Paper": {
-          "defaultProps": {
-            "withBorder": false,
-            "styles": {
-              "root": {
-                "gap": "var(--mantine-spacing-sm)",
-                "alignItems": "stretch",
-                "justifyContent": "flex-start",
-                "padding": "var(--mantine-spacing-sm)",
-                "paddingInline": "var(--mantine-spacing-lg)"
-              }
+      "Table": {
+        "defaultProps": {
+          "withRowBorders": false,
+          "styles": {
+            "root": {
+              "color": "#ffffff"
+            },
+            "thead": {
+              "color": "#ffffff"
+            },
+            "tbody": {
+              "color": "#ffffff"
+            },
+            "table": {
+              "marginBottom": "var(--mantine-spacing-lg)",
+              "paddingBlock": "var(--mantine-spacing-lg)",
+              "paddingInline": "var(--mantine-spacing-lg)",
+              "width": "100%"
+            },
+            "td": {
+              "padding": "1px",
+              "paddingInline": "var(--mantine-spacing-md)"
+            }
           }
         }
-        },
-        "Table": {
-          "defaultProps": {
-            "withRowBorders": false,
-            "styles": {
-              "root": {
-                "color": "#ffffff"
-              },
-              "thead": {
-                "color": "#ffffff"
-              },
-              "tbody": {
-                "color": "#ffffff"
-              },
-              "table": {
-                "marginBottom": "var(--mantine-spacing-lg)",
-                "paddingBlock": "var(--mantine-spacing-lg)",
-                "paddingInline": "var(--mantine-spacing-lg)",
-                "width": "100%"
-              },
-              "td": {
-                "padding": "1px",
-                "paddingInline": "var(--mantine-spacing-md)"
-              }
-            }
-          }
-        },
-        "Accordion": {
-          "defaultProps": {
-            "styles": {
-              "label": {
-                "fontWeight": "300",
-                "color": "#ffffff"
-              },
-              "content": {
-                "color": "#ffffff"
-              }
-            }
-          }
-        },
-        "Button": {
-          "defaultProps": {
-            "size": "compact-sm",
-            "variant": "filled",
-            "color": "rgba(0, 0, 0, 0.5)",
-            "fw": "200",
-            "styles": {
-              "label": {
-                "color": "#ffffff"
-              },
-              "root": {
-                "width": "100%",
-                "border": "0.5px solid #ffffff"
-              }
-            }
-          }
-        },
-        "ButtonGroup": {
-          "defaultProps": {
-            "variant": "filled",
-            "color": "rgba(0, 0, 0, 0.2)"
-              }
-            }
-        },
-        "Stack": {
-          "defaultProps": {
-            "styles": {
-              "root": {
-                "gap": "var(--mantine-spacing-xs)",
-                "alignItems": "stretch",
-                "justifyContent": "flex-start",
-                "padding": "var(--mantine-spacing-sm)"
-              }
-            }
-          }
-        },
-        "Select": {
-          "defaultProps": {
-            "searchable": true,
-            "styles": {
-              "root": {
-                "background": "transparent",
-                "border": "0.5px solid #ffffff",
-                "boxShadow": "none"
-              },
-              "input": {
-                "color": "#ffffff",
-                "background": "transparent",
-                "border": "0.5px solid #ffffff",
-                "boxShadow": "none",
-                "outline": "none"
-              },
-              "dropdown": {
-                "background": "rgba(99, 99, 99)",
-                "color": "#ffffff",
-                "border": "none",
-                "boxShadow": "none"
-              },
-              "item": {
-                "background": "rgba(99, 99, 99)",
-                "color": "#ffffff",
-                "border": "0.5px solid #ffffff",
-                ":hover": {
-                  "background": "rgba(99, 99, 99)",
-                  "color": "#ffffff"
-                }
-              },
-              "rightSection": {
-                "color": "#ffffff"
-              }
-            }
-          }
-        },
-        "Input": {
-          "defaultProps": {
-            "styles": {
-              "input": {
-                "background": "transparent",
-                "border": "0.5px solid #ffffff",
-                "boxShadow": "none",
-                "color": "#ffffff"
-              }
-            }
-          }
-        },
-        "TextInput": {
-          "defaultProps": {
-            "styles": {
-              "label": {
-                "display": "none"
-              },
-              "input": {
-                "color": "#ffffff"
-              }
-            }
-          }
-        },
-        "Text": {
-          "defaultProps": {
-            "styles": {
-              "root": {
-                "color": "#ffffff"
-              }
-            }
-          }
-        },
-        "Slider": {
-          "defaultProps": {
-            "value": null,
-            "styles": {
-              "root": {
-                "color": "#ffffff"
-              },
-              "track": {
-                "background": "#ffffff"
-              },
-              "thumb": {
-                "background": "#ffffff"
-              },
-              "label": {
-                "color": "#ffffff"
-              },
-              "mark": {
-                "color": "#ffffff"
-              },
-              "markLabel": {
-                "color": "#ffffff"
-              }
-            }
-          }
-        },
-        "Tabs": {
-          "defaultProps": {
-            "styles": {
-              "tab": {
-                "color": "#ffffff",
-                "fontFamily": "'Montserrat', sans-serif",
-                "fontWeight": "normal",
-                "width": "50%",
-                "backgroundColor": "transparent",
-                "border": "none"
-              },
-              "tabLabel": {
-                "color": "#ffffff",
-                "fontFamily": "'Montserrat', sans-serif",
-                "fontWeight": "normal"
-              },
-              "root": {
-                "width": "100%",
-                "backgroundColor": "transparent",
-                "height": "auto",
-                "gap": "var(--mantine-spacing-xs)"
-              },
-              "tabActive": {
-                "backgroundColor": "transparent"
-              }
-            }
-          }
-        },
-        "Switch": {
-          "defaultProps": {
-            "styles": {
-              "root": {
-                "color": "#ffffff",
-                "gap": "var(--mantine-spacing-xs)"
-              },
-              "track": {
-                "background": "transparent"
-              },
-              "thumb": {
-                "background": "#ffffff"
-              }
-            }
-          }
-        },
-        "AppBuilderImage": {
-          "defaultProps": {
-            "withBorder": false
-          }
-        },
-        "AppBuilderAppShellTemplatePage": {
-          "defaultProps": {
-            "columns": {
-              "base": 1,
-              "lg": 2
+      },
+      "Accordion": {
+        "defaultProps": {
+          "styles": {
+            "label": {
+              "fontWeight": "300",
+              "color": "#ffffff"
             },
-            "rightColumns": 0,
-            "navbarWidth": {
-              "md": 500,
-              "lg": 600
+            "content": {
+              "color": "#ffffff"
             }
           }
-        },
-        "ViewportIcons": {
-          "defaultProps": {
-            "color": "#670000",
-            "enableArBtn": false,
-            "enableCamerasBtn": true,
-            "enableFullscreenBtn": false,
-            "enableZoomBtn": false
+        }
+      },
+      "Button": {
+        "defaultProps": {
+          "size": "compact-sm",
+          "variant": "filled",
+          "color": "rgba(0, 0, 0, 0.5)",
+          "fw": "200",
+          "styles": {
+            "label": {
+              "color": "#ffffff"
+            },
+            "root": {
+              "width": "100%",
+              "border": "1px"
+            }
           }
-        },
-        "AppShell": {
-          "defaultProps": {
-            "styles": {
-              "navbar": {
-                "backgroundColor": "rgba(0, 0, 0, 0.4)"
+        }
+      },
+      "ButtonGroup": {
+        "defaultProps": {
+          "variant": "filled",
+          "color": "rgba(0, 0, 0, 0.2)",
+          "styles": {
+            "root": {
+              "width": "100%",
+              "border": "none",
+              "backgroundColor": "rgba(0, 0, 0, 0.2)"
+            }
+          }
+        }
+      },
+      "Stack": {
+        "defaultProps": {
+          "styles": {
+            "root": {
+              "gap": "var(--mantine-spacing-xs)",
+              "alignItems": "stretch",
+              "justifyContent": "flex-start",
+              "padding": "var(--mantine-spacing-sm)"
+            }
+          }
+        }
+      },
+      "Select": {
+        "defaultProps": {
+          "searchable": true,
+          "styles": {
+            "root": {
+              "background": "transparent",
+              "border": "0.5px solid #ffffff",
+              "boxShadow": "none"
+            },
+            "input": {
+              "color": "#ffffff",
+              "background": "transparent",
+              "border": "0.5px solid #ffffff",
+              "boxShadow": "none",
+              "outline": "none"
+            },
+            "dropdown": {
+              "background": "rgba(99, 99, 99)",
+              "color": "#ffffff",
+              "border": "none",
+              "boxShadow": "none"
+            },
+            "item": {
+              "background": "rgba(99, 99, 99)",
+              "color": "#ffffff",
+              "border": "0.5px solid #ffffff",
+              ":hover": {
+                "background": "rgba(99, 99, 99)",
+                "color": "#ffffff"
               }
+            },
+            "rightSection": {
+              "color": "#ffffff"
             }
           }
-        },
-        "ParameterSelectComponent": {
-          "defaultProps": {
-            "componentSettings": {
-              "Location": {
-                "type": "select",
-                "styles": {
-                  "label": {
-                    "display": "none"
-                  }
+        }
+      },
+      "Input": {
+        "defaultProps": {
+          "styles": {
+            "input": {
+              "background": "transparent",
+              "border": "0.5px solid #ffffff",
+              "boxShadow": "none",
+              "color": "#ffffff"
+            }
+          }
+        }
+      },
+      "TextInput": {
+        "defaultProps": {
+          "styles": {
+            "label": {
+              "display": "none"
+            },
+            "input": {
+              "color": "#ffffff"
+            }
+          }
+        }
+      },
+      "Text": {
+        "defaultProps": {
+          "styles": {
+            "root": {
+              "color": "#ffffff"
+            }
+          }
+        }
+      },
+      "Slider": {
+        "defaultProps": {
+          "value": null,
+          "styles": {
+            "root": {
+              "color": "#ffffff"
+            },
+            "track": {
+              "background": "#ffffff"
+            },
+            "thumb": {
+              "background": "#ffffff"
+            },
+            "label": {
+              "color": "#ffffff"
+            },
+            "mark": {
+              "color": "#ffffff"
+            },
+            "markLabel": {
+              "color": "#ffffff"
+            }
+          }
+        }
+      },
+      "Tabs": {
+        "defaultProps": {
+          "styles": {
+            "tab": {
+              "color": "#ffffff",
+              "fontFamily": "'Montserrat', sans-serif",
+              "fontWeight": "normal",
+              "width": "50%",
+              "backgroundColor": "transparent",
+              "border": "none"
+            },
+            "tabLabel": {
+              "color": "#ffffff",
+              "fontFamily": "'Montserrat', sans-serif",
+              "fontWeight": "normal"
+            },
+            "root": {
+              "width": "100%",
+              "backgroundColor": "transparent",
+              "height": "auto",
+              "gap": "var(--mantine-spacing-xs)"
+            },
+            "tabActive": {
+              "backgroundColor": "transparent"
+            }
+          }
+        }
+      },
+      "Switch": {
+        "defaultProps": {
+          "styles": {
+            "root": {
+              "color": "#ffffff",
+              "gap": "var(--mantine-spacing-xs)"
+            },
+            "track": {
+              "background": "transparent"
+            },
+            "thumb": {
+              "background": "#ffffff"
+            }
+          }
+        }
+      },
+      "AppBuilderImage": {
+        "defaultProps": {
+          "withBorder": false
+        }
+      },
+      "AppBuilderAppShellTemplatePage": {
+        "defaultProps": {
+          "columns": {
+            "base": 1,
+            "lg": 2
+          },
+          "rightColumns": 0,
+          "navbarWidth": {
+            "md": 500,
+            "lg": 600
+          }
+        }
+      },
+      "ViewportIcons": {
+        "defaultProps": {
+          "color": "#670000",
+          "enableArBtn": false,
+          "enableCamerasBtn": true,
+          "enableFullscreenBtn": false,
+          "enableZoomBtn": false
+        }
+      },
+      "AppShell": {
+        "defaultProps": {
+          "styles": {
+            "navbar": {
+              "backgroundColor": "rgba(0, 0, 0, 0.4)"
+            }
+          }
+        }
+      },
+      "ParameterSelectComponent": {
+        "defaultProps": {
+          "componentSettings": {
+            "Location": {
+              "type": "select",
+              "styles": {
+                "label": {
+                  "display": "none"
                 }
-              },
-              "Contact name": {
-                "type": "textinput",
-                "styles": {
-                  "label": {
-                    "display": "none"
-                  }
+              }
+            },
+            "Contact name": {
+              "type": "textinput",
+              "styles": {
+                "label": {
+                  "display": "none"
                 }
-              },
-              "Your email": {
-                "type": "textinput",
-                "styles": {
-                  "label": {
-                    "display": "none"
-                  }
+              }
+            },
+            "Your email": {
+              "type": "textinput",
+              "styles": {
+                "label": {
+                  "display": "none"
                 }
-              },
-              "Material": {
-                "type": "buttongroup",
-                "itemData": {
-                  "Plywood": {
-                    "color": "#fab005"
-                  },
-                  "HPL grey": {
-                    "color": "#C9C9C9"
-                  },
-                  "HPL black": {
-                    "color": "#3b3b3b"
-                  },
-                  "HPL color": {
-                    "color": "#1971c2"
-                  }
-                }
-              },
-              "Size": {
-                "type": "buttongroup"
-              },
-              "Supports": {
-                "type": "carousel",
-                "itemData": {
-                  "3": {
-                    "imageUrl": "https://i.ibb.co/mV9GSsTM/A1.png",  
-                    "displayname": "3"
-                  },
-                  "4": {
-                    "imageUrl": "https://i.ibb.co/qhBMDV7/A2.png",  
-                    "displayname": "4"
-                  },
-                  "5": {
-                    "imageUrl": "https://i.ibb.co/d43qkSB0/A3.png",  
-                    "displayname": "5"
-                  },
-                  "6": {
-                    "imageUrl": "https://i.ibb.co/JRgBTR5w/A4.png",  
-                    "displayname": "6"
-                  }
+              }
+            },
+            "Material": {
+              "type": "buttongroup",
+              "itemData": {
+                "Plywood": {
+                  "color": "#fab005"
                 },
-                "settings": {
-                  "carouselProps": {
-                    "_withIndicators": true,
-                    "loop": false,
-                    "withControls": false,
-                    "slideSize": "25%", 
-                    "initialSlide": "-2"
-                  }
+                "HPL grey": {
+                  "color": "#C9C9C9"
+                },
+                "HPL black": {
+                  "color": "#3b3b3b"
+                },
+                "HPL color": {
+                  "color": "#1971c2"
+                }
+              }
+            },
+            "Size": {
+              "type": "buttongroup"
+            },
+            "Supports": {
+              "type": "carousel",
+              "itemData": {
+                "3": {
+                  "imageUrl": "https://i.ibb.co/mV9GSsTM/A1.png",  
+                  "displayname": "3"
+                },
+                "4": {
+                  "imageUrl": "https://i.ibb.co/qhBMDV7/A2.png",  
+                  "displayname": "4"
+                },
+                "5": {
+                  "imageUrl": "https://i.ibb.co/d43qkSB0/A3.png",  
+                  "displayname": "5"
+                },
+                "6": {
+                  "imageUrl": "https://i.ibb.co/JRgBTR5w/A4.png",  
+                  "displayname": "6"
                 }
               },
-              "People": {
-                "type": "buttongroup"
-              },
-              "Advanced settings": {
-                "type": "buttongroup"
-              },
-              "Custom supports position": {
-                "type": "buttongroup"
-              },
-              "Inside bench": {
-                "type": "buttongroup"
-              },
-              "Entrance height": {
-                "type": "buttongroup"
-              },
-              "Interior height": {
-                "type": "buttongroup"
+              "settings": {
+                "carouselProps": {
+                  "_withIndicators": true,
+                  "loop": false,
+                  "withControls": false,
+                  "slideSize": "25%", 
+                  "initialSlide": "-2"
+                }
               }
+            },
+            "People": {
+              "type": "buttongroup"
+            },
+            "Advanced settings": {
+              "type": "buttongroup"
+            },
+            "Custom supports position": {
+              "type": "buttongroup"
+            },
+            "Inside bench": {
+              "type": "buttongroup"
+            },
+            "Entrance height": {
+              "type": "buttongroup"
+            },
+            "Interior height": {
+              "type": "buttongroup"
             }
           }
         }
       }
     }
-  
+  }
+}
