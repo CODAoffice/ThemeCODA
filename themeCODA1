@@ -149,7 +149,7 @@
               "gap": "var(--mantine-spacing-xs)",
               "alignItems": "stretch",
               "justifyContent": "flex-start",
-              "padding": "var(--mantine-spacing-xs)"
+              "padding": "var(--mantine-spacing-sm)"
             }
           }
         }
@@ -307,7 +307,7 @@
               "gap": "var(--mantine-spacing-xs)",
               "alignItems": "stretch",
               "justifyContent": "flex-start",
-              "padding": "var(--mantine-spacing-xs)"
+              "padding": "var(--mantine-spacing-sm)"
             }
         }
       }
