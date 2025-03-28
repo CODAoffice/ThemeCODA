@@ -80,6 +80,20 @@
       "forceColorScheme": "light"
     },
     "components": {
+      "Paper": {
+        "defaultProps": {
+          "withBorder": false,
+          "styles": {
+            "root": {
+              "gap": "var(--mantine-spacing-xs)",
+              "alignItems": "stretch",
+              "justifyContent": "flex-start",
+              "padding": "var(--mantine-spacing-sm)",
+              "paddingInline": "var(--mantine-spacing-md)"
+            }
+        }
+      }
+      },
       "Table": {
         "defaultProps": {
           "withRowBorders": false,
@@ -297,20 +311,6 @@
         "defaultProps": {
           "withBorder": false
         }
-      },
-      "Paper": {
-        "defaultProps": {
-          "withBorder": false,
-          "styles": {
-            "root": {
-              "gap": "var(--mantine-spacing-xs)",
-              "alignItems": "stretch",
-              "justifyContent": "flex-start",
-              "padding": "var(--mantine-spacing-sm)",
-              "paddingInline": "var(--mantine-spacing-md)"
-            }
-        }
-      }
       },
       "AppBuilderAppShellTemplatePage": {
         "defaultProps": {
