@@ -95,7 +95,6 @@
             },
             "table": {
               "marginBottom": "var(--mantine-spacing-sm)",
-              "paddingInline": "var(--mantine-spacing-sm)",
               "paddingBlock": "var(--mantine-spacing-sm)",
               "width": "100%"
             },
