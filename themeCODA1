@@ -149,7 +149,7 @@
               "gap": "var(--mantine-spacing-md)",
               "alignItems": "stretch",
               "justifyContent": "flex-start",
-              "padding": "var(--mantine-spacing-md)"
+              "padding": "var(--mantine-spacing-xs)"
             }
           }
         }
