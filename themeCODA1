@@ -151,17 +151,21 @@
         }
       },
       "ButtonGroup": {
-        "defaultProps": {
-          "variant": "filled",
-          "color": "rgba(0, 0, 0, 0.2)",
-          "styles": {
-            "root": {
-              "width": "100%",
-              "border": "none",
-              "backgroundColor": "rgba(0, 0, 0, 0.2)"
+        "size": "compact-md", 
+        "variant": "filled",
+        "color": "rgba(0, 0, 0, 0.5)",
+        "radius": "xl", 
+        "styles": {
+          "root": {
+            "backgroundColor": "rgba(0, 0, 0, 0.2)", 
+            "border": "none",
+            "fontWeight": "200",
+            ":hover": {
+              "backgroundColor": "customWhite"
             }
           }
         }
+      }
       },
       "Stack": {
         "defaultProps": {
@@ -450,4 +454,3 @@
       }
     }
   }
-}
