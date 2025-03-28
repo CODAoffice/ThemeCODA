@@ -141,7 +141,7 @@
               "color": "#ffffff" 
             },
             "root": {
-              "width": "100%".
+              "width": "100%",
               "border": "none"
             }
           }
