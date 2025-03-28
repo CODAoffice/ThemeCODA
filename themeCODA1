@@ -175,7 +175,7 @@
           "styles": {
             "root": {
               "background": "transparent",
-              "border": "3px solid #ffffff",
+              "border": "none",
               "boxShadow": "none"
             },
             "input": {
