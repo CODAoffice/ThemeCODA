@@ -142,11 +142,10 @@
           "styles": {
             "label": {
               "color": "#ffffff",
-              "backgroundColor": "rgba(0, 0, 0, 0.2)"
             },
             "root": {
               "width": "100%",
-              "border": "none"
+              "border": "1px"
             }
           }
         }
@@ -182,13 +181,13 @@
           "styles": {
             "root": {
               "background": "transparent",
-              "border": "1px solid #ffffff",
+              "border": "0.5px solid #ffffff",
               "boxShadow": "none"
             },
             "input": {
               "color": "#ffffff",
               "background": "transparent",
-              "border": "1px solid #ffffff",
+              "border": "0.5px solid #ffffff",
               "boxShadow": "none",
               "outline": "none"
             },
@@ -201,7 +200,7 @@
             "item": {
               "background": "rgba(99, 99, 99)",
               "color": "#ffffff",
-              "border": "1px solid #ffffff",
+              "border": "0.5px solid #ffffff",
               ":hover": {
                 "background": "rgba(99, 99, 99)",
                 "color": "#ffffff"
