@@ -152,6 +152,8 @@
       },
       "ButtonGroup": {
         "defaultProps": {
+          "variant": "filled",
+          "color": "rgba(0, 0, 0, 0.2)",
           "styles": {
             "root": {
               "width": "100%",
