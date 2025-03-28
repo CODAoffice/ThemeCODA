@@ -180,12 +180,12 @@
           "searchable": true,
           "styles": {
             "root": {
-              "background": "transparent",
+              "background": "black",
               "boxShadow": "none"
             },
             "input": {
               "color": "#ffffff",
-              "background": "transparent",
+              "background": "black",
               "border": "0.1px solid #ffffff",
               "boxShadow": "none",
               "outline": "none"
