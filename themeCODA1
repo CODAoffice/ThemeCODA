@@ -301,8 +301,16 @@
       },
       "Paper": {
         "defaultProps": {
-          "withBorder": false
+          "withBorder": false,
+          "styles": {
+            "root": {
+              "gap": "var(--mantine-spacing-xs)",
+              "alignItems": "stretch",
+              "justifyContent": "flex-start",
+              "padding": "var(--mantine-spacing-xs)"
+            }
         }
+      }
       },
       "AppBuilderAppShellTemplatePage": {
         "defaultProps": {
