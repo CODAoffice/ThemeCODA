@@ -110,11 +110,11 @@
             "table": {
               "marginBottom": "var(--mantine-spacing-lg)",
               "paddingBlock": "var(--mantine-spacing-lg)",
-              "paddingInline": "var(--mantine-spacing-lg)"
+              "paddingInline": "var(--mantine-spacing-lg)",
               "width": "100%"
             },
             "td": {
-              "padding": "1px"
+              "padding": "1px",
               "paddingInline": "var(--mantine-spacing-lg)"
             }
           }
