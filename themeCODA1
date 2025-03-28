@@ -115,7 +115,7 @@
             },
             "td": {
               "padding": "1px",
-              "paddingInline": "var(--mantine-spacing-lg)"
+              "paddingInline": "var(--mantine-spacing-md)"
             }
           }
         }
