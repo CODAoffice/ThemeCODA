@@ -141,8 +141,7 @@
               "color": "#ffffff"
             },
             "root": {
-              "width": "100%",
-              "backgroundColor": "rgba(0, 0, 0, 0.2)"
+              "width": "100%"
             }
           }
         }
@@ -152,7 +151,8 @@
           "styles": {
             "root": {
               "width": "100%",
-              "border": "none"
+              "border": "none",
+              "backgroundColor": "rgba(0, 0, 0, 0.2)"
             }
           }
         }
