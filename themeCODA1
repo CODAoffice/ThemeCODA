@@ -3,8 +3,8 @@
   "themeOverrides": {
     "scale": 1.0,
     "spacing": {
-      "xs": "0.3rem",
-      "sm": "0.7rem",
+      "xs": "0.2rem",
+      "sm": "0.3rem",
       "md": "1rem",
       "lg": "1.25rem",
       "xl": "2rem"
@@ -135,7 +135,9 @@
       },
       "Button": {
         "defaultProps": {
-          "size": "compact-xs",
+          "size": "compact-sm",
+          "variant": "filled",
+          "color": "rgba(0, 0, 0, 0.5)",
           "fw": "200",
           "styles": {
             "label": {
