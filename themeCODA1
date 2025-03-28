@@ -1,6 +1,14 @@
 {
   "version": "1.0",
   "themeOverrides": {
+        "scale": 1.0,
+        "spacing": {
+            "xs": "0.4rem",
+            "sm": "0.75rem",
+            "md": "1rem",
+            "lg": "1.25rem",
+            "xl": "2rem"
+        },
     "primaryColor": "customWhite",
     "colors": {
       "customWhite": [
@@ -52,13 +60,6 @@
         "#5f5f5f"
       ]
     },
-    "spacing": {
-      "--mantine-spacing-xs": "0.5px",
-      "--mantine-spacing-sm": "1px",
-      "--mantine-spacing-md": "2px",
-      "--mantine-spacing-lg": "3px",
-      "--mantine-spacing-xl": "4px"
-    },
     "defaultRadius": "0",
     "fontFamily": "'Montserrat Light', sans-serif",
     "headings": {
@@ -85,7 +86,6 @@
           "styles": {
             "root": {
               "color": "#ffffff",
-              "gap": "var(--mantine-spacing-xs)"
             },
             "thead": {
               "color": "#ffffff"
