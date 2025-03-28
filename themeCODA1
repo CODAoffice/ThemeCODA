@@ -146,7 +146,7 @@
         "defaultProps": {
           "styles": {
             "root": {
-              "gap": "var(--mantine-spacing-md)",
+              "gap": "var(--mantine-spacing-xs)",
               "alignItems": "stretch",
               "justifyContent": "flex-start",
               "padding": "var(--mantine-spacing-xs)"
