@@ -391,7 +391,12 @@
                 },
                 "HPL color": {
                   "color": "#74c0fc",
-                  "backgroundColor": "rgba(0, 0, 0, 0.4)"
+                  "backgroundColor": "rgba(0, 0, 0, 0.4)",
+                  "boxShadow": "0px 4px 6px rgba(0, 0, 0, 0.1)"
+                },
+                ":focus": {
+                     "outline": "none",           
+                     "boxShadow": "0 0 0 2px #74c0fc" 
                 }
               }
             },
