@@ -89,7 +89,7 @@
               "alignItems": "stretch",
               "justifyContent": "flex-start",
               "padding": "var(--mantine-spacing-sm)",
-              "paddingInline": "var(--mantine-spacing-lg)"
+              "padding-inline": "var(--mantine-spacing-lg)"
             }
         }
       }
