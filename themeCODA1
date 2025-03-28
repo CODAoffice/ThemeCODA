@@ -3,8 +3,8 @@
   "themeOverrides": {
     "scale": 1.0,
     "spacing": {
-      "xs": "0.1rem",
-      "sm": "0.4rem",
+      "xs": "0.08rem",
+      "sm": "0.3rem",
       "md": "1rem",
       "lg": "1.25rem",
       "xl": "2rem"
@@ -138,7 +138,7 @@
           "fw": "300",
           "styles": {
             "label": {
-              "color": "#ffffff"
+              "color": "#ffffff" 
             },
             "root": {
               "width": "100%"
