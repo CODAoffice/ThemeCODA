@@ -85,11 +85,11 @@
           "withBorder": false,
           "styles": {
             "root": {
-              "gap": "var(--mantine-spacing-lg)",
+              "gap": "var(--mantine-spacing-sm)",
               "alignItems": "stretch",
               "justifyContent": "flex-start",
               "padding": "var(--mantine-spacing-sm)",
-              "paddingInline": "var(--mantine-spacing-md)"
+              "paddingInline": "var(--mantine-spacing-lg)"
             }
         }
       }
