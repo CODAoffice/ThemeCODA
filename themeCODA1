@@ -146,7 +146,7 @@
             },
             "root": {
               "width": "100%",
-              "border": "none",
+              "border": "none"
             }
           }
         }
