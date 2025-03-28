@@ -3,8 +3,8 @@
   "themeOverrides": {
     "scale": 1.0,
     "spacing": {
-      "xs": "0.08rem",
-      "sm": "0.3rem",
+      "xs": "0.3rem",
+      "sm": "0.7rem",
       "md": "1rem",
       "lg": "1.25rem",
       "xl": "2rem"
@@ -177,13 +177,13 @@
           "styles": {
             "root": {
               "background": "transparent",
-              "border": "none",
+              "border": "1px solid #ffffff",
               "boxShadow": "none"
             },
             "input": {
               "color": "#ffffff",
               "background": "transparent",
-              "border": "none",
+              "border": "1px solid #ffffff",
               "boxShadow": "none",
               "outline": "none"
             },
@@ -196,7 +196,7 @@
             "item": {
               "background": "rgba(99, 99, 99)",
               "color": "#ffffff",
-              "border": "none",
+              "border": "1px solid #ffffff",
               ":hover": {
                 "background": "rgba(99, 99, 99)",
                 "color": "#ffffff"
