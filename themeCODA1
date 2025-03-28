@@ -85,7 +85,7 @@
           "withRowBorders": false,
           "styles": {
             "root": {
-              "color": "#ffffff",
+              "color": "#ffffff"
             },
             "thead": {
               "color": "#ffffff"
