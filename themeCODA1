@@ -89,7 +89,7 @@
               "alignItems": "stretch",
               "justifyContent": "flex-start",
               "padding": "var(--mantine-spacing-sm)",
-              "padding-inline": "var(--mantine-spacing-lg)"
+              "paddingInline": "var(--mantine-spacing-lg)"
             }
         }
       }
@@ -108,8 +108,9 @@
               "color": "#ffffff"
             },
             "table": {
-              "marginBottom": "var(--mantine-spacing-sm)",
-              "paddingBlock": "var(--mantine-spacing-sm)",
+              "marginBottom": "var(--mantine-spacing-lg)",
+              "paddingBlock": "var(--mantine-spacing-lg)",
+              "paddingInline": "var(--mantine-spacing-lg)"
               "width": "100%"
             },
             "td": {
