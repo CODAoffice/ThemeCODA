@@ -1,14 +1,14 @@
 {
   "version": "1.0",
   "themeOverrides": {
-        "scale": 1.0,
-        "spacing": {
-            "xs": "0.2rem",
-            "sm": "0.4rem",
-            "md": "1rem",
-            "lg": "1.25rem",
-            "xl": "2rem"
-        },
+    "scale": 1.0,
+    "spacing": {
+      "xs": "0.2rem",
+      "sm": "0.4rem",
+      "md": "1rem",
+      "lg": "1.25rem",
+      "xl": "2rem"
+    },
     "primaryColor": "customWhite",
     "colors": {
       "customWhite": [
@@ -138,6 +138,18 @@
             "root": {
               "width": "100%",
               "border": "none"
+            }
+          }
+        }
+      },
+      "Stack": {
+        "defaultProps": {
+          "styles": {
+            "root": {
+              "gap": "var(--mantine-spacing-md)",
+              "alignItems": "stretch",
+              "justifyContent": "flex-start",
+              "padding": "var(--mantine-spacing-md)"
             }
           }
         }
