@@ -141,11 +141,13 @@
           "fw": "200",
           "styles": {
             "label": {
-              "color": "#ffffff" 
+              "color": "#ffffff",
+              "backgroundColor": "rgba(0, 0, 0, 0.2)"
             },
             "root": {
               "width": "100%",
-              "border": "none"
+              "border": "none",
+              "backgroundColor": "rgba(0, 0, 0, 0.2)"
             }
           }
         }
