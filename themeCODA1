@@ -141,7 +141,7 @@
           "fw": "200",
           "styles": {
             "label": {
-              "color": "#ffffff"
+              "color": "#ffffff",
             },
             "root": {
               "width": "100%",
