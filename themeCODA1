@@ -135,7 +135,8 @@
       },
       "Button": {
         "defaultProps": {
-          "fw": "300",
+          "size": "compact-xs",
+          "fw": "200",
           "styles": {
             "label": {
               "color": "#ffffff" 
